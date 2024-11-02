@@ -4,11 +4,10 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="debug-console.css">
   <!-- Start loading assets right away, to have them (partly) loaded already when they are requested -->
-  <link rel="preload" href="Build//docs.data.gz" as="fetch" type="application/octet-stream" crossorigin>
-  <link rel="preload" href="Build/docs.framework.js.gz" as="script">
-  <link rel="preload" href="Build/docs.wasm.gz" as="fetch" type="application/wasm" crossorigin>
+  <link rel="preload" href="Build//docs.data.unityweb" as="fetch" type="application/octet-stream" crossorigin>
+  <link rel="preload" href="Build/docs.framework.js.unityweb" as="script">
+  <link rel="preload" href="Build/docs.wasm.unityweb" as="fetch" type="application/wasm" crossorigin>
   <title>CrazyJam24</title>
   <style>
     * {
@@ -129,9 +128,9 @@
     var buildUrl = "Build";
     var loaderUrl = buildUrl + "/docs.loader.js";
     var config = {
-      dataUrl: buildUrl + "/docs.data.gz",
-      frameworkUrl: buildUrl + "/docs.framework.js.gz",
-      codeUrl: buildUrl + "/docs.wasm.gz",
+      dataUrl: buildUrl + "/docs.data.unityweb",
+      frameworkUrl: buildUrl + "/docs.framework.js.unityweb",
+      codeUrl: buildUrl + "/docs.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "WebGames",
       productName: "CrazyJam24",
@@ -149,7 +148,7 @@
     var loadingContainer = document.querySelector("#unity-loading-container");
     var loadingBar = document.querySelector("#unity-loading-bar-inner");
 
-    var unityGame; // This variable can be used to access the application with .SendMessage() commands
+    var unityGame;
     var script = document.createElement("script");
     script.src = loaderUrl;
     script.onload = function() {
@@ -164,8 +163,7 @@
     };
     document.body.appendChild(script);
   </script>
-  <!-- Add an html debug console and handle unity rich text styling for both html and browser console-->
-  <script src="./debug-console.js"></script>
+  <!-- Parse Unity rich text to render stylized browser console logs -->
+  <script src="./pretty-console.js"></script>
 </body>
-
 </html>
