@@ -5,9 +5,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Start loading assets right away, to have them (partly) loaded already when they are requested -->
-  <link rel="preload" href="Build//Docs.data.gz" as="fetch" type="application/octet-stream" crossorigin>
-  <link rel="preload" href="Build/Docs.framework.js.gz" as="script">
-  <link rel="preload" href="Build/Docs.wasm.gz" as="fetch" type="application/wasm" crossorigin>
+  <link rel="preload" href="Build//docs.data.gz" as="fetch" type="application/octet-stream" crossorigin>
+  <link rel="preload" href="Build/docs.framework.js.gz" as="script">
+  <link rel="preload" href="Build/docs.wasm.gz" as="fetch" type="application/wasm" crossorigin>
   <title>CrazyJam24</title>
   <style>
     * {
@@ -123,14 +123,14 @@
       <div id="unity-loading-bar-inner"></div>
     </div>
   </div>
-  <script src="Build/Docs.loader.js"></script>
+  <script src="Build/docs.loader.js"></script>
   <script>
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/Docs.loader.js";
+    var loaderUrl = buildUrl + "/docs.loader.js";
     var config = {
-      dataUrl: buildUrl + "/Docs.data.gz",
-      frameworkUrl: buildUrl + "/Docs.framework.js.gz",
-      codeUrl: buildUrl + "/Docs.wasm.gz",
+      dataUrl: buildUrl + "/docs.data.gz",
+      frameworkUrl: buildUrl + "/docs.framework.js.gz",
+      codeUrl: buildUrl + "/docs.wasm.gz",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "WebGames",
       productName: "CrazyJam24",
