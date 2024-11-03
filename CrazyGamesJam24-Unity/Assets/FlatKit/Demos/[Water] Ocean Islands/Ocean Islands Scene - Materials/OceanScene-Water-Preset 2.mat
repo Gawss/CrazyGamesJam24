@@ -98,7 +98,7 @@ Material:
     - _EnvironmentReflections: 1
     - _FadeDistance: 0.07
     - _FoamAmount: 0.23
-    - _FoamDepth: 0.09
+    - _FoamDepth: 1.16
     - _FoamDirection: 0.682
     - _FoamFromTexture: 1
     - _FoamMode: 1
@@ -149,7 +149,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 1, b: 0.7287984, a: 1}
     - _ColorDeep: {r: 0.25, g: 0.773091, b: 1, a: 1}
-    - _ColorShallow: {r: 0.38823533, g: 0.40784317, b: 0.5764706, a: 1}
+    - _ColorShallow: {r: 0.3882353, g: 0.40784314, b: 0.57647055, a: 0.77254903}
     - _CrestColor: {r: 0.70354223, g: 0.9354157, b: 0.9622641, a: 0.21176471}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 0.6462264, g: 0.8590032, b: 1, a: 0.7176471}
