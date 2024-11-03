@@ -6,7 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_CrazyGames24/Scenes/Initializer.unity
+    path: Assets/_CrazyGames24/00_Initializer/Initializer.unity
     guid: 3102982ac1d426e439addefc4a310c33
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: ae8e1c7f2b1e0374a8c0be8196314813,
+      type: 2}
   m_UseUCBPForAssetBundles: 0

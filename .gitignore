@@ -27,6 +27,8 @@ CrazyGamesJam24-Unity/[Aa]ssets/Plugins/Editor/JetBrains*
 CrazyGamesJam24-Unity/.vs/
 CrazyGamesJam24-Unity/.vscode/*
 
+CrazyGamesJam24-Unity/ServerData/*
+
 # Gradle cache directory
 .gradle/
 
