@@ -74,7 +74,7 @@ namespace CrazyGames24
 
         public void LoadAddressableScene(string addressableKey)
         {
-            Debug.Log("Load Addressable Scene");
+            Debug.Log("Load Addressable Scene: " + addressableKey);
             if (!isInitialized) return;
 
             if (clearPreviousScene && SceneManager.loadedSceneCount > 1)
@@ -121,6 +121,8 @@ namespace CrazyGames24
             {
                 Debug.Log("Download Dependencies Completed");
                 Debug.Log("Loading AddressableKey -> " + addressableKey);
+                // Addressables.Release(downloadDependenciesOperation);
+
                 sceneLoaderOperation = Addressables.LoadSceneAsync(addressableKey, LoadSceneMode.Additive);
 
                 sceneLoaderOperation.Completed += (asyncHandle) =>
