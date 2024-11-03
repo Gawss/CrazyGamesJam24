@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 9d47d889e4803e441a296708cf518d69
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 8f24a11c9778d1484fb643b34484d981
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -78,9 +78,9 @@ MonoBehaviour:
       - m_Id: 3c95dacf5aaa5a549abca4e4f2dbb6a4
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: 50daabe5cdbc6484492742aaa74ff502
-        m_Value: <undefined>
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: 5d4e8ad047174f34f9a8918f01db4f44
-        m_Value: 'ServerData/[BuildTarget]'
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
     - m_InheritedParent: 
       m_Id: 9c74cac52dacd374fa92af7ab7ba281f
       m_ProfileName: Github
@@ -127,4 +127,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2d8384a24ff584542b854016880054c4, type: 2}
   - {fileID: 11400000, guid: 5fad8b3d66ef9984b9a22d7c706f84f6, type: 2}
   - {fileID: 11400000, guid: cc7875b4071812d4d812b7af9baad346, type: 2}
-  m_ActiveProfileId: 9c74cac52dacd374fa92af7ab7ba281f
+  m_ActiveProfileId: 289c5f5d7ee4db4488d56cf7893c2c2c

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 02_Gameplay
   m_EditorClassIdentifier: 
   m_GroupName: 02_Gameplay
+  m_Data:
+    m_SerializedData: []
   m_GUID: 1ebeaf86261a1304686b1390f6b7139e
   m_SerializeEntries:
   - m_GUID: 0c95ceb5051bb84498c90986a60db577
