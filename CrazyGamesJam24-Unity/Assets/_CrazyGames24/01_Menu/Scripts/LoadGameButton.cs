@@ -8,6 +8,7 @@ namespace CrazyGames24
     {
         private Button targetButton;
         [SerializeField] private int targetScene;
+        [SerializeField] private bool isAdditive;
 
         Initializer initializer;
 
@@ -22,7 +23,8 @@ namespace CrazyGames24
         private void LoadGame()
         {
             targetButton.onClick.RemoveListener(LoadGame);
-            initializer.LoadSceneByIndex(targetScene);
+            if (isAdditive) initializer.LoadSceneAdditiveByIndex(targetScene);
+            else initializer.LoadSceneByIndex(targetScene);
         }
 
         private void OnDisable()

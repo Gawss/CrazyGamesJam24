@@ -152,6 +152,7 @@ MonoBehaviour:
   sceneNames:
   - Menu
   - Gameplay
+  - Environment
 --- !u!4 &109689317
 Transform:
   m_ObjectHideFlags: 0
