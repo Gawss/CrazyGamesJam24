@@ -212,7 +212,7 @@ Material:
     - _NormalSpeed: 0.3
     - _NormalStrength: 0.169
     - _NormalSubSpeed: -0.8
-    - _NormalSubTiling: 0.5
+    - _NormalSubTiling: 0.20000002
     - _NormalTiling: 0.5800001
     - _OcclusionStrength: 1
     - _PlanarReflectionsEnabled: 0
@@ -225,8 +225,8 @@ Material:
     - _ReceiveDynamicEffects: 1
     - _ReceiveShadows: 0
     - _ReflectionBlur: 0
-    - _ReflectionDistortion: 0.023
-    - _ReflectionFresnel: 1.75
+    - _ReflectionDistortion: 0.1
+    - _ReflectionFresnel: 1.12
     - _ReflectionFresnelMode: 0
     - _ReflectionLighting: 0
     - _ReflectionStrength: 1
@@ -305,7 +305,7 @@ Material:
     - _FoamTiling: {r: 0.050000004, g: 0.050000004, b: 0, a: 0}
     - _HorizonColor: {r: 0.68, g: 1, b: 0.99, a: 0}
     - _IntersectionColor: {r: 1, g: 1, b: 1, a: 0.7882353}
-    - _NormalTiling: {r: 0.3, g: 0.3, b: 0, a: 0}
+    - _NormalTiling: {r: 0.10000002, g: 0.10000002, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShallowColor: {r: 0.09825563, g: 0.19141768, b: 0.9056604, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
