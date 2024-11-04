@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b552222c5f623947821c6fed929dcdb, type: 3}
+  m_Name: AudioAnalysisData_lvl0
+  m_EditorClassIdentifier: 
+  clipLength: 12.773877
+  events:
+  - timestamp: 0.11036281
+    amplitude: 0.6428833
+  - timestamp: 0.6195238
+    amplitude: 0.6843262
+  - timestamp: 1.1287981
+    amplitude: 0.6814575
+  - timestamp: 1.6349434
+    amplitude: 0.666687
+  - timestamp: 2.143424
+    amplitude: 0.68411255
+  - timestamp: 3.1627665
+    amplitude: 0.79016113
+  - timestamp: 3.6848526
+    amplitude: 0.6152954
+  - timestamp: 4.184921
+    amplitude: 0.6204529
+  - timestamp: 4.688118
+    amplitude: 0.7427368
+  - timestamp: 5.194263
+    amplitude: 0.6819763
+  - timestamp: 5.714331
+    amplitude: 0.60943604
+  - timestamp: 6.2143764
+    amplitude: 0.6851196
+  - timestamp: 7.230567
+    amplitude: 0.8628235
+  - timestamp: 8.244944
+    amplitude: 0.84210205
+  - timestamp: 9.262063
+    amplitude: 0.6454468
+  - timestamp: 9.770544
+    amplitude: 0.6758728
+  - timestamp: 10.278889
+    amplitude: 0.6643982
+  - timestamp: 11.2983675
+    amplitude: 0.786438
+  - timestamp: 11.816054
+    amplitude: 0.60214233
+  - timestamp: 12.316054
+    amplitude: 0.6158142
+  - timestamp: 12.823719
+    amplitude: 0.77178955
+  - timestamp: 13.329864
+    amplitude: 0.6743469
+  - timestamp: 13.849932
+    amplitude: 0.6065979
+  - timestamp: 14.350113
+    amplitude: 0.6350708
+  - timestamp: 15.366168
+    amplitude: 0.8695984
+  - timestamp: 16.380545
+    amplitude: 0.809845
+  - timestamp: 17.397665
+    amplitude: 0.61605835
+  - timestamp: 17.906145
+    amplitude: 0.7037964
+  - timestamp: 18.41449
+    amplitude: 0.6553345
+  - timestamp: 19.433945
+    amplitude: 0.601532
+  - timestamp: 19.951654
+    amplitude: 0.6032715
+  - timestamp: 20.451654
+    amplitude: 0.6065674
+  - timestamp: 20.95932
+    amplitude: 0.75024414
+  - timestamp: 21.465466
+    amplitude: 0.6861572
+  - timestamp: 21.985533
+    amplitude: 0.60879517
+  - timestamp: 22.485714
+    amplitude: 0.62060547
+  - timestamp: 23.501768
+    amplitude: 0.8724365
+  - timestamp: 24.516146
+    amplitude: 0.83447266
