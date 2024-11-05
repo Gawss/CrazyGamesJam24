@@ -74,7 +74,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   screenSpaceReflectionSettings:
-    enable: 1
+    enable: 0
   directionalCaustics: 0
   displacementPrePassSettings:
     enable: 0
