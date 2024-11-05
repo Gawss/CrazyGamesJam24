@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6496621140021120325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cca7768aaaea4b0081f14e7f9d4b5ad, type: 3}
+  m_Name: FlatKitOutline
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings: {fileID: 11400000, guid: 93712ea9b536c4d4a8ccb591b5947853, type: 2}
+  _effectMaterial: {fileID: -5498238985176482199, guid: 93712ea9b536c4d4a8ccb591b5947853,
+    type: 2}
+  _requiresColor: 1
+  _injectedBeforeTransparents: 0
+  _requirements: 7
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
