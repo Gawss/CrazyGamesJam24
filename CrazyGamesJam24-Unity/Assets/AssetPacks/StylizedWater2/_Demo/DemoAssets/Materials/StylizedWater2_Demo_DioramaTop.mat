@@ -10,18 +10,20 @@ Material:
   m_Name: StylizedWater2_Demo_DioramaTop
   m_Shader: {fileID: -6465566751694194690, guid: d7b0192b9bf19c949900035fa781fdc4,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ADVANCED_SHADING
-  - _CAUSTICS
+  - _ENVIRONMENTREFLECTIONS_OFF
   - _FOAM
   - _NORMALMAP
-  - _REFRACTION
-  - _SMOOTH_INTERSECTION
+  - _SHARP_INERSECTION
   - _TRANSLUCENCY
   - _WAVES
   m_InvalidKeywords:
   - ADVANCED_LIGHTING
   - _DEPTH_TEX
+  - _RECEIVEDYNAMICEFFECTS_ON
   - _SIMPLE_LIGHTING
   - _WORLDSPACEUV_ON
   - _ZCLIP_ON
@@ -32,6 +34,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -139,8 +142,9 @@ Material:
     - _BumpScale: 1
     - _CROSSPAN_INTERSECTIONOn: 1
     - _CausticsBrightness: 2
+    - _CausticsChromance: 1
     - _CausticsDistortion: 0.23
-    - _CausticsOn: 1
+    - _CausticsOn: 0
     - _CausticsSpeed: 0.1
     - _CausticsTiling: 0.2
     - _ColorAbsorption: 0
@@ -159,7 +163,7 @@ Material:
     - _DstBlend: 0
     - _EdgeFade: 7
     - _EnvironmentReflections: 1
-    - _EnvironmentReflectionsOn: 1
+    - _EnvironmentReflectionsOn: 0
     - _FlatShadingOn: 0
     - _FlowSpeed: 1
     - _FoamBaseAmount: 0
@@ -184,14 +188,15 @@ Material:
     - _GlossyReflections: 0
     - _HorizonDistance: 5.8
     - _IntersectionClipping: 0.583
-    - _IntersectionFalloff: 1
-    - _IntersectionLength: 2.81
+    - _IntersectionDistortion: 0.2
+    - _IntersectionFalloff: 0.503
+    - _IntersectionLength: 3.8
     - _IntersectionRippleDist: 20
     - _IntersectionRippleStrength: 0.53
     - _IntersectionSize: 0.944
     - _IntersectionSource: 0
     - _IntersectionSpeed: 0.1
-    - _IntersectionStyle: 2
+    - _IntersectionStyle: 1
     - _IntersectionTiling: -0.030000046
     - _IntersectionWaveDist: 33.28
     - _LightingMode: 2
@@ -214,6 +219,7 @@ Material:
     - _PointSpotLightReflectionSize: 0
     - _PointSpotLightReflectionStrength: 10
     - _QueueOffset: 0
+    - _ReceiveDynamicEffects: 1
     - _ReceiveShadows: 1
     - _ReflectionBlur: 0
     - _ReflectionDistortion: 1
@@ -223,7 +229,7 @@ Material:
     - _Reflectivity: 1
     - _RefractionAmount: 0.05
     - _RefractionChromaticAberration: 1
-    - _RefractionOn: 1
+    - _RefractionOn: 0
     - _RefractionStrength: 0
     - _RimRize: 1
     - _RimTiling: 0.025
@@ -282,7 +288,7 @@ Material:
     - _ZClip: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.09564084, b: 0.1981132, a: 1}
+    - _BaseColor: {r: 0.8726415, g: 0.9023326, b: 1, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _DepthMapBounds: {r: -402.3, g: -459.43, b: 0.0012693577, a: 0}
     - _Direction: {r: 1, g: 1, b: 0, a: 0}
@@ -294,13 +300,14 @@ Material:
     - _IntersectionColor: {r: 1, g: 1, b: 1, a: 1}
     - _NormalTiling: {r: 0.25, g: 0.25, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShallowColor: {r: 0, g: 0.9411765, b: 0.41853154, a: 1}
+    - _ShallowColor: {r: 0.16509432, g: 0.37687528, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _WaterColor: {r: 0.21176466, g: 0.6745098, b: 1, a: 1}
     - _WaterShallowColor: {r: 0, g: 0.9394503, b: 1, a: 1}
     - _WaveDirection: {r: 1, g: 1, b: 1, a: 1}
     - _WaveFadeDistance: {r: 191.13924, g: 341.13934, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &6498140463000427223
 MonoBehaviour:
   m_ObjectHideFlags: 11

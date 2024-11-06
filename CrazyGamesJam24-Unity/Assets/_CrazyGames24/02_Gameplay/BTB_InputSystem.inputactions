@@ -1,0 +1,40 @@
+{
+    "name": "BTB_InputSystem",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "38c7514b-469d-417c-b35e-7c64791c5d0c",
+            "actions": [
+                {
+                    "name": "TriggerBeat",
+                    "type": "Button",
+                    "id": "01b550bb-80b0-48de-a54f-21294c209410",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "23e42ba5-b7f3-4120-96d8-78e3f02ef4c8",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerBeat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Default",
+            "bindingGroup": "Default",
+            "devices": []
+        }
+    ]
+}

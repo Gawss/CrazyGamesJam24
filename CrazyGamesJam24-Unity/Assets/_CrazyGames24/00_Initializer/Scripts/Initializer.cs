@@ -111,6 +111,11 @@ namespace CrazyGames24
 
         }
 
+        public void LoadSceneAdditiveByIndex(int index)
+        {
+            DownloadDependenciesAndLoadScene(sceneNames[index]);
+        }
+
         private void DownloadDependenciesAndLoadScene(string addressableKey)
         {
             Debug.Log("Downloading Dependencies");
