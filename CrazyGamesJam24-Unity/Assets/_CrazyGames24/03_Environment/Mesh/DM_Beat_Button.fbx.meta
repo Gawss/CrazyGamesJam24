@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: M_Arrow
+    second: {fileID: 2100000, guid: 94033ef5bae9d4942a7554ff02a999d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: M_Colorpalette
     second: {fileID: 2100000, guid: bbad978fffbe08a428f230952132ae24, type: 2}
   - first:
