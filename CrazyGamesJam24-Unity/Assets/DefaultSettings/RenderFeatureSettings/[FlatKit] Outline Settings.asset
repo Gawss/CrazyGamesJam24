@@ -40,7 +40,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorThresholdMax: 0.25
+    - _ColorThresholdMax: 1
     - _ColorThresholdMin: 0
     - _DepthThresholdMax: 0.1
     - _DepthThresholdMin: 0.1
@@ -79,7 +79,7 @@ MonoBehaviour:
   maxNormalsThreshold: 2
   useColor: 1
   minColorThreshold: 0
-  maxColorThreshold: 0.25
+  maxColorThreshold: 1
   renderEvent: 500
   outlineOnly: 0
   applyInSceneView: 1

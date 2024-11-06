@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ce13a814bf2f3d744a6a3326e0519930
+guid: 56d113203e991a147bdaf063759887e3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: M_Colorpalette
     second: {fileID: 2100000, guid: bbad978fffbe08a428f230952132ae24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Colors
+    second: {fileID: 2100000, guid: 3c11695e4da6d424b9ff906c02d3081b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -81,7 +86,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
