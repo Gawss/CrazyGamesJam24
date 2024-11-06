@@ -27,6 +27,8 @@ public class AudioEventManager : MonoBehaviour
     private float currentTime = 0f;
     private bool firstEventTriggered = false; // Flag to ensure the first event triggers only once
 
+    [SerializeField] private bool verbose = false;
+
     private void Start()
     {
         if (audioClip == null || analysisDataSO == null)
@@ -78,13 +80,13 @@ public class AudioEventManager : MonoBehaviour
         }
 
         onAudioEventTriggered.Invoke(audioEvent.amplitude);
-        Debug.Log($"Triggered audio event at {audioEvent.timestamp} seconds with amplitude {audioEvent.amplitude}");
+        if (verbose) Debug.Log($"Triggered audio event at {audioEvent.timestamp} seconds with amplitude {audioEvent.amplitude}");
     }
 
     private void TriggerPreEvent(AudioEvent audioEvent)
     {
         onPreAudioEventTriggered.Invoke(audioEvent.amplitude);
-        Debug.Log($"Triggered pre-event {preEventOffset} seconds before {audioEvent.timestamp} with amplitude {audioEvent.amplitude}");
+        if (verbose) Debug.Log($"Triggered pre-event {preEventOffset} seconds before {audioEvent.timestamp} with amplitude {audioEvent.amplitude}");
     }
 
     public void Play()
