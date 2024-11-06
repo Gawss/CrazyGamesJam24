@@ -5,43 +5,58 @@ using UnityEngine.UI;
 
 public class BeatInterface : MonoBehaviour
 {
-    public BeatDetector beatDetector;
-
     [SerializeField] private Image beatImg;
+    [SerializeField] private GameObject beatPrefab;
+    [SerializeField] private Transform beatInitialTransform;
+    [SerializeField] private Transform beatFinalTransform;
 
-    private void OnEnable()
+    [SerializeField] private Image[] beatFeedback;
+
+    Prebeat currentBeat;
+
+    private void Start()
     {
-        beatDetector.OnDrumDetected += OnDrumDetected;
-        beatDetector.OnHitDetected += OnHitDetected;
-        beatDetector.OnTransientDetected += OnTransientDetected;
-        beatDetector.OnNothing += OnNothing;
+        GameManager.Instance.beatDetector.BeatBefore += OnBeat;
+        GameManager.Instance.beatDetector.BeatOnTime += OnBeat;
+        GameManager.Instance.beatDetector.BeatAfter += OnBeat;
+
+        foreach (var b in beatFeedback) b.gameObject.SetActive(false);
     }
 
-    private void OnNothing()
+    private void OnDestroy()
     {
-        beatImg.color = Color.black;
+        GameManager.Instance.beatDetector.BeatBefore -= OnBeat;
+        GameManager.Instance.beatDetector.BeatOnTime -= OnBeat;
+        GameManager.Instance.beatDetector.BeatAfter -= OnBeat;
     }
 
-    private void OnDisable()
+    private void OnBeat(Prebeat prebeat)
     {
-        beatDetector.OnDrumDetected -= OnDrumDetected;
-        beatDetector.OnHitDetected -= OnHitDetected;
-        beatDetector.OnTransientDetected -= OnTransientDetected;
-        beatDetector.OnNothing -= OnNothing;
+        foreach (var b in beatFeedback) b.gameObject.SetActive(false);
+
+        beatFeedback[(int)prebeat.beatStatus].gameObject.SetActive(true);
     }
 
-    private void OnTransientDetected()
+    private void Update()
     {
-        beatImg.color = Color.magenta;
+        if (currentBeat == null) return;
     }
 
-    private void OnHitDetected()
+    public void OnAudioEvent(float amplitude)
     {
-        beatImg.color = Color.red;
+        beatImg.color = new Color(UnityEngine.Random.Range(0f, 1f),
+                                UnityEngine.Random.Range(0f, 1f),
+                                UnityEngine.Random.Range(0f, 1f), 1f);
     }
 
-    private void OnDrumDetected()
+    public void OnPreEvent(float amplitude)
     {
-        beatImg.color = Color.yellow;
+        GameObject bGO = Instantiate(beatPrefab, beatImg.transform.parent);
+        bGO.transform.localPosition = beatInitialTransform.transform.localPosition;
+
+        // bGO.GetComponent<Image>().color = beatImg.color;
+        bGO.GetComponent<Prebeat>().Init(beatFinalTransform.transform.localPosition, beatImg.transform.localPosition);
+
+        currentBeat = bGO.GetComponent<Prebeat>();
     }
 }

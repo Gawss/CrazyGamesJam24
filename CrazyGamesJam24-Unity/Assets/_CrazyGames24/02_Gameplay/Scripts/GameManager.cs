@@ -20,5 +20,7 @@ namespace CrazyGames24
         }
 
         public Player player;
+        public BTBInputManager inputManager;
+        public BeatDetector beatDetector;
     }
 }

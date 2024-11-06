@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace CrazyGames24
 {
@@ -11,6 +12,8 @@ namespace CrazyGames24
         public float speed = 5f;
         public float pullingSpeed = 0f;
 
+        [SerializeField] private UnityEvent OnAttachFish;
+
         private void OnEnable()
         {
             rb = GetComponent<Rigidbody>();
@@ -20,6 +23,8 @@ namespace CrazyGames24
         {
             if (currentFish != null) currentFish.Deattach();
             currentFish = targetFish;
+
+            OnAttachFish?.Invoke();
 
         }
 
