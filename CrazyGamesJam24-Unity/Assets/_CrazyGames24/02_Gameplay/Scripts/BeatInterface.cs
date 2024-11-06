@@ -52,10 +52,10 @@ public class BeatInterface : MonoBehaviour
     public void OnPreEvent(float amplitude)
     {
         GameObject bGO = Instantiate(beatPrefab, beatImg.transform.parent);
-        bGO.GetComponent<RectTransform>().anchoredPosition = beatInitialTransform.GetComponent<RectTransform>().anchoredPosition;
+        bGO.transform.localPosition = beatInitialTransform.transform.localPosition;
 
         // bGO.GetComponent<Image>().color = beatImg.color;
-        bGO.GetComponent<Prebeat>().Init(beatFinalTransform.GetComponent<RectTransform>().anchoredPosition, beatImg.GetComponent<RectTransform>().anchoredPosition);
+        bGO.GetComponent<Prebeat>().Init(beatFinalTransform.transform.localPosition, beatImg.transform.localPosition);
 
         currentBeat = bGO.GetComponent<Prebeat>();
     }

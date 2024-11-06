@@ -52,11 +52,11 @@ namespace CrazyGames24
         {
             if (!isReady) return;
 
-            if (rt.anchoredPosition.y > beatThreshold)
+            if (transform.localPosition.y > beatThreshold)
             {
                 beatStatus = BeatStatus.Before;
             }
-            else if (rt.anchoredPosition.y < -beatThreshold)
+            else if (transform.localPosition.y < -beatThreshold)
             {
                 beatStatus = BeatStatus.After;
             }
@@ -73,7 +73,7 @@ namespace CrazyGames24
             // Calculate the progress (goes from 0 to 1 over the duration)
             float progress = Mathf.Clamp01(elapsedTime / duration);
 
-            rt.anchoredPosition = Vector3.Lerp(rt.anchoredPosition, targetPosition, progress);
+            transform.localPosition = Vector3.Lerp(transform.localPosition, targetPosition, progress);
 
             if (progress >= 1f)
             {
