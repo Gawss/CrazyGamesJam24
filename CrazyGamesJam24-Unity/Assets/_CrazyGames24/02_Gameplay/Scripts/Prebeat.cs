@@ -12,16 +12,14 @@ namespace CrazyGames24
     }
     public class Prebeat : MonoBehaviour
     {
-        Vector2 targetPosition;
-        Vector2 hitPosition;
+        Vector3 targetPosition;
+        Vector3 hitPosition;
         bool isReady;
 
         private float elapsedTime = 0f;
 
         public float duration = 2f;
-
-        RectTransform rt;
-        Image beatImg;
+        Renderer beatImg;
 
         public BeatStatus beatStatus;
 
@@ -33,11 +31,10 @@ namespace CrazyGames24
 
         private void OnEnable()
         {
-            rt = GetComponent<RectTransform>();
-            beatImg = GetComponent<Image>();
+            beatImg = GetComponent<Renderer>();
         }
 
-        public void Init(Vector2 target, Vector2 _hitPosition)
+        public void Init(Vector3 target, Vector3 _hitPosition)
         {
             hitPosition = _hitPosition;
             targetPosition = target;
@@ -52,11 +49,11 @@ namespace CrazyGames24
         {
             if (!isReady) return;
 
-            if (transform.localPosition.y > beatThreshold)
+            if (transform.localPosition.z > beatThreshold)
             {
                 beatStatus = BeatStatus.Before;
             }
-            else if (transform.localPosition.y < -beatThreshold)
+            else if (transform.localPosition.z < -beatThreshold)
             {
                 beatStatus = BeatStatus.After;
             }
@@ -65,7 +62,7 @@ namespace CrazyGames24
                 beatStatus = BeatStatus.OnTime;
             }
 
-            beatImg.color = statusColors[(int)beatStatus];
+            // beatImg.material.color = statusColors[(int)beatStatus];
 
             // Increment elapsed time
             elapsedTime += Time.deltaTime;
@@ -85,7 +82,8 @@ namespace CrazyGames24
         {
             isCleared = true;
             beatStatus = BeatStatus.Cleared;
-            beatImg.color = statusColors[(int)beatStatus];
+
+            // beatImg.material.color = statusColors[(int)beatStatus];
         }
     }
 }

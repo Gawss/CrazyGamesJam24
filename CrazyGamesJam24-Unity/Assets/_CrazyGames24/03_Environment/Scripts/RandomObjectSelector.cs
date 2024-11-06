@@ -1,8 +1,8 @@
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
 using System.Linq;
-
 public class RandomTreeSelector : EditorWindow
 {
     private string treeNameFilter = "Tree"; // Default filter
@@ -60,3 +60,4 @@ public class RandomTreeSelector : EditorWindow
         Debug.Log($"Selected {actualSelectionCount} random trees with filter '{treeNameFilter}'.");
     }
 }
+#endif

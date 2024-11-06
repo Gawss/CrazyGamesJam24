@@ -5,6 +5,10 @@ namespace CrazyGames24
 {
     public class Fish : MonoBehaviour, IPointerDownHandler
     {
+        public Transform beatInitialTransform;
+        public Transform beatFinalTransform;
+        public BeatDetector beatDetector;
+
         bool isAttached = false;
         public float speed = 5f;
         float defaultSpeed;
@@ -22,14 +26,15 @@ namespace CrazyGames24
             Vector3 lookAwayPosition = transform.position + oppositeDirection;
 
             // transform.LookAt(lookAwayPosition, Vector3.up);
-
-            GameManager.Instance.player.AttachFish(this);
-
             speed = defaultSpeed;
-            isAttached = true;
+            GameManager.Instance.player.AttachFish(this, () =>
+            {
+                isAttached = true;
+            });
+
         }
 
-        public void Deattach()
+        public void Detach()
         {
             speed = 0;
             isAttached = false;
@@ -37,7 +42,7 @@ namespace CrazyGames24
 
         public void OnPointerDown(PointerEventData eventData)
         {
-            if (isAttached) Deattach();
+            if (isAttached) Detach();
             else Attach();
         }
 

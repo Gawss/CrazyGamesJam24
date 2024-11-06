@@ -12,17 +12,7 @@ namespace CrazyGames24
         public Action<Prebeat> BeatBefore;
         public Action<Prebeat> BeatMissed;
 
-        private void Start()
-        {
-            GameManager.Instance.inputManager.OnTriggerBeatPerformed += CheckBeatStatus;
-        }
-
-        private void OnDestroy()
-        {
-            GameManager.Instance.inputManager.OnTriggerBeatPerformed -= CheckBeatStatus;
-        }
-
-        private void CheckBeatStatus()
+        public void CheckBeatStatus()
         {
             if (lastBeatDetected == null) return;
 

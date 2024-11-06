@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,29 +11,63 @@ namespace CrazyGames24
         [SerializeField] private LineRenderer fishingLine;
         [SerializeField] private Transform lineStartTransform;
         [SerializeField] private Transform lineMiddleTransform;
+        [SerializeField] private Animator fishermanAnimator;
 
         public Fish currentFish;
+        public bool isFishing = false;
         public float speed = 5f;
         public float pullingSpeed = 0f;
 
-        [SerializeField] private UnityEvent OnAttachFish;
+        public UnityEvent OnAttachFish;
+        public UnityEvent<Fish> OnDetachFish;
 
-        private void OnEnable()
+        public void Start()
         {
             rb = GetComponent<Rigidbody>();
+            GameManager.Instance.inputManager.OnTriggerBeatPerformed += CheckBeatOnFish;
         }
 
-        public void AttachFish(Fish targetFish)
+        public void OnDisable()
         {
-            if (currentFish != null) currentFish.Deattach();
+            GameManager.Instance.inputManager.OnTriggerBeatPerformed -= CheckBeatOnFish;
+        }
+
+        private void CheckBeatOnFish()
+        {
+            if (currentFish == null) return;
+            currentFish.beatDetector.CheckBeatStatus();
+        }
+
+        public void AttachFish(Fish targetFish, Action OnAnimationCompleted)
+        {
+            if (currentFish != null)
+            {
+                OnDetachFish?.Invoke(currentFish);
+                currentFish.Detach();
+            }
             currentFish = targetFish;
 
-            OnAttachFish?.Invoke();
+            fishermanAnimator.SetTrigger("Cast");
 
+            StartCoroutine(WaitAnimation(() =>
+            {
+                isFishing = true;
+                OnAnimationCompleted?.Invoke();
+                OnAttachFish?.Invoke();
+            }));
+
+        }
+
+        private IEnumerator WaitAnimation(Action callback)
+        {
+            yield return new WaitForSeconds(5f);
+
+            callback.Invoke();
         }
 
         private void Update()
         {
+            if (!isFishing) return;
             if (currentFish == null) return;
             fishingLine.SetPosition(0, lineStartTransform.position);
             fishingLine.SetPosition(1, lineMiddleTransform.position);

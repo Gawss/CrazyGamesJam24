@@ -7,8 +7,8 @@ public class BeatInterface : MonoBehaviour
 {
     [SerializeField] private Image beatImg;
     [SerializeField] private GameObject beatPrefab;
-    [SerializeField] private Transform beatInitialTransform;
-    [SerializeField] private Transform beatFinalTransform;
+    public Transform beatInitialTransform;
+    public Transform beatFinalTransform;
 
     [SerializeField] private Image[] beatFeedback;
 
@@ -16,18 +16,24 @@ public class BeatInterface : MonoBehaviour
 
     private void Start()
     {
-        GameManager.Instance.beatDetector.BeatBefore += OnBeat;
-        GameManager.Instance.beatDetector.BeatOnTime += OnBeat;
-        GameManager.Instance.beatDetector.BeatAfter += OnBeat;
+        GameManager.Instance.player.OnAttachFish.AddListener(SetBeatdetector);
+        GameManager.Instance.player.OnDetachFish.AddListener(ReleaseBeatdetector);
+    }
+
+    private void SetBeatdetector()
+    {
+        GameManager.Instance.player.currentFish.beatDetector.BeatBefore += OnBeat;
+        GameManager.Instance.player.currentFish.beatDetector.BeatOnTime += OnBeat;
+        GameManager.Instance.player.currentFish.beatDetector.BeatMissed += OnBeat;
 
         foreach (var b in beatFeedback) b.gameObject.SetActive(false);
     }
 
-    private void OnDestroy()
+    private void ReleaseBeatdetector(Fish currentFish)
     {
-        GameManager.Instance.beatDetector.BeatBefore -= OnBeat;
-        GameManager.Instance.beatDetector.BeatOnTime -= OnBeat;
-        GameManager.Instance.beatDetector.BeatAfter -= OnBeat;
+        currentFish.beatDetector.BeatBefore -= OnBeat;
+        currentFish.beatDetector.BeatOnTime -= OnBeat;
+        currentFish.beatDetector.BeatMissed -= OnBeat;
     }
 
     private void OnBeat(Prebeat prebeat)
@@ -51,11 +57,12 @@ public class BeatInterface : MonoBehaviour
 
     public void OnPreEvent(float amplitude)
     {
-        GameObject bGO = Instantiate(beatPrefab, beatImg.transform.parent);
-        bGO.transform.localPosition = beatInitialTransform.transform.localPosition;
+        GameObject bGO = Instantiate(beatPrefab, GameManager.Instance.player.currentFish.beatDetector.transform.parent);
+        bGO.transform.localPosition = GameManager.Instance.player.currentFish.beatInitialTransform.transform.localPosition;
 
         // bGO.GetComponent<Image>().color = beatImg.color;
-        bGO.GetComponent<Prebeat>().Init(beatFinalTransform.transform.localPosition, beatImg.transform.localPosition);
+        bGO.GetComponent<Prebeat>().Init(GameManager.Instance.player.currentFish.beatFinalTransform.transform.localPosition,
+                                            GameManager.Instance.player.currentFish.beatDetector.transform.localPosition);
 
         currentBeat = bGO.GetComponent<Prebeat>();
         foreach (var b in beatFeedback) b.gameObject.SetActive(false);

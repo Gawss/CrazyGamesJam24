@@ -21,19 +21,24 @@ namespace CrazyGames24
         {
             player = GetComponent<Player>();
 
-            GameManager.Instance.beatDetector.BeatBefore += OnBefore;
-            GameManager.Instance.beatDetector.BeatOnTime += OnTime;
-            GameManager.Instance.beatDetector.BeatMissed += OnMissed;
+            player.OnAttachFish.AddListener(SetBeatdetector);
+            player.OnDetachFish.AddListener(ReleaseBeatdetector);
 
             synchValue = initialSynch;
         }
 
-
-        private void OnDestroy()
+        private void SetBeatdetector()
         {
-            GameManager.Instance.beatDetector.BeatBefore -= OnBefore;
-            GameManager.Instance.beatDetector.BeatOnTime -= OnTime;
-            GameManager.Instance.beatDetector.BeatMissed -= OnMissed;
+            player.currentFish.beatDetector.BeatBefore += OnBefore;
+            player.currentFish.beatDetector.BeatOnTime += OnTime;
+            player.currentFish.beatDetector.BeatMissed += OnMissed;
+        }
+
+        private void ReleaseBeatdetector(Fish currentFish)
+        {
+            currentFish.beatDetector.BeatBefore -= OnBefore;
+            currentFish.beatDetector.BeatOnTime -= OnTime;
+            currentFish.beatDetector.BeatMissed -= OnMissed;
         }
 
         private void OnBefore(Prebeat prebeat)
@@ -42,8 +47,10 @@ namespace CrazyGames24
         }
         private void OnTime(Prebeat prebeat)
         {
-            if (synchValue == 0.5f) return;
-            AddSynch(synchValue > 0.5f ? -onTimeValue : onTimeValue);
+            if (Vector3.Distance(player.transform.position, player.currentFish.transform.position) > 30)
+            {
+                AddSynch(onTimeValue * 3f);
+            }
         }
         private void OnMissed(Prebeat prebeat)
         {
@@ -54,7 +61,7 @@ namespace CrazyGames24
         private void AddSynch(float value)
         {
             synchValue += value;
-            synchValue = Mathf.Max(0, Mathf.Min(1, synchValue));
+            synchValue = Mathf.Max(0, Mathf.Min(Vector3.Distance(player.transform.position, player.currentFish.transform.position) > 30 ? 1 : 0.5f, synchValue));
         }
 
         private void Update()
