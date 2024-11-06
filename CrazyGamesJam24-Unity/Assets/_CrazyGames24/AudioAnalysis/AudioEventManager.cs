@@ -28,6 +28,7 @@ public class AudioEventManager : MonoBehaviour
     private bool firstEventTriggered = false; // Flag to ensure the first event triggers only once
 
     [SerializeField] private bool verbose = false;
+    [SerializeField] private bool loop = false;
 
     private void Start()
     {
@@ -67,6 +68,8 @@ public class AudioEventManager : MonoBehaviour
         if (currentTime >= audioClip.length)
         {
             isPlaying = false;
+
+            if (loop) Play();
         }
     }
 

@@ -7,6 +7,8 @@ namespace CrazyGames24
     {
         [HideInInspector] public Rigidbody rb;
         [SerializeField] private LineRenderer fishingLine;
+        [SerializeField] private Transform lineStartTransform;
+        [SerializeField] private Transform lineMiddleTransform;
 
         public Fish currentFish;
         public float speed = 5f;
@@ -31,8 +33,9 @@ namespace CrazyGames24
         private void Update()
         {
             if (currentFish == null) return;
-            fishingLine.SetPosition(0, this.transform.position);
-            fishingLine.SetPosition(1, currentFish.transform.position);
+            fishingLine.SetPosition(0, lineStartTransform.position);
+            fishingLine.SetPosition(1, lineMiddleTransform.position);
+            fishingLine.SetPosition(2, currentFish.transform.position);
 
             transform.position = Vector3.Lerp(transform.position, transform.position + currentFish.transform.forward, Time.deltaTime * speed);
         }

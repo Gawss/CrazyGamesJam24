@@ -58,5 +58,6 @@ public class BeatInterface : MonoBehaviour
         bGO.GetComponent<Prebeat>().Init(beatFinalTransform.transform.localPosition, beatImg.transform.localPosition);
 
         currentBeat = bGO.GetComponent<Prebeat>();
+        foreach (var b in beatFeedback) b.gameObject.SetActive(false);
     }
 }

@@ -21,7 +21,7 @@ namespace CrazyGames24
             Vector3 oppositeDirection = -directionToTarget;
             Vector3 lookAwayPosition = transform.position + oppositeDirection;
 
-            transform.LookAt(lookAwayPosition);
+            // transform.LookAt(lookAwayPosition, Vector3.up);
 
             GameManager.Instance.player.AttachFish(this);
 
@@ -31,8 +31,6 @@ namespace CrazyGames24
 
         public void Deattach()
         {
-            this.transform.SetParent(null, true);
-
             speed = 0;
             isAttached = false;
         }

@@ -1,11 +1,19 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace CrazyGames24
 {
     public class PlayerBeat : MonoBehaviour
     {
         [Range(0, 1)] public float synchValue;
+        public Slider synchSlider;
+
+
+        [SerializeField] private float initialSynch = 0.3f;
+        [SerializeField] private float beforeValue = -0.125f;
+        [SerializeField] private float onTimeValue = 0.075f;
+        [SerializeField] private float onMissedValue = -0.2f;
 
         Player player;
 
@@ -17,7 +25,7 @@ namespace CrazyGames24
             GameManager.Instance.beatDetector.BeatOnTime += OnTime;
             GameManager.Instance.beatDetector.BeatMissed += OnMissed;
 
-            synchValue = 0.5f;
+            synchValue = initialSynch;
         }
 
 
@@ -30,15 +38,16 @@ namespace CrazyGames24
 
         private void OnBefore(Prebeat prebeat)
         {
-            AddSynch(-0.125f);
+            AddSynch(beforeValue);
         }
         private void OnTime(Prebeat prebeat)
         {
-            AddSynch(0.075f);
+            if (synchValue == 0.5f) return;
+            AddSynch(synchValue > 0.5f ? -onTimeValue : onTimeValue);
         }
         private void OnMissed(Prebeat prebeat)
         {
-            AddSynch(-0.2f);
+            AddSynch(onMissedValue);
         }
 
 
@@ -55,6 +64,8 @@ namespace CrazyGames24
             // player.speed = Mathf.Min(0, Mathf.Lerp(-player.currentFish.speed, player.currentFish.speed, synchValue));
             player.speed = -player.currentFish.speed * Mathf.Cos(2 * Mathf.PI * synchValue);
             player.pullingSpeed = Mathf.Lerp(-5, 5, synchValue);
+
+            synchSlider.value = synchValue;
         }
     }
 }
