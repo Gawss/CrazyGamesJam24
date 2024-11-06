@@ -96,6 +96,8 @@ MonoBehaviour:
   - {r: 0, g: 1, b: 0.9239001, a: 1}
   - {r: 0.20033813, g: 1, b: 0, a: 1}
   - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0.95679295, g: 1, b: 0, a: 1}
+  isCleared: 0
 --- !u!65 &5646510675995540366
 BoxCollider:
   m_ObjectHideFlags: 0

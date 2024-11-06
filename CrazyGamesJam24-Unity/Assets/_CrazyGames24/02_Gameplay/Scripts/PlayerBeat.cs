@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace CrazyGames24
@@ -8,9 +9,43 @@ namespace CrazyGames24
 
         Player player;
 
-        private void OnEnable()
+        private void Start()
         {
             player = GetComponent<Player>();
+
+            GameManager.Instance.beatDetector.BeatBefore += OnBefore;
+            GameManager.Instance.beatDetector.BeatOnTime += OnTime;
+            GameManager.Instance.beatDetector.BeatMissed += OnMissed;
+
+            synchValue = 0.5f;
+        }
+
+
+        private void OnDestroy()
+        {
+            GameManager.Instance.beatDetector.BeatBefore -= OnBefore;
+            GameManager.Instance.beatDetector.BeatOnTime -= OnTime;
+            GameManager.Instance.beatDetector.BeatMissed -= OnMissed;
+        }
+
+        private void OnBefore(Prebeat prebeat)
+        {
+            AddSynch(-0.125f);
+        }
+        private void OnTime(Prebeat prebeat)
+        {
+            AddSynch(0.075f);
+        }
+        private void OnMissed(Prebeat prebeat)
+        {
+            AddSynch(-0.2f);
+        }
+
+
+        private void AddSynch(float value)
+        {
+            synchValue += value;
+            synchValue = Mathf.Max(0, Mathf.Min(1, synchValue));
         }
 
         private void Update()

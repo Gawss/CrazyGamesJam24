@@ -10,6 +10,7 @@ namespace CrazyGames24
         public Action<Prebeat> BeatOnTime;
         public Action<Prebeat> BeatAfter;
         public Action<Prebeat> BeatBefore;
+        public Action<Prebeat> BeatMissed;
 
         private void Start()
         {
@@ -26,7 +27,11 @@ namespace CrazyGames24
             if (lastBeatDetected == null) return;
 
             if (lastBeatDetected.beatStatus == BeatStatus.Before) BeatAfter?.Invoke(lastBeatDetected);
-            if (lastBeatDetected.beatStatus == BeatStatus.OnTime) BeatOnTime?.Invoke(lastBeatDetected);
+            if (lastBeatDetected.beatStatus == BeatStatus.OnTime)
+            {
+                lastBeatDetected.ClearBeat();
+                BeatOnTime?.Invoke(lastBeatDetected);
+            }
             if (lastBeatDetected.beatStatus == BeatStatus.After) BeatBefore?.Invoke(lastBeatDetected);
         }
 
@@ -35,6 +40,14 @@ namespace CrazyGames24
             if (other.TryGetComponent(out Prebeat beat))
             {
                 lastBeatDetected = beat;
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.TryGetComponent(out Prebeat beat))
+            {
+                if (!beat.isCleared) BeatMissed?.Invoke(beat);
             }
         }
     }

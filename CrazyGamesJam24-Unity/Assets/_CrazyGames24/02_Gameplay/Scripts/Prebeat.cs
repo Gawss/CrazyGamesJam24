@@ -7,7 +7,8 @@ namespace CrazyGames24
     {
         Before,
         OnTime,
-        After
+        After,
+        Cleared
     }
     public class Prebeat : MonoBehaviour
     {
@@ -28,6 +29,8 @@ namespace CrazyGames24
 
         [SerializeField] private Color[] statusColors;
 
+        public bool isCleared = false;
+
         private void OnEnable()
         {
             rt = GetComponent<RectTransform>();
@@ -40,6 +43,7 @@ namespace CrazyGames24
             targetPosition = target;
             elapsedTime = 0f;
             beatStatus = BeatStatus.Before;
+            isCleared = false;
             isReady = true;
         }
 
@@ -75,6 +79,13 @@ namespace CrazyGames24
             {
                 isReady = false;
             }
+        }
+
+        public void ClearBeat()
+        {
+            isCleared = true;
+            beatStatus = BeatStatus.Cleared;
+            beatImg.color = statusColors[(int)beatStatus];
         }
     }
 }
