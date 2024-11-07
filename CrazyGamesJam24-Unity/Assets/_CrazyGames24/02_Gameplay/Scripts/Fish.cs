@@ -45,7 +45,9 @@ namespace CrazyGames24
             isAttached = false;
             GameManager.Instance.player.DetachFish(this);
 
-            transform.position = GameManager.Instance.player.fishingSpotTransforms[spotIndex].position;
+            transform.gameObject.SetActive(false);
+
+            // transform.position = GameManager.Instance.player.fishingSpotTransforms[spotIndex].position;
         }
 
         public void OnPointerDown(PointerEventData eventData)
@@ -57,6 +59,14 @@ namespace CrazyGames24
         private void Update()
         {
             if (!isAttached) return;
+
+            Vector3 directionToTarget = GameManager.Instance.player.transform.position - transform.position;
+            Vector3 oppositeDirection = -directionToTarget;
+            Vector3 lookAwayPosition = transform.position + oppositeDirection;
+
+            lookAwayPosition.y = transform.position.y;
+
+            transform.LookAt(lookAwayPosition, transform.up);
 
             transform.position = Vector3.Lerp(transform.position, transform.position + transform.forward * (1f - GameManager.Instance.player.pullingSpeed), Time.deltaTime * speed);
 

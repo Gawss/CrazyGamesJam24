@@ -21,6 +21,7 @@ namespace CrazyGames24
         }
 
         public Action OnTriggerBeatPerformed;
+        public Action<Vector2> OnMovePerformed;
 
         public void OnTriggerBeat(InputAction.CallbackContext context)
         {
@@ -28,6 +29,11 @@ namespace CrazyGames24
             {
                 OnTriggerBeatPerformed?.Invoke();
             }
+        }
+
+        public void OnMove(InputAction.CallbackContext context)
+        {
+            OnMovePerformed?.Invoke(context.ReadValue<Vector2>());
         }
     }
 }

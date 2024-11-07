@@ -37,6 +37,15 @@ namespace CrazyGames24
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""62d9e5c6-00e9-4ad4-8108-c3ee34e745ff"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -50,6 +59,72 @@ namespace CrazyGames24
                     ""action"": ""TriggerBeat"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6dd0ed1c-acd9-4fef-bc8d-9354f5d021a6"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Dpad"",
+                    ""id"": ""f81fce7a-1dc1-4064-83b8-49214646fdf1"",
+                    ""path"": ""Dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""95f256a3-fca2-4f60-8e8f-5c6917ef947c"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""df1ce8b1-411e-48f2-829c-4bdac211dd68"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""95e23118-79fd-4abf-9cab-d9fff318f9fd"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""a393e349-1fe2-4597-ab86-64e0bd7f72ce"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -65,6 +140,7 @@ namespace CrazyGames24
             // Gameplay
             m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
             m_Gameplay_TriggerBeat = m_Gameplay.FindAction("TriggerBeat", throwIfNotFound: true);
+            m_Gameplay_Move = m_Gameplay.FindAction("Move", throwIfNotFound: true);
         }
 
         ~@BTB_InputSystem()
@@ -132,11 +208,13 @@ namespace CrazyGames24
         private readonly InputActionMap m_Gameplay;
         private List<IGameplayActions> m_GameplayActionsCallbackInterfaces = new List<IGameplayActions>();
         private readonly InputAction m_Gameplay_TriggerBeat;
+        private readonly InputAction m_Gameplay_Move;
         public struct GameplayActions
         {
             private @BTB_InputSystem m_Wrapper;
             public GameplayActions(@BTB_InputSystem wrapper) { m_Wrapper = wrapper; }
             public InputAction @TriggerBeat => m_Wrapper.m_Gameplay_TriggerBeat;
+            public InputAction @Move => m_Wrapper.m_Gameplay_Move;
             public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -149,6 +227,9 @@ namespace CrazyGames24
                 @TriggerBeat.started += instance.OnTriggerBeat;
                 @TriggerBeat.performed += instance.OnTriggerBeat;
                 @TriggerBeat.canceled += instance.OnTriggerBeat;
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
             }
 
             private void UnregisterCallbacks(IGameplayActions instance)
@@ -156,6 +237,9 @@ namespace CrazyGames24
                 @TriggerBeat.started -= instance.OnTriggerBeat;
                 @TriggerBeat.performed -= instance.OnTriggerBeat;
                 @TriggerBeat.canceled -= instance.OnTriggerBeat;
+                @Move.started -= instance.OnMove;
+                @Move.performed -= instance.OnMove;
+                @Move.canceled -= instance.OnMove;
             }
 
             public void RemoveCallbacks(IGameplayActions instance)
@@ -185,6 +269,7 @@ namespace CrazyGames24
         public interface IGameplayActions
         {
             void OnTriggerBeat(InputAction.CallbackContext context);
+            void OnMove(InputAction.CallbackContext context);
         }
     }
 }
