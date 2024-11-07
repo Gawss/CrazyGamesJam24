@@ -23,5 +23,6 @@ namespace CrazyGames24
         public BTBInputManager inputManager;
         public BeatDetector beatDetector;
         public BeatInterface beatInterface;
+        public AudioEventManager audioEventManager;
     }
 }

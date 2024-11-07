@@ -340,6 +340,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -404,11 +409,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -587,6 +587,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -651,11 +656,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -897,6 +897,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1850005035550011979, guid: b4a2ae448f6bb224491730aa5bc82a43,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -962,11 +967,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -986,6 +986,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -1051,11 +1056,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1075,6 +1075,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 6093806724185175333, guid: 8c769b613989782439710730be033ea0,
         type: 3}
       propertyPath: m_Name
@@ -1139,11 +1144,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1253,6 +1253,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -1318,11 +1323,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1342,6 +1342,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1850005035550011979, guid: b4a2ae448f6bb224491730aa5bc82a43,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1407,11 +1412,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1431,6 +1431,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -1496,11 +1501,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1520,6 +1520,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -1584,11 +1589,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1698,6 +1698,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1763,11 +1768,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1787,6 +1787,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -1851,11 +1856,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2243,6 +2243,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2308,11 +2313,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2332,6 +2332,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -2396,11 +2401,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2510,6 +2510,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 564897949247404673, guid: 7e971fdb55fa82245b5fb0937d4531e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2575,11 +2580,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2599,6 +2599,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -2664,11 +2669,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2688,6 +2688,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2752,11 +2757,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2866,6 +2866,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -2931,11 +2936,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2955,6 +2955,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -3020,11 +3025,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3044,6 +3044,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -3109,11 +3114,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3133,6 +3133,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 84003eee961702144ad6e64bd54474c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3198,11 +3203,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3222,6 +3222,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1850005035550011979, guid: b4a2ae448f6bb224491730aa5bc82a43,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3287,11 +3292,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3311,6 +3311,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -3375,11 +3380,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3578,6 +3578,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1850005035550011979, guid: b4a2ae448f6bb224491730aa5bc82a43,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3642,11 +3647,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3969,6 +3969,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -4033,11 +4038,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4236,6 +4236,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4300,11 +4305,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4414,6 +4414,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4479,11 +4484,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4503,6 +4503,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -4567,11 +4572,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4681,6 +4681,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -4745,11 +4750,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4859,6 +4859,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -4924,11 +4929,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4980,6 +4980,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -5044,11 +5049,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5158,6 +5158,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -5222,11 +5227,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5336,6 +5336,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -5401,11 +5406,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5425,6 +5425,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -5489,11 +5494,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5705,6 +5705,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 6093806724185175333, guid: 8c769b613989782439710730be033ea0,
         type: 3}
       propertyPath: m_Name
@@ -5770,11 +5775,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5794,6 +5794,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -5858,11 +5863,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6061,6 +6061,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 84003eee961702144ad6e64bd54474c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6126,11 +6131,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6150,6 +6150,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 84003eee961702144ad6e64bd54474c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6215,11 +6220,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6239,6 +6239,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 6093806724185175333, guid: 8c769b613989782439710730be033ea0,
         type: 3}
       propertyPath: m_Name
@@ -6304,11 +6309,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6328,6 +6328,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 564897949247404673, guid: 7e971fdb55fa82245b5fb0937d4531e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6393,11 +6398,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6417,6 +6417,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -6482,11 +6487,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6506,6 +6506,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -6570,11 +6575,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6773,6 +6773,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6837,11 +6842,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6951,6 +6951,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -7016,11 +7021,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7040,6 +7040,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -7105,11 +7110,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7166,6 +7166,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -7230,11 +7235,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7433,6 +7433,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -7498,11 +7503,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7522,6 +7522,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -7586,11 +7591,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7789,6 +7789,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7853,11 +7858,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8056,6 +8056,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 84003eee961702144ad6e64bd54474c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8121,11 +8126,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8145,6 +8145,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1850005035550011979, guid: b4a2ae448f6bb224491730aa5bc82a43,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8210,11 +8215,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8234,6 +8234,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -8299,11 +8304,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8323,6 +8323,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -8388,11 +8393,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8412,6 +8412,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -8476,11 +8481,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8590,6 +8590,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -8654,11 +8659,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8768,6 +8768,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -8832,11 +8837,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9218,6 +9218,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -9282,11 +9287,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9462,6 +9462,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -9527,11 +9532,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9551,6 +9551,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -9616,11 +9621,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9640,6 +9640,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9704,11 +9709,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9818,6 +9818,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 564897949247404673, guid: 7e971fdb55fa82245b5fb0937d4531e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9883,11 +9888,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9907,6 +9907,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -9972,11 +9977,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9996,6 +9996,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -10061,11 +10066,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10085,6 +10085,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -10149,11 +10154,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10263,6 +10263,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -10328,11 +10333,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10352,6 +10352,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 6093806724185175333, guid: 8c769b613989782439710730be033ea0,
         type: 3}
       propertyPath: m_Name
@@ -10416,11 +10421,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10530,6 +10530,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1850005035550011979, guid: b4a2ae448f6bb224491730aa5bc82a43,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10594,11 +10599,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10713,6 +10713,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -10778,11 +10783,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10835,6 +10835,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -10900,11 +10905,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10924,6 +10924,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -10989,11 +10994,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11013,6 +11013,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1850005035550011979, guid: b4a2ae448f6bb224491730aa5bc82a43,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11078,11 +11083,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11102,6 +11102,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 6093806724185175333, guid: 8c769b613989782439710730be033ea0,
         type: 3}
       propertyPath: m_Name
@@ -11167,11 +11172,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11191,6 +11191,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -11255,11 +11260,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11458,6 +11458,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 564897949247404673, guid: 7e971fdb55fa82245b5fb0937d4531e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11522,11 +11527,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11730,6 +11730,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -11795,11 +11800,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11819,6 +11819,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -11883,11 +11888,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11997,6 +11997,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12061,11 +12066,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12264,6 +12264,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -12329,11 +12334,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12353,6 +12353,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12417,11 +12422,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12531,6 +12531,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 84003eee961702144ad6e64bd54474c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12595,11 +12600,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12709,6 +12709,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -12774,11 +12779,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12798,6 +12798,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -12863,11 +12868,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12887,6 +12887,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12952,11 +12957,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12976,6 +12976,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13041,11 +13046,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13065,6 +13065,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -13129,11 +13134,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13317,6 +13317,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -13382,11 +13387,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13406,6 +13406,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -13471,11 +13476,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13495,6 +13495,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -13560,11 +13565,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13584,6 +13584,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13649,11 +13654,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13673,6 +13673,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -13738,11 +13743,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13762,6 +13762,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -13826,11 +13831,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13940,6 +13940,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -14005,11 +14010,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14029,6 +14029,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -14094,11 +14099,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14118,6 +14118,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -14183,11 +14188,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14207,6 +14207,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -14272,11 +14277,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14296,6 +14296,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -14360,11 +14365,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14511,6 +14511,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -14575,11 +14580,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14689,6 +14689,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 564897949247404673, guid: 7e971fdb55fa82245b5fb0937d4531e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14753,11 +14758,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14827,6 +14827,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14891,11 +14896,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15178,6 +15178,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15243,11 +15248,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15267,6 +15267,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -15332,11 +15337,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15356,6 +15356,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -15420,11 +15425,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15534,6 +15534,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15599,11 +15604,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15623,6 +15623,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -15688,11 +15693,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15712,6 +15712,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -15776,11 +15781,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16068,6 +16068,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16133,11 +16138,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16157,6 +16157,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -16221,11 +16226,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16367,6 +16367,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16432,11 +16437,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16456,6 +16456,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -16521,11 +16526,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16545,6 +16545,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -16610,11 +16615,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16634,6 +16634,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -16698,11 +16703,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16812,6 +16812,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -16877,11 +16882,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16901,6 +16901,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -16966,11 +16971,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16990,6 +16990,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17055,11 +17060,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17079,6 +17079,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -17144,11 +17149,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17168,6 +17168,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -17232,11 +17237,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17629,6 +17629,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -17694,11 +17699,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17718,6 +17718,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -17782,11 +17787,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18085,6 +18085,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -18150,11 +18155,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18174,6 +18174,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 564897949247404673, guid: 7e971fdb55fa82245b5fb0937d4531e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18238,11 +18243,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18387,6 +18387,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -18452,11 +18457,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18476,6 +18476,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -18541,11 +18546,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18565,6 +18565,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18630,11 +18635,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18654,6 +18654,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -18719,11 +18724,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18743,6 +18743,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18808,11 +18813,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18832,6 +18832,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -18897,11 +18902,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18921,6 +18921,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -18985,11 +18990,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19099,6 +19099,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -19164,11 +19169,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19188,6 +19188,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -19253,11 +19258,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19277,6 +19277,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -19342,11 +19347,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19410,6 +19410,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -19475,11 +19480,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19499,6 +19499,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 84003eee961702144ad6e64bd54474c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19563,11 +19568,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19860,6 +19860,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -19925,11 +19930,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19949,6 +19949,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2321730014945381188, guid: 1f82b4980cf86b64b8b87cb27a6c2f1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20013,11 +20018,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20127,6 +20127,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20192,11 +20197,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20216,6 +20216,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -20280,11 +20285,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20518,6 +20518,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 6093806724185175333, guid: 8c769b613989782439710730be033ea0,
         type: 3}
       propertyPath: m_Name
@@ -20582,11 +20587,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20696,6 +20696,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: b286da5cf4fb3584caca0e0c7e32ca7f,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -20760,11 +20765,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20879,6 +20879,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 6093806724185175333, guid: 8c769b613989782439710730be033ea0,
         type: 3}
       propertyPath: m_Name
@@ -20944,11 +20949,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20968,6 +20968,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3754999024552778160, guid: 1a6c4b0d0e99b2a4b81d208059e49af5,
         type: 3}
       propertyPath: m_Name
@@ -21033,11 +21038,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21057,6 +21057,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -21121,11 +21126,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21235,6 +21235,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 55ef9304c141c8f49915f02abea3670f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21300,11 +21305,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21324,6 +21324,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -21389,11 +21394,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21413,6 +21413,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1418573670830123961, guid: 1ed97b968d235cd438acf5b712e10ef9,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -21478,11 +21483,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21502,6 +21502,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2418448554451945179, guid: af0e2b37ab48ec8418be78178668018e,
         type: 3}
       propertyPath: m_Name
@@ -21567,11 +21572,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21591,6 +21591,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2340537802224066459, guid: 84003eee961702144ad6e64bd54474c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21656,11 +21661,6 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21680,6 +21680,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1637762643}
     m_Modifications:
+    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 2697118812096650109, guid: 6489c16332f887842b1647877826262d,
         type: 3}
       propertyPath: m_ScaleInLightmap
@@ -21744,11 +21749,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681018368402222767, guid: d5b276086bbf37c408736f09bf2a97f9,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

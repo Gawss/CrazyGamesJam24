@@ -31,7 +31,7 @@ namespace CrazyGames24
 
         private void OnEnable()
         {
-            beatImg = GetComponent<Renderer>();
+            beatImg = GetComponentInChildren<Renderer>();
         }
 
         public void Init(Vector3 target, Vector3 _hitPosition)
@@ -62,7 +62,7 @@ namespace CrazyGames24
                 beatStatus = BeatStatus.OnTime;
             }
 
-            // beatImg.material.color = statusColors[(int)beatStatus];
+            beatImg.materials[0].color = statusColors[(int)beatStatus];
 
             // Increment elapsed time
             elapsedTime += Time.deltaTime;
@@ -75,6 +75,7 @@ namespace CrazyGames24
             if (progress >= 1f)
             {
                 isReady = false;
+                beatImg.enabled = false;
             }
         }
 
@@ -82,8 +83,8 @@ namespace CrazyGames24
         {
             isCleared = true;
             beatStatus = BeatStatus.Cleared;
-
             // beatImg.material.color = statusColors[(int)beatStatus];
+            beatImg.enabled = false;
         }
     }
 }

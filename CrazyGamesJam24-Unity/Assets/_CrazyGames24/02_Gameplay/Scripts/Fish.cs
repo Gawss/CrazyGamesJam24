@@ -13,6 +13,8 @@ namespace CrazyGames24
         public float speed = 5f;
         float defaultSpeed;
 
+        [SerializeField] private int spotIndex = 0;
+
         private void OnEnable()
         {
             defaultSpeed = speed;
@@ -25,7 +27,8 @@ namespace CrazyGames24
             Vector3 oppositeDirection = -directionToTarget;
             Vector3 lookAwayPosition = transform.position + oppositeDirection;
 
-            // transform.LookAt(lookAwayPosition, Vector3.up);
+            transform.LookAt(lookAwayPosition, transform.up);
+
             speed = defaultSpeed;
             GameManager.Instance.player.AttachFish(this, () =>
             {
@@ -38,6 +41,9 @@ namespace CrazyGames24
         {
             speed = 0;
             isAttached = false;
+            GameManager.Instance.player.DetachFish(this);
+
+            transform.position = GameManager.Instance.player.fishingSpotTransforms[spotIndex].position;
         }
 
         public void OnPointerDown(PointerEventData eventData)
@@ -51,6 +57,9 @@ namespace CrazyGames24
             if (!isAttached) return;
 
             transform.position = Vector3.Lerp(transform.position, transform.position + transform.forward * (1f - GameManager.Instance.player.pullingSpeed), Time.deltaTime * speed);
+
+            if (Vector3.Distance(transform.position, GameManager.Instance.player.transform.position) < 5f) Detach();
+            if (Vector3.Distance(transform.position, GameManager.Instance.player.transform.position) > 35f) Detach();
         }
     }
 }

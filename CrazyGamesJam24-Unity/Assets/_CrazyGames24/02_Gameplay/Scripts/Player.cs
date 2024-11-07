@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -12,6 +13,9 @@ namespace CrazyGames24
         [SerializeField] private Transform lineStartTransform;
         [SerializeField] private Transform lineMiddleTransform;
         [SerializeField] private Animator fishermanAnimator;
+        [SerializeField] private CinemachineCamera cinemachineCamera;
+
+        public Transform[] fishingSpotTransforms;
 
         public Fish currentFish;
         public bool isFishing = false;
@@ -46,6 +50,8 @@ namespace CrazyGames24
                 currentFish.Detach();
             }
             currentFish = targetFish;
+            cinemachineCamera.Follow = currentFish.transform;
+            cinemachineCamera.LookAt = currentFish.transform;
 
             fishermanAnimator.SetTrigger("Cast");
 
@@ -55,7 +61,19 @@ namespace CrazyGames24
                 OnAnimationCompleted?.Invoke();
                 OnAttachFish?.Invoke();
             }));
+        }
 
+        public void DetachFish(Fish fish)
+        {
+            isFishing = false;
+            currentFish = null;
+            cinemachineCamera.Follow = this.transform;
+            cinemachineCamera.LookAt = this.transform;
+            fishingLine.SetPosition(0, lineStartTransform.position);
+            fishingLine.SetPosition(1, lineMiddleTransform.position);
+            fishingLine.SetPosition(2, lineMiddleTransform.position);
+
+            GameManager.Instance.audioEventManager.Stop();
         }
 
         private IEnumerator WaitAnimation(Action callback)

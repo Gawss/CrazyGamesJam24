@@ -17,6 +17,7 @@ public class AudioEventManager : MonoBehaviour
     public DetectedAudioEvent onAudioEventTriggered;
     public PreAudioEvent onPreAudioEventTriggered;
     public FirstAudioEvent onFirstAudioEventTriggered; // Event to trigger only once
+    public UnityEvent onStop;
 
     public float preEventOffset = 2.0f;
 
@@ -107,6 +108,8 @@ public class AudioEventManager : MonoBehaviour
         currentTime = 0f;
         eventIndex = 0;
         preEventIndex = 0;
+
+        onStop?.Invoke();
     }
 
     public void Pause()
