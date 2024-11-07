@@ -53,7 +53,7 @@ MonoBehaviour:
   waterLevel: 0
   childTransform: {fileID: 0}
   heightOffset: 0
-  rollAmount: 0.033
+  rollAmount: 0.0015
   samples: []
 --- !u!1 &8029270630042912444
 GameObject:
