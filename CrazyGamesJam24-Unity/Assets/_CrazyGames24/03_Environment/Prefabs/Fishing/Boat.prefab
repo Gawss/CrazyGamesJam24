@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 7572635714879467606}
   - component: {fileID: 6197160081851455739}
   - component: {fileID: 8969422488829400290}
-  - component: {fileID: 1450953953340799953}
   m_Layer: 0
   m_Name: TransparencyMask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &7572635714879467606
 Transform:
@@ -87,28 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1450953953340799953
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3474548509734249155}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5689273295560260753
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +189,7 @@ MonoBehaviour:
   m_RendererInfo:
   - renderer: {fileID: 8480194723883014369}
     lightmapIndex: 0
-    lightmapOffsetScale: {x: 0.14033265, y: 0.14033265, z: -0.0024041657, w: 0.5229865}
+    lightmapOffsetScale: {x: 0.5613306, y: 0.5613306, z: -0.009616663, w: -0.009616663}
   m_Lightmaps:
   - {fileID: 2800000, guid: c772274c4e8347348a724a7f347c44db, type: 3}
   m_LightmapsDir:

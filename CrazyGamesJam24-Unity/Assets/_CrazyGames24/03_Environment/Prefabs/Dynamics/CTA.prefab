@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &9111728955525769196
 Transform:
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2385243484667165185}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.24820985, z: 0.68}
+  m_LocalPosition: {x: 0, y: -0.32, z: 0.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -95,13 +95,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 792463279994355594}
-  - component: {fileID: 5862500490098216994}
+  - component: {fileID: 5835833715366923561}
   m_Layer: 0
   m_Name: CTA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &792463279994355594
 Transform:
@@ -111,16 +111,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7805640143774228875}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0006941522, y: -0, z: -0.00027113323, w: 0.99999976}
+  m_LocalRotation: {x: 0.0006981745, y: 0.00000018891298, z: -0.00027058125, w: 0.9999997}
   m_LocalPosition: {x: 51.850098, y: -1.5050241, z: -18.3}
-  m_LocalScale: {x: 1.8201699, y: 1.8201699, z: 1.8201699}
+  m_LocalScale: {x: 1.8201714, y: 1.8201714, z: 1.8201714}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5675517259464698973}
   - {fileID: 9111728955525769196}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5862500490098216994
+  m_LocalEulerAnglesHint: {x: 0.08, y: 0, z: -0.031}
+--- !u!114 &5835833715366923561
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5675517259464698973
 Transform:
