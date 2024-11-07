@@ -27,6 +27,8 @@ namespace CrazyGames24
             Vector3 oppositeDirection = -directionToTarget;
             Vector3 lookAwayPosition = transform.position + oppositeDirection;
 
+            lookAwayPosition.y = transform.position.y;
+
             transform.LookAt(lookAwayPosition, transform.up);
 
             speed = defaultSpeed;
