@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 322745447245613616}
   - component: {fileID: 3400292090730030122}
   - component: {fileID: 5249095802966882675}
+  - component: {fileID: 6468829519436298949}
   m_Layer: 0
   m_Name: Wooden_Bridge
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 6879499663538607509}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 17.04, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86,3 +87,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6468829519436298949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6879499663538607509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9faabca1b0c89234db63dabfa9ae8611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  releaseShaders: 1
+  m_RendererInfo:
+  - renderer: {fileID: 5249095802966882675}
+    lightmapIndex: 0
+    lightmapOffsetScale: {x: 0.3948476, y: 0.3948476, z: -0.0014712265, w: 0.12743503}
+  m_Lightmaps:
+  - {fileID: 2800000, guid: c772274c4e8347348a724a7f347c44db, type: 3}
+  m_LightmapsDir:
+  - {fileID: 2800000, guid: c4afc4e0e30a5744998ba7ead097c9f6, type: 3}
+  m_ShadowMasks:
+  - {fileID: 0}
+  m_LightInfo: []
