@@ -31,6 +31,8 @@ namespace CrazyGames24
         {
             if (player.isFishing) return;
 
+            player.SetCharacter(true);
+
             direction.x = vector.x;
             direction.z = vector.y;
 
@@ -45,9 +47,14 @@ namespace CrazyGames24
         private void FixedUpdate()
         {
             if (player.isFishing) return;
+
+
+
             player.rb.rotation = Quaternion.Slerp(player.rb.rotation, currentRotation, Time.deltaTime * 25f);
 
             Vector3 movement = transform.forward * direction.magnitude * moveSpeed * Time.deltaTime;
+
+            if (movement.magnitude <= 0.1f) player.SetCharacter(false);
             player.rb.MovePosition(player.rb.position + movement);
         }
     }

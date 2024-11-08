@@ -879,6 +879,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f11895683f95c74d95ad0a6ddce1748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &415558641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7078796506854159434, guid: 17f719307b10b8b4d8831fcee4bba1c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1973739861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &435064625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1235,8 @@ MonoBehaviour:
   fishingLine: {fileID: 17738194}
   lineStartTransform: {fileID: 1973739864}
   lineMiddleTransform: {fileID: 1973739863}
+  fishingBar: {fileID: 415558641}
+  paddle: {fileID: 1973739866}
   fishermanAnimator: {fileID: 1973739865}
   cinemachineCamera: {fileID: 523079843}
   cameraTarget: {fileID: 1372650866}
@@ -2805,6 +2813,12 @@ Transform:
 --- !u!95 &1973739865 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9197183258705207928, guid: 17f719307b10b8b4d8831fcee4bba1c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1973739861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1973739866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1526151702016112376, guid: 17f719307b10b8b4d8831fcee4bba1c9,
     type: 3}
   m_PrefabInstance: {fileID: 1973739861}
   m_PrefabAsset: {fileID: 0}

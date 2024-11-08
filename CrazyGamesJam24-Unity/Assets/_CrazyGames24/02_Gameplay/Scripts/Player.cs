@@ -12,6 +12,9 @@ namespace CrazyGames24
         [SerializeField] private LineRenderer fishingLine;
         [SerializeField] private Transform lineStartTransform;
         [SerializeField] private Transform lineMiddleTransform;
+
+        [SerializeField] private GameObject fishingBar;
+        [SerializeField] private GameObject paddle;
         [SerializeField] private Animator fishermanAnimator;
         [SerializeField] private CinemachineCamera cinemachineCamera;
         [SerializeField] private CameraTarget cameraTarget;
@@ -30,6 +33,8 @@ namespace CrazyGames24
         {
             rb = GetComponent<Rigidbody>();
             GameManager.Instance.inputManager.OnTriggerBeatPerformed += CheckBeatOnFish;
+
+            SetCharacter(false);
         }
 
         public void OnDisable()
@@ -41,6 +46,14 @@ namespace CrazyGames24
         {
             if (currentFish == null) return;
             currentFish.beatDetector.CheckBeatStatus();
+        }
+
+        public void SetCharacter(bool isMoving)
+        {
+            fishermanAnimator.SetBool("isMoving", isMoving);
+
+            fishingBar.SetActive(!isMoving);
+            paddle.SetActive(isMoving);
         }
 
         public void AttachFish(Fish targetFish, Action OnAnimationCompleted)
@@ -57,6 +70,7 @@ namespace CrazyGames24
             StartCoroutine(WaitAnimation(() =>
             {
                 isFishing = true;
+                SetCharacter(false);
                 OnAnimationCompleted?.Invoke();
                 OnAttachFish?.Invoke();
             }));

@@ -11,12 +11,12 @@ namespace CrazyGames24
         public void SetTarget(Transform target)
         {
             currentTarget = target;
-            initialOffset = target.position;
-            targetPositon.z = transform.position.z + initialOffset.z;
+            targetPositon.z = transform.position.z + target.position.z;
         }
 
         private void Start()
         {
+            initialOffset = GameManager.Instance.player.transform.position;
             targetPositon = transform.position;
             SetTarget(GameManager.Instance.player.transform);
         }
