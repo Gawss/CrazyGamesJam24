@@ -5,12 +5,23 @@
     <type fullname="BeatInterface" preserve="all" />
     <type fullname="CrazyGames24.BeatDetector" preserve="all" />
     <type fullname="CrazyGames24.BTBInputManager" preserve="all" />
+    <type fullname="CrazyGames24.CameraTarget" preserve="all" />
+    <type fullname="CrazyGames24.EndZone" preserve="all" />
     <type fullname="CrazyGames24.Fish" preserve="all" />
     <type fullname="CrazyGames24.GameManager" preserve="all" />
+    <type fullname="CrazyGames24.IngameCanvas" preserve="all" />
+    <type fullname="CrazyGames24.IntroElements" preserve="all" />
+    <type fullname="CrazyGames24.Lake" preserve="all" />
+    <type fullname="CrazyGames24.LakeBarrier" preserve="all" />
     <type fullname="CrazyGames24.LoadGameButton" preserve="all" />
+    <type fullname="CrazyGames24.LoseCanvas" preserve="all" />
     <type fullname="CrazyGames24.Player" preserve="all" />
     <type fullname="CrazyGames24.PlayerBeat" preserve="all" />
+    <type fullname="CrazyGames24.PlayerMovement" preserve="all" />
     <type fullname="CrazyGames24.Prebeat" preserve="all" />
+    <type fullname="CrazyGames24.SFXGameplay" preserve="all" />
+    <type fullname="CrazyGames24.StartCanvas" preserve="all" />
+    <type fullname="CrazyGames24.WinCanvas" preserve="all" />
     <type fullname="PrefabLightmapData" preserve="all" />
     <type fullname="UniformModifier" preserve="all" />
     <type fullname="UnityEngine.UI.ProceduralImage.ProceduralImage" preserve="all" />
@@ -114,7 +125,11 @@
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.GlyphAnchorPoint" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.LigatureSubstitutionRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.MarkPositionAdjustment" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.MarkToBaseAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
@@ -158,6 +173,7 @@
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
@@ -177,19 +193,22 @@
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">

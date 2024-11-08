@@ -150,8 +150,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneNames:
-  - Menu
-  - Gameplay
   - Environment
 --- !u!4 &109689317
 Transform:

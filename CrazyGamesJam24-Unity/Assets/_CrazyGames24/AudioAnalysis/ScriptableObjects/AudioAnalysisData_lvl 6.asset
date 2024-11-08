@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b552222c5f623947821c6fed929dcdb, type: 3}
+  m_Name: AudioAnalysisData_lvl 6
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: a2d58c2e8f2b5534f961c4e491ddfca3, type: 3}
+  clipLength: 7.463537
+  events:
+  - timestamp: 0.013582766
+    amplitude: 0.48156738
+  - timestamp: 0.76505667
+    amplitude: 0.42233276
+  - timestamp: 1.5188209
+    amplitude: 0.4142151
+  - timestamp: 2.2726078
+    amplitude: 0.40396118
+  - timestamp: 3.022812
+    amplitude: 0.41314697
+  - timestamp: 3.7731066
+    amplitude: 0.41992188
+  - timestamp: 4.7065535
+    amplitude: 0.40908813
+  - timestamp: 5.470907
+    amplitude: 0.4046631
+  - timestamp: 6.220907
+    amplitude: 0.5880432
+  - timestamp: 7.04483
+    amplitude: 0.47860718
+  - timestamp: 7.79483
+    amplitude: 0.6932068
+  - timestamp: 8.546327
+    amplitude: 0.42111206
+  - timestamp: 9.397392
+    amplitude: 0.41262817
+  - timestamp: 10.152585
+    amplitude: 0.4043579
+  - timestamp: 10.90644
+    amplitude: 0.42773438
+  - timestamp: 11.65644
+    amplitude: 0.45968628
+  - timestamp: 12.658662
+    amplitude: 0.4163208
+  - timestamp: 13.411904
+    amplitude: 0.44839478
+  - timestamp: 14.1625395
+    amplitude: 0.41738892
+  - timestamp: 14.915624
+    amplitude: 0.4081421

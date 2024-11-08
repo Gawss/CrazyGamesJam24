@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,7 +12,18 @@ namespace CrazyGames24
         [SerializeField] private LineRenderer fishingLine;
         [SerializeField] private Transform lineStartTransform;
         [SerializeField] private Transform lineMiddleTransform;
+
+        [SerializeField] private GameObject fishingBar;
+        public GameObject paddle;
         [SerializeField] private Animator fishermanAnimator;
+        [SerializeField] private CinemachineCamera cinemachineCamera;
+        public CameraTarget cameraTarget;
+
+        public Transform[] fishingSpotTransforms;
+
+        public int songsCollected;
+        public int maxSongs;
+        public int lifePoints;
 
         public Fish currentFish;
         public bool isFishing = false;
@@ -20,11 +32,18 @@ namespace CrazyGames24
 
         public UnityEvent OnAttachFish;
         public UnityEvent<Fish> OnDetachFish;
+        public Action OnSongCollected;
+        public Action OnLifePointsChanged;
+        public Action OnLost;
+        public Action OnVictory;
 
         public void Start()
         {
             rb = GetComponent<Rigidbody>();
             GameManager.Instance.inputManager.OnTriggerBeatPerformed += CheckBeatOnFish;
+
+            SetCharacter(false);
+            lifePoints = 3;
         }
 
         public void OnDisable()
@@ -38,6 +57,16 @@ namespace CrazyGames24
             currentFish.beatDetector.CheckBeatStatus();
         }
 
+        public void SetCharacter(bool isMoving, bool mirror = false)
+        {
+            fishermanAnimator.SetBool("isMoving", isMoving);
+            fishermanAnimator.SetBool("isMirror", mirror);
+
+            fishingBar.SetActive(!isMoving);
+            paddle.SetActive(isMoving);
+
+        }
+
         public void AttachFish(Fish targetFish, Action OnAnimationCompleted)
         {
             if (currentFish != null)
@@ -47,20 +76,54 @@ namespace CrazyGames24
             }
             currentFish = targetFish;
 
+            fishermanAnimator.transform.LookAt(targetFish.transform, fishermanAnimator.transform.up);
+
             fishermanAnimator.SetTrigger("Cast");
 
             StartCoroutine(WaitAnimation(() =>
             {
                 isFishing = true;
+                SetCharacter(false);
+                fishingLine.gameObject.SetActive(true);
                 OnAnimationCompleted?.Invoke();
                 OnAttachFish?.Invoke();
             }));
+        }
+
+        public void DetachFish(Fish fish, bool isCollected = false)
+        {
+            if (isCollected)
+            {
+                songsCollected++;
+                OnSongCollected?.Invoke();
+            }
+            else
+            {
+                lifePoints--;
+                OnLifePointsChanged?.Invoke();
+                if (lifePoints <= 0) OnLost?.Invoke();
+                cameraTarget.SetTarget(this.transform);
+            }
+
+            fishermanAnimator.transform.localEulerAngles = Vector3.zero;
+
+            isFishing = false;
+            fishingLine.gameObject.SetActive(false);
+            GameManager.Instance.audioEventManager.Stop();
+            OnDetachFish?.Invoke(currentFish);
+
+            currentFish = null;
 
         }
 
         private IEnumerator WaitAnimation(Action callback)
         {
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(2.5f);
+
+            cameraTarget.SetTarget(currentFish.transform);
+            GameManager.Instance.sfxGameplay.PlaySongByIndex(2);
+
+            yield return new WaitForSeconds(2.5f);
 
             callback.Invoke();
         }
@@ -74,6 +137,14 @@ namespace CrazyGames24
             fishingLine.SetPosition(2, currentFish.transform.position);
 
             transform.position = Vector3.Lerp(transform.position, transform.position + currentFish.transform.forward, Time.deltaTime * speed);
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.TryGetComponent(out EndZone endZone) && songsCollected == maxSongs)
+            {
+                OnVictory?.Invoke();
+            }
         }
     }
 }

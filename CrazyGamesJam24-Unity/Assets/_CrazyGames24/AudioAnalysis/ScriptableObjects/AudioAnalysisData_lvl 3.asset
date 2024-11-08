@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b552222c5f623947821c6fed929dcdb, type: 3}
+  m_Name: AudioAnalysisData_lvl 3
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 2475efb02b90daa4e8952d744e37fc88, type: 3}
+  clipLength: 11.2941265
+  events:
+  - timestamp: 0.008321996
+    amplitude: 0.27401733
+  - timestamp: 0.75839
+    amplitude: 0.28015137
+  - timestamp: 1.5089343
+    amplitude: 0.315094
+  - timestamp: 2.2643764
+    amplitude: 0.3374939
+  - timestamp: 3.0143764
+    amplitude: 0.40246582
+  - timestamp: 3.7664173
+    amplitude: 0.28134155
+  - timestamp: 4.51644
+    amplitude: 0.3416748
+  - timestamp: 5.2708163
+    amplitude: 0.27682495
+  - timestamp: 6.025646
+    amplitude: 0.2793274
+  - timestamp: 7.0266895
+    amplitude: 0.2789917
+  - timestamp: 7.9558277
+    amplitude: 0.2984619
+  - timestamp: 8.705828
+    amplitude: 0.35809326
+  - timestamp: 9.455828
+    amplitude: 0.49993896
+  - timestamp: 10.207709
+    amplitude: 0.2854309
+  - timestamp: 10.962472
+    amplitude: 0.27392578
+  - timestamp: 11.716281
+    amplitude: 0.27539062
+  - timestamp: 12.633583
+    amplitude: 0.2859192
+  - timestamp: 13.402812
+    amplitude: 0.29418945
+  - timestamp: 14.152812
+    amplitude: 0.58102417
+  - timestamp: 14.953424
+    amplitude: 0.2755127
+  - timestamp: 15.703424
+    amplitude: 0.36346436
+  - timestamp: 16.453606
+    amplitude: 0.28149414
+  - timestamp: 17.20669
+    amplitude: 0.27450562
+  - timestamp: 18.24975
+    amplitude: 0.28485107
+  - timestamp: 19.008661
+    amplitude: 0.2810974
+  - timestamp: 19.799547
+    amplitude: 0.32946777
+  - timestamp: 20.550045
+    amplitude: 0.29171753
+  - timestamp: 21.300907
+    amplitude: 0.27404785
+  - timestamp: 22.052925
+    amplitude: 0.27230835

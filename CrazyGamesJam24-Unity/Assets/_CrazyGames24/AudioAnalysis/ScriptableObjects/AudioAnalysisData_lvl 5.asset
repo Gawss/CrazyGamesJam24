@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b552222c5f623947821c6fed929dcdb, type: 3}
+  m_Name: AudioAnalysisData_lvl 5
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 800dc7b1dd71687438e65b45479c1727, type: 3}
+  clipLength: 16.276031
+  events:
+  - timestamp: 0.034376416
+    amplitude: 0.30355835
+  - timestamp: 0.7843991
+    amplitude: 0.46499634
+  - timestamp: 1.5345352
+    amplitude: 0.30267334
+  - timestamp: 2.2845352
+    amplitude: 0.84713745
+  - timestamp: 3.0345352
+    amplitude: 0.44561768
+  - timestamp: 3.7845352
+    amplitude: 0.4654541
+  - timestamp: 4.5345807
+    amplitude: 0.31332397
+  - timestamp: 5.3424716
+    amplitude: 0.30566406
+  - timestamp: 6.09254
+    amplitude: 0.32351685
+  - timestamp: 6.8434014
+    amplitude: 0.30444336
+  - timestamp: 7.593424
+    amplitude: 0.37973022
+  - timestamp: 8.343447
+    amplitude: 0.38555908
+  - timestamp: 9.093674
+    amplitude: 0.3229065
+  - timestamp: 9.843764
+    amplitude: 0.3065796
+  - timestamp: 10.598549
+    amplitude: 0.31347656
+  - timestamp: 11.348594
+    amplitude: 0.30960083
+  - timestamp: 12.098594
+    amplitude: 0.3807373
+  - timestamp: 12.856145
+    amplitude: 0.3059082
+  - timestamp: 13.606349
+    amplitude: 0.3152771
+  - timestamp: 14.356418
+    amplitude: 0.30603027
+  - timestamp: 15.108957
+    amplitude: 0.305542
+  - timestamp: 15.858957
+    amplitude: 0.4036255
+  - timestamp: 16.608957
+    amplitude: 0.30758667
+  - timestamp: 17.358957
+    amplitude: 0.3192749
+  - timestamp: 18.109024
+    amplitude: 0.302948
+  - timestamp: 18.861814
+    amplitude: 0.3140869
+  - timestamp: 19.617188
+    amplitude: 0.33651733
+  - timestamp: 20.367914
+    amplitude: 0.3050537
+  - timestamp: 21.120726
+    amplitude: 0.30264282
+  - timestamp: 21.870749
+    amplitude: 0.44909668
+  - timestamp: 22.623991
+    amplitude: 0.31204224
+  - timestamp: 23.376167
+    amplitude: 0.30267334
+  - timestamp: 24.12619
+    amplitude: 0.41436768
+  - timestamp: 24.87619
+    amplitude: 0.36541748
+  - timestamp: 25.631157
+    amplitude: 0.31869507
+  - timestamp: 26.391882
+    amplitude: 0.31143188
+  - timestamp: 27.144014
+    amplitude: 0.317688
+  - timestamp: 27.895895
+    amplitude: 0.31018066
+  - timestamp: 28.645895
+    amplitude: 0.3987732
+  - timestamp: 29.395918
+    amplitude: 0.34887695
+  - timestamp: 30.14644
+    amplitude: 0.3428955
+  - timestamp: 30.89644
+    amplitude: 0.3480835
+  - timestamp: 31.64644
+    amplitude: 0.44137573
+  - timestamp: 32.396736
+    amplitude: 0.3119812

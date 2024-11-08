@@ -47,10 +47,7 @@ namespace CrazyGames24
         }
         private void OnTime(Prebeat prebeat)
         {
-            if (Vector3.Distance(player.transform.position, player.currentFish.transform.position) > 30)
-            {
-                AddSynch(onTimeValue * 3f);
-            }
+            AddSynch(onTimeValue);
         }
         private void OnMissed(Prebeat prebeat)
         {
@@ -61,7 +58,7 @@ namespace CrazyGames24
         private void AddSynch(float value)
         {
             synchValue += value;
-            synchValue = Mathf.Max(0, Mathf.Min(Vector3.Distance(player.transform.position, player.currentFish.transform.position) > 30 ? 1 : 0.5f, synchValue));
+            synchValue = Mathf.Max(0, Mathf.Min(1f, synchValue));
         }
 
         private void Update()

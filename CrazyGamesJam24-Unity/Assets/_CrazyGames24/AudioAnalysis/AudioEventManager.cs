@@ -12,11 +12,13 @@ public class FirstAudioEvent : UnityEvent { } // Event that triggers only for th
 public class AudioEventManager : MonoBehaviour
 {
     public AudioClip audioClip;
+    public AudioSource audioSource;
     public AudioAnalysisDataSO analysisDataSO;
 
     public DetectedAudioEvent onAudioEventTriggered;
     public PreAudioEvent onPreAudioEventTriggered;
     public FirstAudioEvent onFirstAudioEventTriggered; // Event to trigger only once
+    public UnityEvent onStop;
 
     public float preEventOffset = 2.0f;
 
@@ -30,7 +32,7 @@ public class AudioEventManager : MonoBehaviour
     [SerializeField] private bool verbose = false;
     [SerializeField] private bool loop = false;
 
-    private void Start()
+    private void ReadData()
     {
         if (audioClip == null || analysisDataSO == null)
         {
@@ -94,11 +96,16 @@ public class AudioEventManager : MonoBehaviour
 
     public void Play()
     {
+        ReadData();
+        audioSource.clip = audioClip;
+
         currentTime = 0f;
         eventIndex = 0;
         preEventIndex = 0;
         isPlaying = true;
         firstEventTriggered = false; // Reset the flag in case of replay
+
+        audioSource.Play();
     }
 
     public void Stop()
@@ -107,6 +114,10 @@ public class AudioEventManager : MonoBehaviour
         currentTime = 0f;
         eventIndex = 0;
         preEventIndex = 0;
+
+        audioSource.Stop();
+
+        onStop?.Invoke();
     }
 
     public void Pause()

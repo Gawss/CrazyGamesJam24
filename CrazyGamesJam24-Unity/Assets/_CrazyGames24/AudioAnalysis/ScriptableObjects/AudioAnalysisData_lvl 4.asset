@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b552222c5f623947821c6fed929dcdb, type: 3}
+  m_Name: AudioAnalysisData_lvl 4
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 7fed7fc8af38c9b4481bc3707551a685, type: 3}
+  clipLength: 11.2941265
+  events:
+  - timestamp: 0.02181406
+    amplitude: 0.2237854
+  - timestamp: 0.77183676
+    amplitude: 0.58584595
+  - timestamp: 1.5218594
+    amplitude: 0.4753418
+  - timestamp: 2.2718594
+    amplitude: 0.510376
+  - timestamp: 3.0241723
+    amplitude: 0.23196411
+  - timestamp: 4.252381
+    amplitude: 0.23345947
+  - timestamp: 5.013787
+    amplitude: 0.22329712
+  - timestamp: 5.763787
+    amplitude: 0.36721802
+  - timestamp: 6.513832
+    amplitude: 0.2470398
+  - timestamp: 7.3662586
+    amplitude: 0.50668335
+  - timestamp: 8.118843
+    amplitude: 0.22079468
+  - timestamp: 9.152857
+    amplitude: 0.22042847
+  - timestamp: 9.902857
+    amplitude: 0.26818848
+  - timestamp: 10.652857
+    amplitude: 0.25909424
+  - timestamp: 11.402857
+    amplitude: 0.68481445
+  - timestamp: 12.152857
+    amplitude: 0.5480652
+  - timestamp: 13.013243
+    amplitude: 0.2524109
+  - timestamp: 13.763243
+    amplitude: 0.26083374
+  - timestamp: 14.515012
+    amplitude: 0.22683716
+  - timestamp: 15.265012
+    amplitude: 0.4664917
+  - timestamp: 16.16136
+    amplitude: 0.23352051
+  - timestamp: 16.91136
+    amplitude: 0.23217773
+  - timestamp: 17.661383
+    amplitude: 0.347229
+  - timestamp: 18.411451
+    amplitude: 0.26046753
+  - timestamp: 19.203175
+    amplitude: 0.21975708
+  - timestamp: 19.953175
+    amplitude: 0.5197754
+  - timestamp: 20.703175
+    amplitude: 0.38415527
+  - timestamp: 21.483788
+    amplitude: 0.27124023
+  - timestamp: 22.234694
+    amplitude: 0.23950195

@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,7 @@ namespace CrazyGames24
     }
     public class Prebeat : MonoBehaviour
     {
+        Vector3 startPosition;
         Vector3 targetPosition;
         Vector3 hitPosition;
         bool isReady;
@@ -19,7 +21,7 @@ namespace CrazyGames24
         private float elapsedTime = 0f;
 
         public float duration = 2f;
-        Renderer beatImg;
+        [SerializeField] private Renderer beatImg;
 
         public BeatStatus beatStatus;
 
@@ -27,26 +29,28 @@ namespace CrazyGames24
 
         [SerializeField] private Color[] statusColors;
 
-        public bool isCleared = false;
+        [SerializeField] private ParticleSystem redVFX;
 
-        private void OnEnable()
-        {
-            beatImg = GetComponent<Renderer>();
-        }
+        public bool isCleared = false;
 
         public void Init(Vector3 target, Vector3 _hitPosition)
         {
+            startPosition = transform.localPosition;
             hitPosition = _hitPosition;
             targetPosition = target;
             elapsedTime = 0f;
             beatStatus = BeatStatus.Before;
             isCleared = false;
             isReady = true;
+
+            beatImg.transform.localPosition -= Vector3.up * 2.5f;
+            beatImg.transform.DOLocalMove(Vector3.zero, duration / 2f);
         }
 
         // Update is called once per frame
         void Update()
         {
+            if (isCleared) return;
             if (!isReady) return;
 
             if (transform.localPosition.z > beatThreshold)
@@ -62,7 +66,7 @@ namespace CrazyGames24
                 beatStatus = BeatStatus.OnTime;
             }
 
-            // beatImg.material.color = statusColors[(int)beatStatus];
+            // beatImg.materials[0].color = statusColors[(int)beatStatus];
 
             // Increment elapsed time
             elapsedTime += Time.deltaTime;
@@ -70,11 +74,14 @@ namespace CrazyGames24
             // Calculate the progress (goes from 0 to 1 over the duration)
             float progress = Mathf.Clamp01(elapsedTime / duration);
 
-            transform.localPosition = Vector3.Lerp(transform.localPosition, targetPosition, progress);
+            transform.localPosition = Vector3.Lerp(startPosition, targetPosition, progress);
 
             if (progress >= 1f)
             {
                 isReady = false;
+                redVFX.Play();
+                beatImg.enabled = false;
+                Destroy(this.gameObject, 1f);
             }
         }
 
@@ -82,8 +89,10 @@ namespace CrazyGames24
         {
             isCleared = true;
             beatStatus = BeatStatus.Cleared;
-
             // beatImg.material.color = statusColors[(int)beatStatus];
+            beatImg.enabled = false;
+            redVFX.Play();
+            Destroy(this.gameObject, 1f);
         }
     }
 }

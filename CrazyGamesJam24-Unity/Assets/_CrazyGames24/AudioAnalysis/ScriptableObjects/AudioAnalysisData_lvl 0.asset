@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b552222c5f623947821c6fed929dcdb, type: 3}
+  m_Name: AudioAnalysisData_lvl 0
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 7a9031b0c106b494d8a5d45f18c95730, type: 3}
+  clipLength: 11.2941265
+  events:
+  - timestamp: 0.015759638
+    amplitude: 0.9324951
+  - timestamp: 0.7247619
+    amplitude: 0.9133606
+  - timestamp: 1.4317914
+    amplitude: 0.9671936
+  - timestamp: 2.1380498
+    amplitude: 0.9107971
+  - timestamp: 2.8429933
+    amplitude: 0.94177246
+  - timestamp: 3.902018
+    amplitude: 0.9173889
+  - timestamp: 5.3144217
+    amplitude: 0.95996094
+  - timestamp: 5.7398186
+    amplitude: 0.9022217
+  - timestamp: 6.3716555
+    amplitude: 0.9299011
+  - timestamp: 7.083583
+    amplitude: 0.9725342
+  - timestamp: 7.784399
+    amplitude: 0.910553
+  - timestamp: 8.487007
+    amplitude: 0.9199219
+  - timestamp: 9.1922
+    amplitude: 0.9171753
+  - timestamp: 9.901927
+    amplitude: 0.9041748
+  - timestamp: 10.609116
+    amplitude: 0.9004822
+  - timestamp: 11.309818
+    amplitude: 0.9412842
+  - timestamp: 12.020748
+    amplitude: 0.9466858
+  - timestamp: 12.730658
+    amplitude: 0.9546509
+  - timestamp: 13.432404
+    amplitude: 0.9128418
+  - timestamp: 14.135873
+    amplitude: 0.9223938
+  - timestamp: 14.842359
+    amplitude: 0.93655396
+  - timestamp: 15.550657
+    amplitude: 0.9139099
+  - timestamp: 16.606281
+    amplitude: 0.9223633
+  - timestamp: 17.026735
+    amplitude: 0.9284363
+  - timestamp: 17.66703
+    amplitude: 0.93289185
+  - timestamp: 18.372948
+    amplitude: 0.9019165
+  - timestamp: 19.074558
+    amplitude: 0.94595337
+  - timestamp: 19.780409
+    amplitude: 0.94851685
+  - timestamp: 20.493946
+    amplitude: 0.9700012
+  - timestamp: 21.1978
+    amplitude: 0.95010376
+  - timestamp: 22.258957
+    amplitude: 0.936676

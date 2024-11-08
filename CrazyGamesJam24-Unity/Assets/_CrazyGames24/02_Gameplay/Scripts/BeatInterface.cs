@@ -22,25 +22,27 @@ public class BeatInterface : MonoBehaviour
 
     private void SetBeatdetector()
     {
-        GameManager.Instance.player.currentFish.beatDetector.BeatBefore += OnBeat;
-        GameManager.Instance.player.currentFish.beatDetector.BeatOnTime += OnBeat;
         GameManager.Instance.player.currentFish.beatDetector.BeatMissed += OnBeat;
+        GameManager.Instance.player.currentFish.beatDetector.BeatOnTime += OnBeat;
 
         foreach (var b in beatFeedback) b.gameObject.SetActive(false);
     }
 
     private void ReleaseBeatdetector(Fish currentFish)
     {
-        currentFish.beatDetector.BeatBefore -= OnBeat;
         currentFish.beatDetector.BeatOnTime -= OnBeat;
         currentFish.beatDetector.BeatMissed -= OnBeat;
     }
 
     private void OnBeat(Prebeat prebeat)
     {
+        if (GameManager.Instance.player.currentFish == null) return;
+
         foreach (var b in beatFeedback) b.gameObject.SetActive(false);
 
         beatFeedback[(int)prebeat.beatStatus].gameObject.SetActive(true);
+
+        GameManager.Instance.player.currentFish.SetTriggerColor((int)prebeat.beatStatus);
     }
 
     private void Update()
