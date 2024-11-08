@@ -80,6 +80,7 @@ public class AudioEventManager : MonoBehaviour
         // If this is the first event being triggered, invoke the first-event UnityEvent
         if (!firstEventTriggered)
         {
+            audioSource.Play();
             onFirstAudioEventTriggered.Invoke();
             firstEventTriggered = true; // Set the flag to prevent future triggers
         }
@@ -104,8 +105,6 @@ public class AudioEventManager : MonoBehaviour
         preEventIndex = 0;
         isPlaying = true;
         firstEventTriggered = false; // Reset the flag in case of replay
-
-        audioSource.Play();
     }
 
     public void Stop()
