@@ -26,6 +26,7 @@ namespace CrazyGames24
         public BeatDetector beatDetector;
         public BeatInterface beatInterface;
         public AudioEventManager audioEventManager;
+        public SFXGameplay sfxGameplay;
 
         public bool GameRunning = false;
     }

@@ -22,6 +22,7 @@ namespace CrazyGames24
             GameManager.Instance.player.OnSongCollected -= PlayOnSongCollected;
         }
 
+
         private void PlayOnSongCollected()
         {
             PlaySongByIndex(0);
@@ -32,7 +33,7 @@ namespace CrazyGames24
             PlaySongByIndex(1);
         }
 
-        private void PlaySongByIndex(int index)
+        public void PlaySongByIndex(int index)
         {
             gameplayAudioSource.PlayOneShot(audioClips[index]);
         }

@@ -5134,6 +5134,7 @@ MonoBehaviour:
   audioClips:
   - {fileID: 8300000, guid: dd2bbd5779d802241be5627898670954, type: 3}
   - {fileID: 8300000, guid: 25c724b88fbd5c644977c411b916d2cc, type: 3}
+  - {fileID: 8300000, guid: 771c01f09719b404f8a590e3f4fdca9e, type: 3}
 --- !u!82 &3386669396007256388
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6838,6 +6839,7 @@ MonoBehaviour:
   beatDetector: {fileID: 4942064281021040225}
   beatInterface: {fileID: 8973695463594466628}
   audioEventManager: {fileID: 6930520322680102103}
+  sfxGameplay: {fileID: 6407928957363546198}
   GameRunning: 0
 --- !u!1 &7820121135987051587
 GameObject:

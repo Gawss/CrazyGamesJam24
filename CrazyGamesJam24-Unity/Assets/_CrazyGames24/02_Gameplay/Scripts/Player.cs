@@ -120,6 +120,7 @@ namespace CrazyGames24
             yield return new WaitForSeconds(2.5f);
 
             cameraTarget.SetTarget(currentFish.transform);
+            GameManager.Instance.sfxGameplay.PlaySongByIndex(2);
 
             yield return new WaitForSeconds(2.5f);
 
