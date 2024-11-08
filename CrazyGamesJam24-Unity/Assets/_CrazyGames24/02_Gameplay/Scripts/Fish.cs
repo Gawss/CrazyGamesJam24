@@ -5,7 +5,7 @@ using System.Collections;
 
 namespace CrazyGames24
 {
-    public class Fish : MonoBehaviour, IPointerDownHandler
+    public class Fish : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
     {
         public Transform beatInitialTransform;
         public Transform beatFinalTransform;
@@ -26,6 +26,11 @@ namespace CrazyGames24
         [SerializeField] private ParticleSystem idleVFX;
         [SerializeField] private Renderer triggerVFX;
         [SerializeField] private Color[] colorsVFX;
+
+        [Header("CURSOR")]
+        public Texture2D cursorDefault;
+        public Texture2D cursorOnFish;
+        public CursorMode cursorMode = CursorMode.Auto;
 
         private void Start()
         {
@@ -142,6 +147,16 @@ namespace CrazyGames24
 
             if (Vector3.Distance(transform.position, GameManager.Instance.player.transform.position) < 5f) CollectFish();
             if (Vector3.Distance(transform.position, GameManager.Instance.player.transform.position) > 35f) Detach();
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            Cursor.SetCursor(cursorDefault, Vector2.zero, cursorMode);
+        }
+
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            Cursor.SetCursor(cursorOnFish, Vector2.zero, cursorMode);
         }
     }
 }

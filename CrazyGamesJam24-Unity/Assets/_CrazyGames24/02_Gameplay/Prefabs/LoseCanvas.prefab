@@ -151,8 +151,8 @@ GameObject:
   - component: {fileID: 5987803212441326319}
   - component: {fileID: 5022230153083032733}
   - component: {fileID: 779974421590861893}
-  - component: {fileID: 5579581001857311639}
   - component: {fileID: 7623483374467924608}
+  - component: {fileID: 3318020856605710373}
   m_Layer: 5
   m_Name: LoseCanvas
   m_TagString: Untagged
@@ -246,20 +246,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5579581001857311639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4077894400777651428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e17366c8306a5df4eb89d1740e0d098b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainButton: {fileID: 4697244992517876429}
-  introElements: {fileID: 0}
 --- !u!225 &7623483374467924608
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -268,10 +254,22 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4077894400777651428}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &3318020856605710373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4077894400777651428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1fec3af4fd3ac346b4e7a07ef8e88e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5669459551250432181
 GameObject:
   m_ObjectHideFlags: 0

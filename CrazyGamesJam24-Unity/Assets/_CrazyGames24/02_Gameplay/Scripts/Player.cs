@@ -22,6 +22,7 @@ namespace CrazyGames24
         public Transform[] fishingSpotTransforms;
 
         public int songsCollected;
+        public int maxSongs;
         public int lifePoints;
 
         public Fish currentFish;
@@ -35,6 +36,7 @@ namespace CrazyGames24
         public Action OnSongCollected;
         public Action OnLifePointsChanged;
         public Action OnLost;
+        public Action OnVictory;
 
         public void Start()
         {
@@ -134,6 +136,14 @@ namespace CrazyGames24
             fishingLine.SetPosition(2, currentFish.transform.position);
 
             transform.position = Vector3.Lerp(transform.position, transform.position + currentFish.transform.forward, Time.deltaTime * speed);
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.TryGetComponent(out EndZone endZone) && songsCollected == maxSongs)
+            {
+                OnVictory?.Invoke();
+            }
         }
     }
 }

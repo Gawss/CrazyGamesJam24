@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 329556156145287626}
+  - component: {fileID: 6336717770485554934}
+  - component: {fileID: 8774756477393237928}
   m_Layer: 0
   m_Name: VFX_Endzone
   m_TagString: Untagged
@@ -34,6 +36,39 @@ Transform:
   - {fileID: 7326399010285525588}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &6336717770485554934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763839306932366874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412ffef7eb71c3f4d9277ca6f8d5ddc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8774756477393237928
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763839306932366874}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6422303, y: 0.6265946, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2986614464177586342
 GameObject:
   m_ObjectHideFlags: 0
