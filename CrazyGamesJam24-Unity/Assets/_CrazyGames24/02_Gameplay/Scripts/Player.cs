@@ -12,8 +12,12 @@ namespace CrazyGames24
         [SerializeField] private LineRenderer fishingLine;
         [SerializeField] private Transform lineStartTransform;
         [SerializeField] private Transform lineMiddleTransform;
+
+        [SerializeField] private GameObject fishingBar;
+        [SerializeField] private GameObject paddle;
         [SerializeField] private Animator fishermanAnimator;
         [SerializeField] private CinemachineCamera cinemachineCamera;
+        [SerializeField] private CameraTarget cameraTarget;
 
         public Transform[] fishingSpotTransforms;
 
@@ -29,6 +33,8 @@ namespace CrazyGames24
         {
             rb = GetComponent<Rigidbody>();
             GameManager.Instance.inputManager.OnTriggerBeatPerformed += CheckBeatOnFish;
+
+            SetCharacter(false);
         }
 
         public void OnDisable()
@@ -42,6 +48,14 @@ namespace CrazyGames24
             currentFish.beatDetector.CheckBeatStatus();
         }
 
+        public void SetCharacter(bool isMoving)
+        {
+            fishermanAnimator.SetBool("isMoving", isMoving);
+
+            fishingBar.SetActive(!isMoving);
+            paddle.SetActive(isMoving);
+        }
+
         public void AttachFish(Fish targetFish, Action OnAnimationCompleted)
         {
             if (currentFish != null)
@@ -50,14 +64,13 @@ namespace CrazyGames24
                 currentFish.Detach();
             }
             currentFish = targetFish;
-            cinemachineCamera.Follow = currentFish.transform;
-            cinemachineCamera.LookAt = currentFish.transform;
 
             fishermanAnimator.SetTrigger("Cast");
 
             StartCoroutine(WaitAnimation(() =>
             {
                 isFishing = true;
+                SetCharacter(false);
                 OnAnimationCompleted?.Invoke();
                 OnAttachFish?.Invoke();
             }));
@@ -67,8 +80,9 @@ namespace CrazyGames24
         {
             isFishing = false;
             currentFish = null;
-            cinemachineCamera.Follow = this.transform;
-            cinemachineCamera.LookAt = this.transform;
+
+            cameraTarget.SetTarget(this.transform);
+
             fishingLine.SetPosition(0, lineStartTransform.position);
             fishingLine.SetPosition(1, lineMiddleTransform.position);
             fishingLine.SetPosition(2, lineMiddleTransform.position);
@@ -78,7 +92,11 @@ namespace CrazyGames24
 
         private IEnumerator WaitAnimation(Action callback)
         {
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(2.5f);
+
+            cameraTarget.SetTarget(currentFish.transform);
+
+            yield return new WaitForSeconds(2.5f);
 
             callback.Invoke();
         }

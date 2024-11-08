@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using DG.Tweening;
+using System.Collections;
 
 namespace CrazyGames24
 {
@@ -19,21 +21,29 @@ namespace CrazyGames24
 
         [Header("VFX")]
         [SerializeField] private ParticleSystem idleVFX;
-        [SerializeField] private ParticleSystem[] beatTriggersVFX;
+        [SerializeField] private Renderer triggerVFX;
+        [SerializeField] private Color[] colorsVFX;
 
         private void OnEnable()
         {
             defaultSpeed = speed;
 
-            foreach (var vfx in beatTriggersVFX) vfx.gameObject.SetActive(false);
-
+            triggerVFX.enabled = false;
             idleVFX.Play();
         }
 
+        Tween colorTween;
+
         public void SetTriggerColor(int _colorIndex)
         {
-            foreach (var vfx in beatTriggersVFX) vfx.gameObject.SetActive(false);
-            beatTriggersVFX[_colorIndex].gameObject.SetActive(true);
+            colorTween?.Kill();
+            colorTween = triggerVFX.material.DOColor(colorsVFX[_colorIndex], 0.15f).SetLoops(2, LoopType.Yoyo);
+        }
+
+        private IEnumerator ResetColor()
+        {
+            yield return new WaitForSeconds(0.75f);
+            SetTriggerColor(0);
         }
 
         public void Attach()
@@ -48,8 +58,12 @@ namespace CrazyGames24
 
             lookAwayPosition.y = transform.position.y;
 
-            beatTriggersVFX[0].gameObject.SetActive(true);
+
+            SetTriggerColor(0);
+            triggerVFX.enabled = true;
+
             idleVFX.Stop();
+            idleVFX.Clear();
 
             transform.LookAt(lookAwayPosition, transform.up);
 
@@ -63,7 +77,8 @@ namespace CrazyGames24
 
         public void Detach()
         {
-            foreach (var vfx in beatTriggersVFX) vfx.gameObject.SetActive(false);
+            triggerVFX.enabled = false;
+
             speed = 0;
             isAttached = false;
             GameManager.Instance.player.DetachFish(this);

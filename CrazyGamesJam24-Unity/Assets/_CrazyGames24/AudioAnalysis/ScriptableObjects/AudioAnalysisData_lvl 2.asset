@@ -17,89 +17,57 @@ MonoBehaviour:
   events:
   - timestamp: 0.11034013
     amplitude: 0.5961914
-  - timestamp: 0.6195011
-    amplitude: 0.5746765
-  - timestamp: 1.1287981
-    amplitude: 0.6814575
+  - timestamp: 0.8737415
+    amplitude: 0.5522766
   - timestamp: 1.6349206
     amplitude: 0.547699
-  - timestamp: 2.143288
-    amplitude: 0.5498047
   - timestamp: 2.6679819
     amplitude: 0.506073
-  - timestamp: 3.1680272
-    amplitude: 0.5210266
-  - timestamp: 3.6788661
-    amplitude: 0.5210571
-  - timestamp: 4.1788664
-    amplitude: 0.70181274
-  - timestamp: 4.6857824
-    amplitude: 0.5617676
-  - timestamp: 5.1942406
-    amplitude: 0.57128906
+  - timestamp: 3.419501
+    amplitude: 0.5765686
+  - timestamp: 4.1771426
+    amplitude: 0.5220032
+  - timestamp: 4.930771
+    amplitude: 0.5006714
   - timestamp: 5.708526
     amplitude: 0.5817261
-  - timestamp: 6.211066
-    amplitude: 0.62249756
   - timestamp: 6.735782
     amplitude: 0.50775146
-  - timestamp: 7.2365985
-    amplitude: 0.51763916
   - timestamp: 8.244944
     amplitude: 0.84210205
   - timestamp: 9.262041
     amplitude: 0.52545166
-  - timestamp: 9.770521
-    amplitude: 0.5767212
-  - timestamp: 10.278866
-    amplitude: 0.55822754
+  - timestamp: 10.029025
+    amplitude: 0.5062866
   - timestamp: 10.803583
     amplitude: 0.51724243
-  - timestamp: 11.303628
-    amplitude: 0.5143738
-  - timestamp: 11.814467
-    amplitude: 0.5371094
-  - timestamp: 12.314467
-    amplitude: 0.69348145
-  - timestamp: 12.821383
-    amplitude: 0.5514221
-  - timestamp: 13.329842
-    amplitude: 0.56222534
+  - timestamp: 11.555102
+    amplitude: 0.5765381
+  - timestamp: 12.312744
+    amplitude: 0.50701904
+  - timestamp: 13.066372
+    amplitude: 0.52786255
   - timestamp: 13.844127
     amplitude: 0.56710815
-  - timestamp: 14.346666
-    amplitude: 0.6274414
   - timestamp: 14.871384
     amplitude: 0.54888916
-  - timestamp: 15.372177
-    amplitude: 0.5187988
   - timestamp: 16.380545
     amplitude: 0.809845
   - timestamp: 17.397642
     amplitude: 0.51672363
-  - timestamp: 17.906122
-    amplitude: 0.55758667
-  - timestamp: 18.414467
-    amplitude: 0.55078125
+  - timestamp: 18.165464
+    amplitude: 0.5088806
   - timestamp: 18.939184
     amplitude: 0.5181885
-  - timestamp: 19.43923
-    amplitude: 0.50619507
-  - timestamp: 19.950068
-    amplitude: 0.51171875
-  - timestamp: 20.450068
-    amplitude: 0.7081909
-  - timestamp: 20.956984
-    amplitude: 0.5435791
-  - timestamp: 21.465443
-    amplitude: 0.56347656
+  - timestamp: 19.690702
+    amplitude: 0.58078
+  - timestamp: 20.448345
+    amplitude: 0.5365906
+  - timestamp: 21.201973
+    amplitude: 0.50634766
   - timestamp: 21.985487
     amplitude: 0.5090332
-  - timestamp: 22.485668
-    amplitude: 0.55358887
   - timestamp: 23.006985
     amplitude: 0.5344238
-  - timestamp: 23.507778
-    amplitude: 0.5119934
   - timestamp: 24.516146
     amplitude: 0.83447266
