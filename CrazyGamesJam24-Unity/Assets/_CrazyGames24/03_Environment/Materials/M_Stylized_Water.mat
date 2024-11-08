@@ -14,7 +14,6 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ADVANCED_SHADING
-  - _CAUSTICS
   - _FOAM
   - _NORMALMAP
   - _RECEIVE_SHADOWS_OFF
@@ -149,7 +148,7 @@ Material:
     - _CausticsBrightness: 1.2
     - _CausticsChromance: 0.051
     - _CausticsDistortion: 0.337
-    - _CausticsOn: 1
+    - _CausticsOn: 0
     - _CausticsSpeed: 0.05
     - _CausticsTiling: 0.15
     - _ColorAbsorption: 0.049
@@ -226,7 +225,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveDynamicEffects: 1
     - _ReceiveShadows: 0
-    - _ReflectionBlur: 0
+    - _ReflectionBlur: 0.016
     - _ReflectionDistortion: 0.071
     - _ReflectionFresnel: 0.9
     - _ReflectionFresnelMode: 0
@@ -236,7 +235,7 @@ Material:
     - _RefractionAmount: 0.05
     - _RefractionChromaticAberration: 0.606
     - _RefractionOn: 1
-    - _RefractionStrength: 0.287
+    - _RefractionStrength: 0.425
     - _RimRize: 1
     - _RimTiling: 0.025
     - _RiverModeOn: 0
