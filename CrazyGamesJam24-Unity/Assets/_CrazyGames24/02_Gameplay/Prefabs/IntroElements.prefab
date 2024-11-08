@@ -42,19 +42,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201400857753316960}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75215afeb99f1fc48aacad291a415f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waterObject: {fileID: 0}
-  autoFind: 0
+  autoFind: 1
   dynamicMaterial: 0
   waterLevelSource: 1
   waterLevel: 0
   childTransform: {fileID: 0}
-  heightOffset: 0
-  rollAmount: 0.0015
+  heightOffset: 1.4
+  rollAmount: 0.011
   samples: []
 --- !u!114 &441156129524588589
 MonoBehaviour:
@@ -69,6 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alignToWaves: {fileID: 1093281630683621164}
+  firstLake: {fileID: 0}
 --- !u!1001 &6538028201598807164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85,7 +86,7 @@ PrefabInstance:
     - target: {fileID: 792463279994355594, guid: f865f8514d884884490f900897f75eaa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.42
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 792463279994355594, guid: f865f8514d884884490f900897f75eaa,
         type: 3}
@@ -164,7 +165,7 @@ PrefabInstance:
     - target: {fileID: 291966532047735245, guid: 94562eaed7365b74b868f58cbb3c4007,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.42
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 291966532047735245, guid: 94562eaed7365b74b868f58cbb3c4007,
         type: 3}

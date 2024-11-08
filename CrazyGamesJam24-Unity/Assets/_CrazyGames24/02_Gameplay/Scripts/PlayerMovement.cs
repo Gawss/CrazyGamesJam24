@@ -49,7 +49,7 @@ namespace CrazyGames24
             if (!GameManager.Instance.GameRunning) return;
             if (player.isFishing) return;
 
-            player.rb.rotation = Quaternion.Slerp(player.rb.rotation, currentRotation, Time.deltaTime * 25f);
+            player.rb.rotation = Quaternion.Slerp(player.rb.rotation, currentRotation, Time.deltaTime * 5f);
 
             Vector3 movement = transform.forward * direction.magnitude * moveSpeed * Time.deltaTime;
 
