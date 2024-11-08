@@ -35,7 +35,7 @@ namespace CrazyGames24
 
             float height = 1.4f;
 
-            DOTween.To(() => height, x => height = x, -2f, 3.5f).OnUpdate(() => { alignToWaves.heightOffset = height; });
+            DOTween.To(() => height, x => height = x, -5f, 3.5f).OnUpdate(() => { alignToWaves.heightOffset = height; });
         }
     }
 }

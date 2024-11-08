@@ -22,6 +22,7 @@ namespace CrazyGames24
         public Transform[] fishingSpotTransforms;
 
         public int songsCollected;
+        public int lifePoints;
 
         public Fish currentFish;
         public bool isFishing = false;
@@ -32,6 +33,8 @@ namespace CrazyGames24
         public UnityEvent<Fish> OnDetachFish;
 
         public Action OnSongCollected;
+        public Action OnLifePointsChanged;
+        public Action OnLost;
 
         public void Start()
         {
@@ -39,6 +42,7 @@ namespace CrazyGames24
             GameManager.Instance.inputManager.OnTriggerBeatPerformed += CheckBeatOnFish;
 
             SetCharacter(false);
+            lifePoints = 3;
         }
 
         public void OnDisable()
@@ -93,6 +97,9 @@ namespace CrazyGames24
             }
             else
             {
+                lifePoints--;
+                OnLifePointsChanged?.Invoke();
+                if (lifePoints <= 0) OnLost?.Invoke();
                 cameraTarget.SetTarget(this.transform);
             }
 

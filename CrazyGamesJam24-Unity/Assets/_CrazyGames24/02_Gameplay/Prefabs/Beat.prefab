@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4bd01a877e45a64a9f28a77acb5859c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  duration: 1.5
   beatImg: {fileID: 3360988112632269962}
   beatStatus: 0
   beatThreshold: 6.5
