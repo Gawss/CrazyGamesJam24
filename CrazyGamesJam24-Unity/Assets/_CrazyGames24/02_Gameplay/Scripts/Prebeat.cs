@@ -62,7 +62,7 @@ namespace CrazyGames24
                 beatStatus = BeatStatus.OnTime;
             }
 
-            beatImg.materials[0].color = statusColors[(int)beatStatus];
+            // beatImg.materials[0].color = statusColors[(int)beatStatus];
 
             // Increment elapsed time
             elapsedTime += Time.deltaTime;

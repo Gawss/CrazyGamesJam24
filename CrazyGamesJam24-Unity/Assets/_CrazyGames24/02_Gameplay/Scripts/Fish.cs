@@ -15,6 +15,8 @@ namespace CrazyGames24
 
         [SerializeField] private int spotIndex = 0;
 
+        [SerializeField] private AudioAnalysisDataSO audioDataSO;
+
         [Header("VFX")]
         [SerializeField] private ParticleSystem idleVFX;
         [SerializeField] private ParticleSystem[] beatTriggersVFX;
@@ -23,8 +25,8 @@ namespace CrazyGames24
         {
             defaultSpeed = speed;
 
-            idleVFX.Play();
-            foreach (var vfx in beatTriggersVFX) vfx.Stop();
+            foreach (var vfx in beatTriggersVFX) vfx.gameObject.SetActive(false);
+            beatTriggersVFX[0].gameObject.SetActive(true);
         }
 
         public void SetTriggerColor(int _colorIndex)
@@ -40,10 +42,12 @@ namespace CrazyGames24
             Vector3 oppositeDirection = -directionToTarget;
             Vector3 lookAwayPosition = transform.position + oppositeDirection;
 
+            GameManager.Instance.audioEventManager.audioClip = audioDataSO.audioClip;
+            GameManager.Instance.audioEventManager.analysisDataSO = audioDataSO;
+
             lookAwayPosition.y = transform.position.y;
 
             beatTriggersVFX[0].gameObject.SetActive(true);
-            idleVFX.Stop();
 
             transform.LookAt(lookAwayPosition, transform.up);
 
@@ -57,7 +61,7 @@ namespace CrazyGames24
 
         public void Detach()
         {
-            foreach (var vfx in beatTriggersVFX) vfx.Stop();
+            foreach (var vfx in beatTriggersVFX) vfx.gameObject.SetActive(false);
             speed = 0;
             isAttached = false;
             GameManager.Instance.player.DetachFish(this);

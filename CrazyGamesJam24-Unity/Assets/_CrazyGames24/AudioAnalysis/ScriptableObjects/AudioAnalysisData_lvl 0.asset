@@ -1,0 +1,2787 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b552222c5f623947821c6fed929dcdb, type: 3}
+  m_Name: AudioAnalysisData_lvl 0
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 1ab0d1d20f2bb784e9f8dd774b1b0fce, type: 3}
+  clipLength: 212.50612
+  events:
+  - timestamp: 0.76986396
+    amplitude: 0.35131836
+  - timestamp: 1.8659863
+    amplitude: 0.3658142
+  - timestamp: 2.0731065
+    amplitude: 0.37451172
+  - timestamp: 2.277687
+    amplitude: 0.41140747
+  - timestamp: 2.6550114
+    amplitude: 0.35101318
+  - timestamp: 3.5188208
+    amplitude: 0.35723877
+  - timestamp: 3.7673924
+    amplitude: 0.35055542
+  - timestamp: 4.1921997
+    amplitude: 0.35702515
+  - timestamp: 4.8159184
+    amplitude: 0.39019775
+  - timestamp: 5.226054
+    amplitude: 0.364563
+  - timestamp: 5.468458
+    amplitude: 0.36566162
+  - timestamp: 5.677256
+    amplitude: 0.36505127
+  - timestamp: 5.9131064
+    amplitude: 0.35256958
+  - timestamp: 6.7895236
+    amplitude: 0.3562622
+  - timestamp: 7.18585
+    amplitude: 0.36453247
+  - timestamp: 7.433016
+    amplitude: 0.43670654
+  - timestamp: 7.8589797
+    amplitude: 0.39483643
+  - timestamp: 8.105261
+    amplitude: 0.35565186
+  - timestamp: 8.7512245
+    amplitude: 0.35238647
+  - timestamp: 9.008616
+    amplitude: 0.3506775
+  - timestamp: 9.43322
+    amplitude: 0.36569214
+  - timestamp: 9.845532
+    amplitude: 0.35229492
+  - timestamp: 10.077732
+    amplitude: 0.4310913
+  - timestamp: 10.278549
+    amplitude: 0.36206055
+  - timestamp: 10.746349
+    amplitude: 0.3635559
+  - timestamp: 10.965442
+    amplitude: 0.35562134
+  - timestamp: 11.4112015
+    amplitude: 0.39398193
+  - timestamp: 11.619365
+    amplitude: 0.35858154
+  - timestamp: 11.897142
+    amplitude: 0.35092163
+  - timestamp: 12.517846
+    amplitude: 0.3554077
+  - timestamp: 12.744353
+    amplitude: 0.4310608
+  - timestamp: 13.24195
+    amplitude: 0.35650635
+  - timestamp: 13.475737
+    amplitude: 0.35372925
+  - timestamp: 14.154512
+    amplitude: 0.35058594
+  - timestamp: 14.756055
+    amplitude: 0.35632324
+  - timestamp: 15.005216
+    amplitude: 0.35263062
+  - timestamp: 15.208344
+    amplitude: 0.3670349
+  - timestamp: 15.410385
+    amplitude: 0.37368774
+  - timestamp: 15.897392
+    amplitude: 0.3668518
+  - timestamp: 16.114853
+    amplitude: 0.35202026
+  - timestamp: 16.31966
+    amplitude: 0.35351562
+  - timestamp: 16.533787
+    amplitude: 0.35134888
+  - timestamp: 17.439161
+    amplitude: 0.3557434
+  - timestamp: 17.871157
+    amplitude: 0.38223267
+  - timestamp: 18.077097
+    amplitude: 0.39578247
+  - timestamp: 18.607347
+    amplitude: 0.3519287
+  - timestamp: 18.816711
+    amplitude: 0.35281372
+  - timestamp: 19.02669
+    amplitude: 0.35247803
+  - timestamp: 19.43213
+    amplitude: 0.36029053
+  - timestamp: 20.08941
+    amplitude: 0.355011
+  - timestamp: 20.289433
+    amplitude: 0.42010498
+  - timestamp: 20.7444
+    amplitude: 0.4053955
+  - timestamp: 20.945963
+    amplitude: 0.35031128
+  - timestamp: 21.179274
+    amplitude: 0.35101318
+  - timestamp: 21.45848
+    amplitude: 0.35931396
+  - timestamp: 21.67034
+    amplitude: 0.35214233
+  - timestamp: 21.885283
+    amplitude: 0.35601807
+  - timestamp: 22.089365
+    amplitude: 0.35681152
+  - timestamp: 22.296553
+    amplitude: 0.35925293
+  - timestamp: 22.500113
+    amplitude: 0.35116577
+  - timestamp: 22.714853
+    amplitude: 0.3522644
+  - timestamp: 23.108616
+    amplitude: 0.35360718
+  - timestamp: 23.312925
+    amplitude: 0.36010742
+  - timestamp: 23.513107
+    amplitude: 0.36865234
+  - timestamp: 24.082676
+    amplitude: 0.35385132
+  - timestamp: 24.858458
+    amplitude: 0.3517151
+  - timestamp: 25.422743
+    amplitude: 0.35177612
+  - timestamp: 25.637007
+    amplitude: 0.35211182
+  - timestamp: 26.077097
+    amplitude: 0.36639404
+  - timestamp: 26.558798
+    amplitude: 0.35006714
+  - timestamp: 26.80254
+    amplitude: 0.36819458
+  - timestamp: 27.024738
+    amplitude: 0.35098267
+  - timestamp: 28.104263
+    amplitude: 0.35354614
+  - timestamp: 28.535805
+    amplitude: 0.35913086
+  - timestamp: 28.743765
+    amplitude: 0.40924072
+  - timestamp: 29.233265
+    amplitude: 0.3918152
+  - timestamp: 29.488255
+    amplitude: 0.35183716
+  - timestamp: 30.09635
+    amplitude: 0.3547058
+  - timestamp: 30.756985
+    amplitude: 0.35406494
+  - timestamp: 30.96068
+    amplitude: 0.35046387
+  - timestamp: 31.410566
+    amplitude: 0.3609314
+  - timestamp: 32.10227
+    amplitude: 0.37393188
+  - timestamp: 32.303425
+    amplitude: 0.35046387
+  - timestamp: 32.74458
+    amplitude: 0.35739136
+  - timestamp: 33.824738
+    amplitude: 0.3727417
+  - timestamp: 34.077732
+    amplitude: 0.4143982
+  - timestamp: 34.53415
+    amplitude: 0.3557434
+  - timestamp: 34.781498
+    amplitude: 0.36428833
+  - timestamp: 35.529613
+    amplitude: 0.35055542
+  - timestamp: 36.10449
+    amplitude: 0.35684204
+  - timestamp: 36.7444
+    amplitude: 0.3597412
+  - timestamp: 37.1929
+    amplitude: 0.3560791
+  - timestamp: 37.427143
+    amplitude: 0.3529358
+  - timestamp: 37.627167
+    amplitude: 0.39535522
+  - timestamp: 37.848186
+    amplitude: 0.35153198
+  - timestamp: 38.77152
+    amplitude: 0.3519287
+  - timestamp: 39.435238
+    amplitude: 0.3755188
+  - timestamp: 39.64068
+    amplitude: 0.35180664
+  - timestamp: 40.773582
+    amplitude: 0.39007568
+  - timestamp: 40.97365
+    amplitude: 0.3609619
+  - timestamp: 41.44746
+    amplitude: 0.35290527
+  - timestamp: 41.64871
+    amplitude: 0.3663025
+  - timestamp: 41.850883
+    amplitude: 0.35281372
+  - timestamp: 42.050884
+    amplitude: 0.3961792
+  - timestamp: 42.251835
+    amplitude: 0.35806274
+  - timestamp: 42.456234
+    amplitude: 0.35006714
+  - timestamp: 42.658684
+    amplitude: 0.35281372
+  - timestamp: 42.86426
+    amplitude: 0.35079956
+  - timestamp: 43.410206
+    amplitude: 0.39672852
+  - timestamp: 43.614014
+    amplitude: 0.35388184
+  - timestamp: 43.86848
+    amplitude: 0.3539734
+  - timestamp: 44.481316
+    amplitude: 0.35046387
+  - timestamp: 44.744354
+    amplitude: 0.36340332
+  - timestamp: 45.53016
+    amplitude: 0.3506775
+  - timestamp: 46.22145
+    amplitude: 0.35220337
+  - timestamp: 46.77091
+    amplitude: 0.3571167
+  - timestamp: 47.410477
+    amplitude: 0.3996582
+  - timestamp: 47.887302
+    amplitude: 0.3526001
+  - timestamp: 48.10787
+    amplitude: 0.36050415
+  - timestamp: 48.315216
+    amplitude: 0.35458374
+  - timestamp: 48.52433
+    amplitude: 0.3515625
+  - timestamp: 49.43821
+    amplitude: 0.35092163
+  - timestamp: 49.86138
+    amplitude: 0.37054443
+  - timestamp: 50.077145
+    amplitude: 0.35046387
+  - timestamp: 50.50583
+    amplitude: 0.35913086
+  - timestamp: 50.707073
+    amplitude: 0.3557129
+  - timestamp: 51.128548
+    amplitude: 0.35098267
+  - timestamp: 51.409252
+    amplitude: 0.3793335
+  - timestamp: 51.61138
+    amplitude: 0.3587036
+  - timestamp: 52.077892
+    amplitude: 0.35031128
+  - timestamp: 52.27891
+    amplitude: 0.3619995
+  - timestamp: 52.479183
+    amplitude: 0.3534546
+  - timestamp: 52.712654
+    amplitude: 0.4526062
+  - timestamp: 52.92129
+    amplitude: 0.3534546
+  - timestamp: 53.133514
+    amplitude: 0.3522644
+  - timestamp: 53.380047
+    amplitude: 0.38827515
+  - timestamp: 53.59104
+    amplitude: 0.36019897
+  - timestamp: 53.8527
+    amplitude: 0.35134888
+  - timestamp: 54.077732
+    amplitude: 0.39730835
+  - timestamp: 54.278797
+    amplitude: 0.35073853
+  - timestamp: 54.49247
+    amplitude: 0.35272217
+  - timestamp: 54.70905
+    amplitude: 0.35568237
+  - timestamp: 55.078888
+    amplitude: 0.3508911
+  - timestamp: 55.29746
+    amplitude: 0.3761902
+  - timestamp: 55.501995
+    amplitude: 0.35809326
+  - timestamp: 56.145966
+    amplitude: 0.35708618
+  - timestamp: 56.888435
+    amplitude: 0.35662842
+  - timestamp: 57.437912
+    amplitude: 0.36099243
+  - timestamp: 58.077686
+    amplitude: 0.35516357
+  - timestamp: 58.57186
+    amplitude: 0.35012817
+  - timestamp: 58.77188
+    amplitude: 0.42160034
+  - timestamp: 58.995033
+    amplitude: 0.3513794
+  - timestamp: 59.20594
+    amplitude: 0.35055542
+  - timestamp: 60.09533
+    amplitude: 0.35220337
+  - timestamp: 60.498436
+    amplitude: 0.3737793
+  - timestamp: 60.744377
+    amplitude: 0.354187
+  - timestamp: 61.192947
+    amplitude: 0.3519287
+  - timestamp: 61.425827
+    amplitude: 0.3515625
+  - timestamp: 62.10728
+    amplitude: 0.38250732
+  - timestamp: 62.31129
+    amplitude: 0.36169434
+  - timestamp: 62.7578
+    amplitude: 0.35986328
+  - timestamp: 62.962654
+    amplitude: 0.35284424
+  - timestamp: 63.41057
+    amplitude: 0.35202026
+  - timestamp: 63.612198
+    amplitude: 0.35269165
+  - timestamp: 64.12973
+    amplitude: 0.3536682
+  - timestamp: 64.34111
+    amplitude: 0.35031128
+  - timestamp: 64.54113
+    amplitude: 0.35266113
+  - timestamp: 64.745575
+    amplitude: 0.355896
+  - timestamp: 64.95165
+    amplitude: 0.35159302
+  - timestamp: 65.862564
+    amplitude: 0.35534668
+  - timestamp: 66.07438
+    amplitude: 0.35284424
+  - timestamp: 66.522064
+    amplitude: 0.36434937
+  - timestamp: 66.722084
+    amplitude: 0.4456482
+  - timestamp: 66.923355
+    amplitude: 0.35031128
+  - timestamp: 67.24204
+    amplitude: 0.35198975
+  - timestamp: 67.44943
+    amplitude: 0.35360718
+  - timestamp: 67.652336
+    amplitude: 0.36291504
+  - timestamp: 68.078094
+    amplitude: 0.35610962
+  - timestamp: 68.278114
+    amplitude: 0.3713379
+  - timestamp: 68.47968
+    amplitude: 0.3520813
+  - timestamp: 68.7444
+    amplitude: 0.3965454
+  - timestamp: 68.96746
+    amplitude: 0.3557434
+  - timestamp: 69.45172
+    amplitude: 0.35464478
+  - timestamp: 69.65964
+    amplitude: 0.35464478
+  - timestamp: 69.86018
+    amplitude: 0.35214233
+  - timestamp: 70.0602
+    amplitude: 0.3595276
+  - timestamp: 70.27379
+    amplitude: 0.35198975
+  - timestamp: 70.492836
+    amplitude: 0.35134888
+  - timestamp: 70.75606
+    amplitude: 0.37319946
+  - timestamp: 71.137344
+    amplitude: 0.36431885
+  - timestamp: 71.410385
+    amplitude: 0.36514282
+  - timestamp: 71.828186
+    amplitude: 0.35968018
+  - timestamp: 72.028206
+    amplitude: 0.43707275
+  - timestamp: 72.22826
+    amplitude: 0.35076904
+  - timestamp: 72.481384
+    amplitude: 0.35021973
+  - timestamp: 72.7232
+    amplitude: 0.35147095
+  - timestamp: 73.09717
+    amplitude: 0.3861084
+  - timestamp: 73.29891
+    amplitude: 0.35476685
+  - timestamp: 73.499954
+    amplitude: 0.3522339
+  - timestamp: 73.71732
+    amplitude: 0.36602783
+  - timestamp: 73.92776
+    amplitude: 0.3538208
+  - timestamp: 74.12932
+    amplitude: 0.40438843
+  - timestamp: 74.34304
+    amplitude: 0.35546875
+  - timestamp: 74.56227
+    amplitude: 0.35671997
+  - timestamp: 74.76229
+    amplitude: 0.79507446
+  - timestamp: 75.39306
+    amplitude: 0.36898804
+  - timestamp: 75.60683
+    amplitude: 0.35232544
+  - timestamp: 75.80687
+    amplitude: 0.366333
+  - timestamp: 76.11936
+    amplitude: 0.35494995
+  - timestamp: 76.468254
+    amplitude: 0.36746216
+  - timestamp: 76.7444
+    amplitude: 0.4467163
+  - timestamp: 77.23302
+    amplitude: 0.35736084
+  - timestamp: 78.07329
+    amplitude: 0.35775757
+  - timestamp: 78.74379
+    amplitude: 0.36975098
+  - timestamp: 79.22984
+    amplitude: 0.35351562
+  - timestamp: 79.43198
+    amplitude: 0.39349365
+  - timestamp: 79.91165
+    amplitude: 0.35266113
+  - timestamp: 80.12658
+    amplitude: 0.3536682
+  - timestamp: 80.32837
+    amplitude: 0.3501587
+  - timestamp: 80.53762
+    amplitude: 0.3503723
+  - timestamp: 81.431496
+    amplitude: 0.36376953
+  - timestamp: 81.84939
+    amplitude: 0.35012817
+  - timestamp: 82.07716
+    amplitude: 0.36010742
+  - timestamp: 82.54397
+    amplitude: 0.3590088
+  - timestamp: 82.78431
+    amplitude: 0.3579712
+  - timestamp: 83.43859
+    amplitude: 0.3605957
+  - timestamp: 84.089455
+    amplitude: 0.3503723
+  - timestamp: 84.29388
+    amplitude: 0.35046387
+  - timestamp: 84.74386
+    amplitude: 0.35391235
+  - timestamp: 85.4356
+    amplitude: 0.3867798
+  - timestamp: 85.63676
+    amplitude: 0.35464478
+  - timestamp: 86.077866
+    amplitude: 0.36254883
+  - timestamp: 87.15807
+    amplitude: 0.36825562
+  - timestamp: 87.411064
+    amplitude: 0.4159851
+  - timestamp: 87.867485
+    amplitude: 0.35995483
+  - timestamp: 88.114784
+    amplitude: 0.35559082
+  - timestamp: 88.862946
+    amplitude: 0.35220337
+  - timestamp: 89.43782
+    amplitude: 0.3552246
+  - timestamp: 90.077736
+    amplitude: 0.45925903
+  - timestamp: 90.512405
+    amplitude: 0.35610962
+  - timestamp: 90.79544
+    amplitude: 0.36297607
+  - timestamp: 91.00352
+    amplitude: 0.35986328
+  - timestamp: 92.10431
+    amplitude: 0.35894775
+  - timestamp: 92.5403
+    amplitude: 0.3529663
+  - timestamp: 92.74377
+    amplitude: 0.37878418
+  - timestamp: 93.25238
+    amplitude: 0.35317993
+  - timestamp: 93.453285
+    amplitude: 0.3581543
+  - timestamp: 93.65759
+    amplitude: 0.356781
+  - timestamp: 94.10116
+    amplitude: 0.37249756
+  - timestamp: 94.76987
+    amplitude: 0.35385132
+  - timestamp: 94.97835
+    amplitude: 0.35083008
+  - timestamp: 95.184784
+    amplitude: 0.35153198
+  - timestamp: 95.411064
+    amplitude: 0.43356323
+  - timestamp: 95.61592
+    amplitude: 0.35098267
+  - timestamp: 95.88424
+    amplitude: 0.355011
+  - timestamp: 96.1232
+    amplitude: 0.36889648
+  - timestamp: 96.33533
+    amplitude: 0.35983276
+  - timestamp: 96.75941
+    amplitude: 0.36965942
+  - timestamp: 97.01206
+    amplitude: 0.35266113
+  - timestamp: 97.2163
+    amplitude: 0.35195923
+  - timestamp: 97.81286
+    amplitude: 0.38891602
+  - timestamp: 98.018684
+    amplitude: 0.3555298
+  - timestamp: 98.77381
+    amplitude: 0.35839844
+  - timestamp: 99.46615
+    amplitude: 0.35705566
+  - timestamp: 100.10231
+    amplitude: 0.36611938
+  - timestamp: 100.30567
+    amplitude: 0.35507202
+  - timestamp: 100.520226
+    amplitude: 0.3511963
+  - timestamp: 100.74372
+    amplitude: 0.379364
+  - timestamp: 101.2319
+    amplitude: 0.36138916
+  - timestamp: 101.459885
+    amplitude: 0.3619995
+  - timestamp: 101.66669
+    amplitude: 0.35012817
+  - timestamp: 102.744446
+    amplitude: 0.35736084
+  - timestamp: 103.22038
+    amplitude: 0.36886597
+  - timestamp: 103.42093
+    amplitude: 0.39471436
+  - timestamp: 103.883965
+    amplitude: 0.35412598
+  - timestamp: 104.12957
+    amplitude: 0.3619995
+  - timestamp: 104.78755
+    amplitude: 0.36135864
+  - timestamp: 105.42272
+    amplitude: 0.37487793
+  - timestamp: 105.62889
+    amplitude: 0.35284424
+  - timestamp: 106.07723
+    amplitude: 0.350708
+  - timestamp: 106.28932
+    amplitude: 0.35650635
+  - timestamp: 106.760315
+    amplitude: 0.36187744
+  - timestamp: 106.988914
+    amplitude: 0.352417
+  - timestamp: 107.43735
+    amplitude: 0.3538208
+  - timestamp: 107.63916
+    amplitude: 0.35256958
+  - timestamp: 108.511086
+    amplitude: 0.3742981
+  - timestamp: 108.74431
+    amplitude: 0.3668213
+  - timestamp: 109.188614
+    amplitude: 0.35308838
+  - timestamp: 109.4449
+    amplitude: 0.35760498
+  - timestamp: 110.100044
+    amplitude: 0.35324097
+  - timestamp: 110.38258
+    amplitude: 0.350708
+  - timestamp: 110.75612
+    amplitude: 0.35107422
+  - timestamp: 111.22195
+    amplitude: 0.3550415
+  - timestamp: 111.42771
+    amplitude: 0.36453247
+  - timestamp: 111.87202
+    amplitude: 0.35308838
+  - timestamp: 112.10293
+    amplitude: 0.38046265
+  - timestamp: 112.30567
+    amplitude: 0.35183716
+  - timestamp: 112.51798
+    amplitude: 0.3543396
+  - timestamp: 113.427666
+    amplitude: 0.3649292
+  - timestamp: 114.077
+    amplitude: 0.36019897
+  - timestamp: 114.281136
+    amplitude: 0.3514099
+  - timestamp: 115.38979
+    amplitude: 0.37127686
+  - timestamp: 115.591385
+    amplitude: 0.35577393
+  - timestamp: 116.077866
+    amplitude: 0.3555298
+  - timestamp: 116.27846
+    amplitude: 0.35546875
+  - timestamp: 116.48862
+    amplitude: 0.3565979
+  - timestamp: 116.688934
+    amplitude: 0.3501587
+  - timestamp: 116.8961
+    amplitude: 0.3821411
+  - timestamp: 117.09841
+    amplitude: 0.36636353
+  - timestamp: 117.339096
+    amplitude: 0.35253906
+  - timestamp: 117.540276
+    amplitude: 0.38204956
+  - timestamp: 118.07687
+    amplitude: 0.3861084
+  - timestamp: 118.27746
+    amplitude: 0.35720825
+  - timestamp: 118.48113
+    amplitude: 0.3518982
+  - timestamp: 118.70671
+    amplitude: 0.35101318
+  - timestamp: 119.15521
+    amplitude: 0.3536682
+  - timestamp: 119.35891
+    amplitude: 0.3604126
+  - timestamp: 119.92807
+    amplitude: 0.35354614
+  - timestamp: 120.8307
+    amplitude: 0.3508606
+  - timestamp: 121.43755
+    amplitude: 0.35998535
+  - timestamp: 121.67664
+    amplitude: 0.35443115
+  - timestamp: 121.897255
+    amplitude: 0.40371704
+  - timestamp: 122.1298
+    amplitude: 0.40646362
+  - timestamp: 122.57914
+    amplitude: 0.35299683
+  - timestamp: 122.79821
+    amplitude: 0.37319946
+  - timestamp: 123.00529
+    amplitude: 0.3508606
+  - timestamp: 124.11122
+    amplitude: 0.3595276
+  - timestamp: 124.55472
+    amplitude: 0.38516235
+  - timestamp: 124.754875
+    amplitude: 0.3571167
+  - timestamp: 125.21694
+    amplitude: 0.35992432
+  - timestamp: 125.423676
+    amplitude: 0.35473633
+  - timestamp: 125.83673
+    amplitude: 0.35116577
+  - timestamp: 126.07592
+    amplitude: 0.39144897
+  - timestamp: 126.27594
+    amplitude: 0.40563965
+  - timestamp: 126.50451
+    amplitude: 0.35723877
+  - timestamp: 126.70454
+    amplitude: 0.35601807
+  - timestamp: 126.90873
+    amplitude: 0.3557129
+  - timestamp: 127.41111
+    amplitude: 0.35565186
+  - timestamp: 127.61499
+    amplitude: 0.35284424
+  - timestamp: 127.84402
+    amplitude: 0.3538208
+  - timestamp: 128.15778
+    amplitude: 0.36819458
+  - timestamp: 128.74663
+    amplitude: 0.36273193
+  - timestamp: 128.94664
+    amplitude: 0.36825562
+  - timestamp: 129.17871
+    amplitude: 0.3559265
+  - timestamp: 129.81288
+    amplitude: 0.3577881
+  - timestamp: 130.02739
+    amplitude: 0.3581848
+  - timestamp: 131.49873
+    amplitude: 0.35247803
+  - timestamp: 132.08937
+    amplitude: 0.35116577
+  - timestamp: 132.74442
+    amplitude: 0.372406
+  - timestamp: 133.1822
+    amplitude: 0.3506775
+  - timestamp: 133.42378
+    amplitude: 0.36203003
+  - timestamp: 133.63258
+    amplitude: 0.35333252
+  - timestamp: 134.77191
+    amplitude: 0.35354614
+  - timestamp: 135.18996
+    amplitude: 0.38467407
+  - timestamp: 135.41057
+    amplitude: 0.36380005
+  - timestamp: 135.81964
+    amplitude: 0.35357666
+  - timestamp: 136.0794
+    amplitude: 0.36294556
+  - timestamp: 136.28404
+    amplitude: 0.35784912
+  - timestamp: 136.76534
+    amplitude: 0.35681152
+  - timestamp: 136.96878
+    amplitude: 0.35671997
+  - timestamp: 137.17372
+    amplitude: 0.35046387
+  - timestamp: 137.41116
+    amplitude: 0.36187744
+  - timestamp: 137.61186
+    amplitude: 0.35153198
+  - timestamp: 137.81657
+    amplitude: 0.3529358
+  - timestamp: 138.07773
+    amplitude: 0.44784546
+  - timestamp: 138.28256
+    amplitude: 0.35031128
+  - timestamp: 138.53801
+    amplitude: 0.35247803
+  - timestamp: 138.80467
+    amplitude: 0.35488892
+  - timestamp: 139.01181
+    amplitude: 0.36047363
+  - timestamp: 139.21269
+    amplitude: 0.35357666
+  - timestamp: 139.41306
+    amplitude: 0.35437012
+  - timestamp: 139.63011
+    amplitude: 0.359375
+  - timestamp: 140.53014
+    amplitude: 0.35699463
+  - timestamp: 140.73016
+    amplitude: 0.38061523
+  - timestamp: 141.17227
+    amplitude: 0.3541565
+  - timestamp: 141.38336
+    amplitude: 0.3637085
+  - timestamp: 141.91415
+    amplitude: 0.35284424
+  - timestamp: 142.14503
+    amplitude: 0.38076782
+  - timestamp: 142.34639
+    amplitude: 0.35162354
+  - timestamp: 142.7716
+    amplitude: 0.35342407
+  - timestamp: 142.97165
+    amplitude: 0.4208374
+  - timestamp: 143.17647
+    amplitude: 0.35116577
+  - timestamp: 143.41057
+    amplitude: 0.35476685
+  - timestamp: 143.61732
+    amplitude: 0.35006714
+  - timestamp: 144.08424
+    amplitude: 0.3515625
+  - timestamp: 144.46483
+    amplitude: 0.3673706
+  - timestamp: 144.66817
+    amplitude: 0.3503723
+  - timestamp: 144.86848
+    amplitude: 0.3534851
+  - timestamp: 145.07478
+    amplitude: 0.35058594
+  - timestamp: 145.29315
+    amplitude: 0.3548584
+  - timestamp: 145.51573
+    amplitude: 0.35629272
+  - timestamp: 145.76956
+    amplitude: 0.3612976
+  - timestamp: 145.99805
+    amplitude: 0.3562317
+  - timestamp: 146.45787
+    amplitude: 0.3932495
+  - timestamp: 146.65791
+    amplitude: 0.40795898
+  - timestamp: 146.87419
+    amplitude: 0.36166382
+  - timestamp: 147.17728
+    amplitude: 0.35040283
+  - timestamp: 147.39995
+    amplitude: 0.35656738
+  - timestamp: 147.6503
+    amplitude: 0.3560791
+  - timestamp: 147.85464
+    amplitude: 0.3621521
+  - timestamp: 148.07013
+    amplitude: 0.37609863
+  - timestamp: 148.27588
+    amplitude: 0.3546753
+  - timestamp: 148.47589
+    amplitude: 0.41241455
+  - timestamp: 148.68137
+    amplitude: 0.3616333
+  - timestamp: 148.88327
+    amplitude: 0.37451172
+  - timestamp: 149.20628
+    amplitude: 0.35028076
+  - timestamp: 149.40631
+    amplitude: 0.6105957
+  - timestamp: 149.60635
+    amplitude: 0.37332153
+  - timestamp: 149.90698
+    amplitude: 0.35287476
+  - timestamp: 150.10701
+    amplitude: 0.58792114
+  - timestamp: 150.34784
+    amplitude: 0.3548584
+  - timestamp: 150.59401
+    amplitude: 0.35455322
+  - timestamp: 151.10062
+    amplitude: 0.37576294
+  - timestamp: 151.41103
+    amplitude: 0.38372803
+  - timestamp: 152.7926
+    amplitude: 0.35107422
+  - timestamp: 153.4127
+    amplitude: 0.35510254
+  - timestamp: 153.81493
+    amplitude: 0.3645935
+  - timestamp: 154.07715
+    amplitude: 0.36584473
+  - timestamp: 154.6036
+    amplitude: 0.35009766
+  - timestamp: 154.80539
+    amplitude: 0.35107422
+  - timestamp: 155.02864
+    amplitude: 0.3517456
+  - timestamp: 156.10548
+    amplitude: 0.35083008
+  - timestamp: 156.74445
+    amplitude: 0.42712402
+  - timestamp: 157.2017
+    amplitude: 0.35256958
+  - timestamp: 157.45418
+    amplitude: 0.35098267
+  - timestamp: 158.09145
+    amplitude: 0.35565186
+  - timestamp: 158.29723
+    amplitude: 0.35183716
+  - timestamp: 158.75696
+    amplitude: 0.35220337
+  - timestamp: 158.99142
+    amplitude: 0.3540039
+  - timestamp: 159.41112
+    amplitude: 0.35787964
+  - timestamp: 159.61757
+    amplitude: 0.3540039
+  - timestamp: 160.75732
+    amplitude: 0.37319946
+  - timestamp: 160.9581
+    amplitude: 0.3630066
+  - timestamp: 161.1595
+    amplitude: 0.36520386
+  - timestamp: 161.40413
+    amplitude: 0.3715515
+  - timestamp: 161.6114
+    amplitude: 0.35290527
+  - timestamp: 161.81233
+    amplitude: 0.40841675
+  - timestamp: 162.06029
+    amplitude: 0.3829956
+  - timestamp: 162.78687
+    amplitude: 0.365448
+  - timestamp: 162.99184
+    amplitude: 0.35879517
+  - timestamp: 163.19968
+    amplitude: 0.35012817
+  - timestamp: 163.41061
+    amplitude: 0.37426758
+  - timestamp: 163.61308
+    amplitude: 0.35394287
+  - timestamp: 164.08461
+    amplitude: 0.3809204
+  - timestamp: 164.28735
+    amplitude: 0.35562134
+  - timestamp: 164.74445
+    amplitude: 0.39178467
+  - timestamp: 164.94447
+    amplitude: 0.36990356
+  - timestamp: 165.38544
+    amplitude: 0.38516235
+  - timestamp: 165.58603
+    amplitude: 0.35220337
+  - timestamp: 165.7971
+    amplitude: 0.36950684
+  - timestamp: 165.99712
+    amplitude: 0.3552246
+  - timestamp: 166.19919
+    amplitude: 0.36102295
+  - timestamp: 166.41438
+    amplitude: 0.35162354
+  - timestamp: 166.71516
+    amplitude: 0.3500061
+  - timestamp: 166.92647
+    amplitude: 0.3560791
+  - timestamp: 167.17041
+    amplitude: 0.3548584
+  - timestamp: 167.3732
+    amplitude: 0.38641357
+  - timestamp: 167.57939
+    amplitude: 0.3551941
+  - timestamp: 167.83644
+    amplitude: 0.3500061
+  - timestamp: 168.037
+    amplitude: 0.35095215
+  - timestamp: 168.51834
+    amplitude: 0.36010742
+  - timestamp: 168.74445
+    amplitude: 0.4369812
+  - timestamp: 168.9479
+    amplitude: 0.35092163
+  - timestamp: 169.16566
+    amplitude: 0.36288452
+  - timestamp: 169.40753
+    amplitude: 0.3695984
+  - timestamp: 169.60754
+    amplitude: 0.54660034
+  - timestamp: 169.80954
+    amplitude: 0.35394287
+  - timestamp: 170.01927
+    amplitude: 0.35543823
+  - timestamp: 170.22005
+    amplitude: 0.35742188
+  - timestamp: 170.47748
+    amplitude: 0.3522339
+  - timestamp: 171.42325
+    amplitude: 0.3514099
+  - timestamp: 171.62413
+    amplitude: 0.36819458
+  - timestamp: 171.82997
+    amplitude: 0.39987183
+  - timestamp: 172.03346
+    amplitude: 0.3633728
+  - timestamp: 172.25145
+    amplitude: 0.3550415
+  - timestamp: 172.4993
+    amplitude: 0.35913086
+  - timestamp: 172.71274
+    amplitude: 0.35229492
+  - timestamp: 172.91447
+    amplitude: 0.3581848
+  - timestamp: 173.43893
+    amplitude: 0.38504028
+  - timestamp: 173.64465
+    amplitude: 0.3500061
+  - timestamp: 173.84755
+    amplitude: 0.36676025
+  - timestamp: 174.06508
+    amplitude: 0.35754395
+  - timestamp: 174.26791
+    amplitude: 0.35409546
+  - timestamp: 174.74571
+    amplitude: 0.35620117
+  - timestamp: 174.94753
+    amplitude: 0.3569336
+  - timestamp: 175.40381
+    amplitude: 0.35821533
+  - timestamp: 175.64299
+    amplitude: 0.35284424
+  - timestamp: 176.05211
+    amplitude: 0.36611938
+  - timestamp: 176.25214
+    amplitude: 0.65634155
+  - timestamp: 176.45215
+    amplitude: 0.46817017
+  - timestamp: 176.66
+    amplitude: 0.3550415
+  - timestamp: 176.86002
+    amplitude: 0.41848755
+  - timestamp: 177.06358
+    amplitude: 0.35583496
+  - timestamp: 177.29652
+    amplitude: 0.35437012
+  - timestamp: 177.50136
+    amplitude: 0.36187744
+  - timestamp: 178.07773
+    amplitude: 0.3658142
+  - timestamp: 178.28102
+    amplitude: 0.35290527
+  - timestamp: 178.78642
+    amplitude: 0.36236572
+  - timestamp: 178.99188
+    amplitude: 0.3591919
+  - timestamp: 179.19193
+    amplitude: 0.36972046
+  - timestamp: 179.3978
+    amplitude: 0.35012817
+  - timestamp: 179.60127
+    amplitude: 0.35424805
+  - timestamp: 179.8013
+    amplitude: 0.36987305
+  - timestamp: 180.03644
+    amplitude: 0.35379028
+  - timestamp: 180.23961
+    amplitude: 0.35110474
+  - timestamp: 180.43962
+    amplitude: 0.66152954
+  - timestamp: 180.64578
+    amplitude: 0.3511963
+  - timestamp: 180.84586
+    amplitude: 0.5334778
+  - timestamp: 181.04716
+    amplitude: 0.363739
+  - timestamp: 181.25583
+    amplitude: 0.35180664
+  - timestamp: 181.45876
+    amplitude: 0.37243652
+  - timestamp: 181.66061
+    amplitude: 0.35235596
+  - timestamp: 181.8829
+    amplitude: 0.3505249
+  - timestamp: 182.08319
+    amplitude: 0.3673706
+  - timestamp: 182.28896
+    amplitude: 0.35784912
+  - timestamp: 182.53745
+    amplitude: 0.35305786
+  - timestamp: 182.75111
+    amplitude: 0.38534546
+  - timestamp: 182.95921
+    amplitude: 0.35217285
+  - timestamp: 183.16028
+    amplitude: 0.35342407
+  - timestamp: 183.36388
+    amplitude: 0.35351562
+  - timestamp: 183.56819
+    amplitude: 0.36026
+  - timestamp: 184.09882
+    amplitude: 0.3597107
+  - timestamp: 184.30794
+    amplitude: 0.36520386
+  - timestamp: 184.51152
+    amplitude: 0.39404297
+  - timestamp: 184.75601
+    amplitude: 0.3500061
+  - timestamp: 184.95955
+    amplitude: 0.3577881
+  - timestamp: 185.41443
+    amplitude: 0.3770752
+  - timestamp: 185.61714
+    amplitude: 0.36047363
+  - timestamp: 185.8971
+    amplitude: 0.36138916
+  - timestamp: 186.09755
+    amplitude: 0.38043213
+  - timestamp: 186.29922
+    amplitude: 0.3574524
+  - timestamp: 186.77412
+    amplitude: 0.38516235
+  - timestamp: 186.9761
+    amplitude: 0.36886597
+  - timestamp: 187.18217
+    amplitude: 0.3513794
+  - timestamp: 187.41225
+    amplitude: 0.37078857
+  - timestamp: 188.0779
+    amplitude: 0.35742188
+  - timestamp: 188.2854
+    amplitude: 0.3544922
+  - timestamp: 188.52669
+    amplitude: 0.3647461
+  - timestamp: 188.7295
+    amplitude: 0.37106323
+  - timestamp: 188.92952
+    amplitude: 0.5599365
+  - timestamp: 189.13315
+    amplitude: 0.36102295
+  - timestamp: 189.33914
+    amplitude: 0.3515625
+  - timestamp: 189.53915
+    amplitude: 0.41732788
+  - timestamp: 189.73978
+    amplitude: 0.35369873
+  - timestamp: 189.9409
+    amplitude: 0.35238647
+  - timestamp: 190.14093
+    amplitude: 0.5826721
+  - timestamp: 190.34767
+    amplitude: 0.35934448
+  - timestamp: 190.54948
+    amplitude: 0.35443115
+  - timestamp: 190.7547
+    amplitude: 0.35025024
+  - timestamp: 190.95555
+    amplitude: 0.35110474
+  - timestamp: 191.1582
+    amplitude: 0.36053467
+  - timestamp: 191.35959
+    amplitude: 0.35317993
+  - timestamp: 191.83224
+    amplitude: 0.3588562
+  - timestamp: 192.03227
+    amplitude: 0.6345215
+  - timestamp: 192.23228
+    amplitude: 0.40222168
+  - timestamp: 192.71973
+    amplitude: 0.38171387
+  - timestamp: 192.92448
+    amplitude: 0.35110474
+  - timestamp: 193.14055
+    amplitude: 0.3508911
+  - timestamp: 193.8204
+    amplitude: 0.41799927
+  - timestamp: 194.03294
+    amplitude: 0.3508911
+  - timestamp: 194.80435
+    amplitude: 0.35287476
+  - timestamp: 195.68353
+    amplitude: 0.35412598
+  - timestamp: 196.09032
+    amplitude: 0.35125732
+  - timestamp: 196.74379
+    amplitude: 0.3581848
+  - timestamp: 197.23587
+    amplitude: 0.35012817
+  - timestamp: 197.44098
+    amplitude: 0.3581848
+  - timestamp: 197.65727
+    amplitude: 0.35665894
+  - timestamp: 198.77141
+    amplitude: 0.3527527
+  - timestamp: 199.22748
+    amplitude: 0.35995483
+  - timestamp: 199.43959
+    amplitude: 0.4265442
+  - timestamp: 199.84111
+    amplitude: 0.3508911
+  - timestamp: 200.10684
+    amplitude: 0.35028076
+  - timestamp: 200.75381
+    amplitude: 0.35443115
+  - timestamp: 201.01007
+    amplitude: 0.35333252
+  - timestamp: 201.41127
+    amplitude: 0.3617859
+  - timestamp: 202.07721
+    amplitude: 0.35110474
+  - timestamp: 202.28528
+    amplitude: 0.35113525
+  - timestamp: 202.72961
+    amplitude: 0.3503723
+  - timestamp: 202.93823
+    amplitude: 0.36065674
+  - timestamp: 203.42339
+    amplitude: 0.3519287
+  - timestamp: 203.62889
+    amplitude: 0.35180664
+  - timestamp: 204.74384
+    amplitude: 0.36364746
+  - timestamp: 205.23009
+    amplitude: 0.3607788
+  - timestamp: 205.44574
+    amplitude: 0.35980225
+  - timestamp: 206.08047
+    amplitude: 0.35263062
+  - timestamp: 206.75606
+    amplitude: 0.37057495
+  - timestamp: 207.00426
+    amplitude: 0.35061646
+  - timestamp: 207.23259
+    amplitude: 0.3559265
+  - timestamp: 207.43703
+    amplitude: 0.35379028
+  - timestamp: 207.89159
+    amplitude: 0.35302734
+  - timestamp: 208.11345
+    amplitude: 0.3661499
+  - timestamp: 208.32193
+    amplitude: 0.36151123
+  - timestamp: 208.55821
+    amplitude: 0.3518982
+  - timestamp: 209.42259
+    amplitude: 0.35287476
+  - timestamp: 209.69505
+    amplitude: 0.35220337
+  - timestamp: 210.07773
+    amplitude: 0.41906738
+  - timestamp: 210.27977
+    amplitude: 0.36032104
+  - timestamp: 210.56583
+    amplitude: 0.35055542
+  - timestamp: 212.7444
+    amplitude: 0.39666748
+  - timestamp: 212.94592
+    amplitude: 0.37426758
+  - timestamp: 213.4297
+    amplitude: 0.36383057
+  - timestamp: 213.62973
+    amplitude: 0.35308838
+  - timestamp: 214.07785
+    amplitude: 0.41455078
+  - timestamp: 214.27837
+    amplitude: 0.36499023
+  - timestamp: 214.47882
+    amplitude: 0.35211182
+  - timestamp: 214.68008
+    amplitude: 0.35946655
+  - timestamp: 214.8835
+    amplitude: 0.3800354
+  - timestamp: 215.08589
+    amplitude: 0.35812378
+  - timestamp: 215.28592
+    amplitude: 0.42062378
+  - timestamp: 215.48595
+    amplitude: 0.39953613
+  - timestamp: 215.70052
+    amplitude: 0.37948608
+  - timestamp: 215.92966
+    amplitude: 0.3590088
+  - timestamp: 216.13132
+    amplitude: 0.36776733
+  - timestamp: 216.51932
+    amplitude: 0.3546753
+  - timestamp: 216.75916
+    amplitude: 0.35769653
+  - timestamp: 216.95955
+    amplitude: 0.35144043
+  - timestamp: 217.15959
+    amplitude: 0.44036865
+  - timestamp: 217.42404
+    amplitude: 0.3881836
+  - timestamp: 217.62428
+    amplitude: 0.36083984
+  - timestamp: 217.83086
+    amplitude: 0.36276245
+  - timestamp: 218.03087
+    amplitude: 0.40286255
+  - timestamp: 218.2311
+    amplitude: 0.35961914
+  - timestamp: 218.51064
+    amplitude: 0.35443115
+  - timestamp: 218.77113
+    amplitude: 0.3581543
+  - timestamp: 218.97801
+    amplitude: 0.35263062
+  - timestamp: 219.17836
+    amplitude: 0.35092163
+  - timestamp: 219.38156
+    amplitude: 0.36315918
+  - timestamp: 219.59499
+    amplitude: 0.35961914
+  - timestamp: 220.09009
+    amplitude: 0.37301636
+  - timestamp: 220.29498
+    amplitude: 0.35232544
+  - timestamp: 220.54623
+    amplitude: 0.3727417
+  - timestamp: 220.74663
+    amplitude: 0.40374756
+  - timestamp: 221.21422
+    amplitude: 0.35421753
+  - timestamp: 221.44954
+    amplitude: 0.36914062
+  - timestamp: 222.12614
+    amplitude: 0.35458374
+  - timestamp: 222.41972
+    amplitude: 0.35079956
+  - timestamp: 222.74455
+    amplitude: 0.36395264
+  - timestamp: 222.96022
+    amplitude: 0.35202026
+  - timestamp: 223.41061
+    amplitude: 0.3572693
+  - timestamp: 223.61093
+    amplitude: 0.39849854
+  - timestamp: 223.82585
+    amplitude: 0.3554077
+  - timestamp: 224.07419
+    amplitude: 0.37615967
+  - timestamp: 224.27826
+    amplitude: 0.36923218
+  - timestamp: 224.75603
+    amplitude: 0.364563
+  - timestamp: 224.95628
+    amplitude: 0.35412598
+  - timestamp: 225.15631
+    amplitude: 0.3656006
+  - timestamp: 225.3587
+    amplitude: 0.37075806
+  - timestamp: 225.56325
+    amplitude: 0.35336304
+  - timestamp: 225.76569
+    amplitude: 0.35430908
+  - timestamp: 226.05576
+    amplitude: 0.42544556
+  - timestamp: 226.25671
+    amplitude: 0.36672974
+  - timestamp: 226.5397
+    amplitude: 0.35684204
+  - timestamp: 226.7591
+    amplitude: 0.36730957
+  - timestamp: 226.96169
+    amplitude: 0.3887329
+  - timestamp: 227.16527
+    amplitude: 0.3559265
+  - timestamp: 227.41028
+    amplitude: 0.35824585
+  - timestamp: 227.61168
+    amplitude: 0.37384033
+  - timestamp: 228.08946
+    amplitude: 0.3822937
+  - timestamp: 228.2904
+    amplitude: 0.37094116
+  - timestamp: 228.54062
+    amplitude: 0.35855103
+  - timestamp: 228.74371
+    amplitude: 0.35516357
+  - timestamp: 228.94925
+    amplitude: 0.36611938
+  - timestamp: 229.20616
+    amplitude: 0.36410522
+  - timestamp: 229.42024
+    amplitude: 0.36746216
+  - timestamp: 229.62154
+    amplitude: 0.35998535
+  - timestamp: 229.82155
+    amplitude: 0.5013733
+  - timestamp: 230.0237
+    amplitude: 0.35302734
+  - timestamp: 230.22546
+    amplitude: 0.3534546
+  - timestamp: 230.42918
+    amplitude: 0.35580444
+  - timestamp: 230.74599
+    amplitude: 0.36029053
+  - timestamp: 230.9479
+    amplitude: 0.36026
+  - timestamp: 231.22307
+    amplitude: 0.3511963
+  - timestamp: 231.42308
+    amplitude: 0.44348145
+  - timestamp: 231.62311
+    amplitude: 0.51660156
+  - timestamp: 231.8233
+    amplitude: 0.39349365
+  - timestamp: 232.0245
+    amplitude: 0.35958862
+  - timestamp: 232.22873
+    amplitude: 0.37139893
+  - timestamp: 232.43114
+    amplitude: 0.36627197
+  - timestamp: 232.7359
+    amplitude: 0.36242676
+  - timestamp: 232.93758
+    amplitude: 0.35525513
+  - timestamp: 233.1435
+    amplitude: 0.36495972
+  - timestamp: 233.34932
+    amplitude: 0.35687256
+  - timestamp: 233.54967
+    amplitude: 0.36312866
+  - timestamp: 233.74971
+    amplitude: 0.3812561
+  - timestamp: 233.95929
+    amplitude: 0.3650818
+  - timestamp: 234.1593
+    amplitude: 0.8230896
+  - timestamp: 234.35973
+    amplitude: 0.37820435
+  - timestamp: 234.55975
+    amplitude: 0.46884155
+  - timestamp: 234.78276
+    amplitude: 0.35629272
+  - timestamp: 235.00023
+    amplitude: 0.35305786
+  - timestamp: 235.41011
+    amplitude: 0.3607483
+  - timestamp: 235.6149
+    amplitude: 0.35342407
+  - timestamp: 235.81912
+    amplitude: 0.35150146
+  - timestamp: 236.02583
+    amplitude: 0.35253906
+  - timestamp: 236.2305
+    amplitude: 0.3564148
+  - timestamp: 236.43114
+    amplitude: 0.36312866
+  - timestamp: 236.64337
+    amplitude: 0.35656738
+  - timestamp: 236.8442
+    amplitude: 0.35299683
+  - timestamp: 237.0503
+    amplitude: 0.3743286
+  - timestamp: 237.25574
+    amplitude: 0.35842896
+  - timestamp: 237.47919
+    amplitude: 0.3592224
+  - timestamp: 238.06279
+    amplitude: 0.35488892
+  - timestamp: 238.26282
+    amplitude: 0.707489
+  - timestamp: 238.48236
+    amplitude: 0.3682251
+  - timestamp: 238.72638
+    amplitude: 0.35339355
+  - timestamp: 238.92639
+    amplitude: 0.6032715
+  - timestamp: 239.15175
+    amplitude: 0.36715698
+  - timestamp: 239.37292
+    amplitude: 0.3609619
+  - timestamp: 239.57358
+    amplitude: 0.35488892
+  - timestamp: 239.87283
+    amplitude: 0.35290527
+  - timestamp: 240.08598
+    amplitude: 0.36187744
+  - timestamp: 240.29137
+    amplitude: 0.35217285
+  - timestamp: 240.7688
+    amplitude: 0.3874817
+  - timestamp: 240.97562
+    amplitude: 0.3562317
+  - timestamp: 241.41107
+    amplitude: 0.37677002
+  - timestamp: 241.71034
+    amplitude: 0.35403442
+  - timestamp: 241.91057
+    amplitude: 0.35116577
+  - timestamp: 242.11111
+    amplitude: 0.39987183
+  - timestamp: 242.49292
+    amplitude: 0.36288452
+  - timestamp: 242.76228
+    amplitude: 0.35949707
+  - timestamp: 243.4078
+    amplitude: 0.36514282
+  - timestamp: 243.60782
+    amplitude: 0.37145996
+  - timestamp: 243.82962
+    amplitude: 0.35806274
+  - timestamp: 244.02963
+    amplitude: 0.3769226
+  - timestamp: 244.22995
+    amplitude: 0.37112427
+  - timestamp: 244.4322
+    amplitude: 0.38064575
+  - timestamp: 244.66891
+    amplitude: 0.3576355
+  - timestamp: 244.86896
+    amplitude: 0.601593
+  - timestamp: 245.18137
+    amplitude: 0.35113525
+  - timestamp: 245.38614
+    amplitude: 0.35125732
+  - timestamp: 245.58871
+    amplitude: 0.3508606
+  - timestamp: 245.7889
+    amplitude: 0.35220337
+  - timestamp: 246.08937
+    amplitude: 0.3581848
+  - timestamp: 246.2898
+    amplitude: 0.35949707
+  - timestamp: 246.491
+    amplitude: 0.35437012
+  - timestamp: 246.72028
+    amplitude: 0.37521362
+  - timestamp: 246.93777
+    amplitude: 0.35055542
+  - timestamp: 247.15086
+    amplitude: 0.38858032
+  - timestamp: 247.40082
+    amplitude: 0.35681152
+  - timestamp: 247.60188
+    amplitude: 0.35473633
+  - timestamp: 247.8058
+    amplitude: 0.3539734
+  - timestamp: 248.01553
+    amplitude: 0.3725586
+  - timestamp: 248.29926
+    amplitude: 0.3524475
+  - timestamp: 248.74832
+    amplitude: 0.36001587
+  - timestamp: 248.98312
+    amplitude: 0.35150146
+  - timestamp: 249.4003
+    amplitude: 0.35720825
+  - timestamp: 249.60133
+    amplitude: 0.35025024
+  - timestamp: 249.84277
+    amplitude: 0.35202026
+  - timestamp: 250.07712
+    amplitude: 0.3652954
+  - timestamp: 250.28598
+    amplitude: 0.36691284
+  - timestamp: 250.52603
+    amplitude: 0.3609314
+  - timestamp: 250.75066
+    amplitude: 0.37957764
+  - timestamp: 250.95166
+    amplitude: 0.36224365
+  - timestamp: 251.16408
+    amplitude: 0.36886597
+  - timestamp: 251.37268
+    amplitude: 0.35784912
+  - timestamp: 251.57549
+    amplitude: 0.3548584
+  - timestamp: 251.78143
+    amplitude: 0.37042236
+  - timestamp: 252.0837
+    amplitude: 0.37435913
+  - timestamp: 252.29227
+    amplitude: 0.35180664
+  - timestamp: 252.50821
+    amplitude: 0.35101318
+  - timestamp: 252.74385
+    amplitude: 0.3675537
+  - timestamp: 253.18803
+    amplitude: 0.35498047
+  - timestamp: 253.41766
+    amplitude: 0.35125732
+  - timestamp: 253.63191
+    amplitude: 0.35653687
+  - timestamp: 254.08981
+    amplitude: 0.39916992
+  - timestamp: 254.74449
+    amplitude: 0.36343384
+  - timestamp: 254.97571
+    amplitude: 0.35168457
+  - timestamp: 255.19893
+    amplitude: 0.3540039
+  - timestamp: 255.41043
+    amplitude: 0.39157104
+  - timestamp: 255.61046
+    amplitude: 0.69036865
+  - timestamp: 255.81567
+    amplitude: 0.35702515
+  - timestamp: 256.05072
+    amplitude: 0.3632202
+  - timestamp: 256.25076
+    amplitude: 0.39260864
+  - timestamp: 256.52188
+    amplitude: 0.36965942
+  - timestamp: 256.7219
+    amplitude: 0.3520813
+  - timestamp: 256.92285
+    amplitude: 0.4085083
+  - timestamp: 257.1252
+    amplitude: 0.35040283
+  - timestamp: 257.33954
+    amplitude: 0.35269165
+  - timestamp: 257.54138
+    amplitude: 0.37298584
+  - timestamp: 257.749
+    amplitude: 0.36489868
+  - timestamp: 257.95135
+    amplitude: 0.375
+  - timestamp: 258.1514
+    amplitude: 0.40975952
+  - timestamp: 258.3514
+    amplitude: 0.3579712
+  - timestamp: 258.59006
+    amplitude: 0.35107422
+  - timestamp: 258.79007
+    amplitude: 0.4322815
+  - timestamp: 258.9906
+    amplitude: 0.35510254
+  - timestamp: 259.19766
+    amplitude: 0.38931274
+  - timestamp: 259.4035
+    amplitude: 0.3598938
+  - timestamp: 259.60352
+    amplitude: 0.86779785
+  - timestamp: 259.80353
+    amplitude: 0.47299194
+  - timestamp: 260.00516
+    amplitude: 0.35266113
+  - timestamp: 260.20636
+    amplitude: 0.35775757
+  - timestamp: 260.40665
+    amplitude: 0.3503418
+  - timestamp: 260.6121
+    amplitude: 0.3894043
+  - timestamp: 260.8121
+    amplitude: 0.52090454
+  - timestamp: 261.02283
+    amplitude: 0.35321045
+  - timestamp: 261.22534
+    amplitude: 0.3510437
+  - timestamp: 261.4327
+    amplitude: 0.3555298
+  - timestamp: 261.63284
+    amplitude: 0.41662598
+  - timestamp: 261.83286
+    amplitude: 0.52508545
+  - timestamp: 262.03778
+    amplitude: 0.4114685
+  - timestamp: 262.2406
+    amplitude: 0.36398315
+  - timestamp: 262.4615
+    amplitude: 0.3506775
+  - timestamp: 262.66312
+    amplitude: 0.36050415
+  - timestamp: 262.86313
+    amplitude: 0.50042725
+  - timestamp: 263.06766
+    amplitude: 0.35247803
+  - timestamp: 263.29202
+    amplitude: 0.3541565
+  - timestamp: 263.49377
+    amplitude: 0.39920044
+  - timestamp: 263.8067
+    amplitude: 0.36898804
+  - timestamp: 264.11176
+    amplitude: 0.3605652
+  - timestamp: 264.3843
+    amplitude: 0.35177612
+  - timestamp: 264.77408
+    amplitude: 0.35043335
+  - timestamp: 265.0867
+    amplitude: 0.35198975
+  - timestamp: 265.42352
+    amplitude: 0.3511963
+  - timestamp: 265.62714
+    amplitude: 0.3554077
+  - timestamp: 265.84235
+    amplitude: 0.35290527
+  - timestamp: 266.05157
+    amplitude: 0.37384033
+  - timestamp: 266.25195
+    amplitude: 0.36288452
+  - timestamp: 266.4578
+    amplitude: 0.35220337
+  - timestamp: 266.72708
+    amplitude: 0.3555298
+  - timestamp: 266.9272
+    amplitude: 0.39169312
+  - timestamp: 267.42044
+    amplitude: 0.35095215
+  - timestamp: 267.62076
+    amplitude: 0.3562622
+  - timestamp: 267.8208
+    amplitude: 0.45288086
+  - timestamp: 268.02148
+    amplitude: 0.35238647
+  - timestamp: 268.2224
+    amplitude: 0.3682251
+  - timestamp: 268.4984
+    amplitude: 0.3692627
+  - timestamp: 268.71814
+    amplitude: 0.36627197
+  - timestamp: 268.91815
+    amplitude: 0.5701904
+  - timestamp: 269.21307
+    amplitude: 0.36029053
+  - timestamp: 269.41443
+    amplitude: 0.36294556
+  - timestamp: 269.61444
+    amplitude: 0.46362305
+  - timestamp: 269.8244
+    amplitude: 0.35461426
+  - timestamp: 270.04996
+    amplitude: 0.3687439
+  - timestamp: 270.25336
+    amplitude: 0.36047363
+  - timestamp: 270.45596
+    amplitude: 0.35916138
+  - timestamp: 270.65598
+    amplitude: 0.45541382
+  - timestamp: 270.85825
+    amplitude: 0.35049438
+  - timestamp: 271.05826
+    amplitude: 0.35906982
+  - timestamp: 271.25912
+    amplitude: 0.3619995
+  - timestamp: 271.45914
+    amplitude: 0.74835205
+  - timestamp: 271.65994
+    amplitude: 0.3659973
+  - timestamp: 271.87296
+    amplitude: 0.35101318
+  - timestamp: 272.08267
+    amplitude: 0.35717773
+  - timestamp: 272.28268
+    amplitude: 0.37322998
+  - timestamp: 272.4832
+    amplitude: 0.38775635
+  - timestamp: 272.6832
+    amplitude: 0.36923218
+  - timestamp: 272.89328
+    amplitude: 0.37942505
+  - timestamp: 273.41083
+    amplitude: 0.36386108
+  - timestamp: 273.61108
+    amplitude: 0.35534668
+  - timestamp: 273.821
+    amplitude: 0.3675232
+  - timestamp: 274.07715
+    amplitude: 0.36862183
+  - timestamp: 274.2796
+    amplitude: 0.35803223
+  - timestamp: 274.48
+    amplitude: 0.3781433
+  - timestamp: 274.68002
+    amplitude: 0.49020386
+  - timestamp: 274.88394
+    amplitude: 0.3554077
+  - timestamp: 275.09113
+    amplitude: 0.36712646
+  - timestamp: 275.43106
+    amplitude: 0.35061646
+  - timestamp: 275.63165
+    amplitude: 0.37786865
+  - timestamp: 275.83218
+    amplitude: 0.35040283
+  - timestamp: 276.0322
+    amplitude: 0.36743164
+  - timestamp: 276.2339
+    amplitude: 0.35702515
+  - timestamp: 276.43488
+    amplitude: 0.35351562
+  - timestamp: 276.6349
+    amplitude: 0.37942505
+  - timestamp: 276.8349
+    amplitude: 0.5592041
+  - timestamp: 277.03616
+    amplitude: 0.3635559
+  - timestamp: 277.23972
+    amplitude: 0.36532593
+  - timestamp: 277.4462
+    amplitude: 0.37783813
+  - timestamp: 277.6462
+    amplitude: 0.35525513
+  - timestamp: 277.85706
+    amplitude: 0.36895752
+  - timestamp: 278.0778
+    amplitude: 0.36642456
+  - timestamp: 278.2778
+    amplitude: 0.5989685
+  - timestamp: 278.49142
+    amplitude: 0.35287476
+  - timestamp: 278.75287
+    amplitude: 0.3605957
+  - timestamp: 279.16232
+    amplitude: 0.3564148
+  - timestamp: 279.40063
+    amplitude: 0.38616943
+  - timestamp: 279.60153
+    amplitude: 0.36297607
+  - timestamp: 279.80356
+    amplitude: 0.36941528
+  - timestamp: 280.01315
+    amplitude: 0.3682251
+  - timestamp: 280.21988
+    amplitude: 0.37606812
+  - timestamp: 280.5159
+    amplitude: 0.3826294
+  - timestamp: 280.7418
+    amplitude: 0.37268066
+  - timestamp: 280.94208
+    amplitude: 0.36273193
+  - timestamp: 281.15036
+    amplitude: 0.36984253
+  - timestamp: 281.3518
+    amplitude: 0.3772583
+  - timestamp: 281.55234
+    amplitude: 0.36026
+  - timestamp: 281.76932
+    amplitude: 0.35928345
+  - timestamp: 281.96933
+    amplitude: 0.4645691
+  - timestamp: 282.17
+    amplitude: 0.4031067
+  - timestamp: 282.41434
+    amplitude: 0.35058594
+  - timestamp: 282.61646
+    amplitude: 0.36413574
+  - timestamp: 282.81787
+    amplitude: 0.3892212
+  - timestamp: 283.021
+    amplitude: 0.35702515
+  - timestamp: 283.24048
+    amplitude: 0.35632324
+  - timestamp: 283.4412
+    amplitude: 0.37020874
+  - timestamp: 283.64166
+    amplitude: 0.37045288
+  - timestamp: 283.84326
+    amplitude: 0.38290405
+  - timestamp: 284.04892
+    amplitude: 0.35580444
+  - timestamp: 284.25992
+    amplitude: 0.35568237
+  - timestamp: 284.51495
+    amplitude: 0.4222412
+  - timestamp: 284.7444
+    amplitude: 0.4203186
+  - timestamp: 284.9444
+    amplitude: 0.36883545
+  - timestamp: 285.1452
+    amplitude: 0.3631897
+  - timestamp: 285.3569
+    amplitude: 0.3538208
+  - timestamp: 285.57413
+    amplitude: 0.35604858
+  - timestamp: 285.81216
+    amplitude: 0.35256958
+  - timestamp: 286.08807
+    amplitude: 0.35983276
+  - timestamp: 286.2893
+    amplitude: 0.3529358
+  - timestamp: 286.7467
+    amplitude: 0.37783813
+  - timestamp: 286.95197
+    amplitude: 0.36779785
+  - timestamp: 287.15854
+    amplitude: 0.36331177
+  - timestamp: 287.38315
+    amplitude: 0.3682251
+  - timestamp: 287.58316
+    amplitude: 0.36160278
+  - timestamp: 287.8451
+    amplitude: 0.37368774
+  - timestamp: 288.0883
+    amplitude: 0.36764526
+  - timestamp: 288.2891
+    amplitude: 0.3869629
+  - timestamp: 288.4894
+    amplitude: 0.38879395
+  - timestamp: 288.68988
+    amplitude: 0.35494995
+  - timestamp: 288.89008
+    amplitude: 0.3578186
+  - timestamp: 289.09268
+    amplitude: 0.37353516
+  - timestamp: 289.3057
+    amplitude: 0.35116577
+  - timestamp: 289.50687
+    amplitude: 0.38711548
+  - timestamp: 289.70813
+    amplitude: 0.35180664
+  - timestamp: 289.90817
+    amplitude: 0.39672852
+  - timestamp: 290.10904
+    amplitude: 0.3909912
+  - timestamp: 290.30978
+    amplitude: 0.35635376
+  - timestamp: 290.511
+    amplitude: 0.3519287
+  - timestamp: 290.71323
+    amplitude: 0.35986328
+  - timestamp: 290.91898
+    amplitude: 0.38146973
+  - timestamp: 291.12473
+    amplitude: 0.3547058
+  - timestamp: 291.4272
+    amplitude: 0.37860107
+  - timestamp: 291.63092
+    amplitude: 0.35968018
+  - timestamp: 292.08984
+    amplitude: 0.36257935
+  - timestamp: 292.28986
+    amplitude: 0.37036133
+  - timestamp: 292.48987
+    amplitude: 0.44006348
+  - timestamp: 292.68988
+    amplitude: 0.53652954
+  - timestamp: 292.90094
+    amplitude: 0.35336304
+  - timestamp: 293.22137
+    amplitude: 0.35565186
+  - timestamp: 293.4257
+    amplitude: 0.35690308
+  - timestamp: 293.6257
+    amplitude: 0.4052124
+  - timestamp: 293.83524
+    amplitude: 0.3816223
+  - timestamp: 294.0399
+    amplitude: 0.36270142
+  - timestamp: 294.24
+    amplitude: 0.35009766
+  - timestamp: 294.44714
+    amplitude: 0.36434937
+  - timestamp: 294.75613
+    amplitude: 0.36502075
+  - timestamp: 294.95627
+    amplitude: 0.35073853
+  - timestamp: 295.23312
+    amplitude: 0.36264038
+  - timestamp: 295.437
+    amplitude: 0.36618042
+  - timestamp: 295.91116
+    amplitude: 0.35186768
+  - timestamp: 296.1222
+    amplitude: 0.35754395
+  - timestamp: 296.74765
+    amplitude: 0.36044312
+  - timestamp: 296.95108
+    amplitude: 0.36483765
+  - timestamp: 297.1624
+    amplitude: 0.36993408
+  - timestamp: 297.4223
+    amplitude: 0.364563
+  - timestamp: 297.62418
+    amplitude: 0.35336304
+  - timestamp: 298.07346
+    amplitude: 0.3519287
+  - timestamp: 298.2746
+    amplitude: 0.3501587
+  - timestamp: 298.47467
+    amplitude: 0.37384033
+  - timestamp: 298.6751
+    amplitude: 0.35281372
+  - timestamp: 298.87668
+    amplitude: 0.35458374
+  - timestamp: 299.0995
+    amplitude: 0.3583374
+  - timestamp: 299.41153
+    amplitude: 0.35064697
+  - timestamp: 299.61157
+    amplitude: 0.3619995
+  - timestamp: 299.81293
+    amplitude: 0.3514099
+  - timestamp: 300.01294
+    amplitude: 0.36828613
+  - timestamp: 300.213
+    amplitude: 0.40621948
+  - timestamp: 300.41327
+    amplitude: 0.4026184
+  - timestamp: 300.61395
+    amplitude: 0.3519287
+  - timestamp: 300.81406
+    amplitude: 0.4034729
+  - timestamp: 301.4379
+    amplitude: 0.37731934
+  - timestamp: 301.63794
+    amplitude: 0.40548706
+  - timestamp: 301.83795
+    amplitude: 0.78393555
+  - timestamp: 302.04742
+    amplitude: 0.35629272
+  - timestamp: 302.24744
+    amplitude: 0.46209717
+  - timestamp: 302.463
+    amplitude: 0.3512268
+  - timestamp: 302.73672
+    amplitude: 0.3776245
+  - timestamp: 302.93674
+    amplitude: 0.43566895
+  - timestamp: 303.4048
+    amplitude: 0.36798096
+  - timestamp: 303.6072
+    amplitude: 0.35186768
+  - timestamp: 304.03973
+    amplitude: 0.38671875
+  - timestamp: 304.23975
+    amplitude: 0.40377808
+  - timestamp: 304.44135
+    amplitude: 0.36105347
+  - timestamp: 304.6414
+    amplitude: 0.42999268
+  - timestamp: 304.84323
+    amplitude: 0.35165405
+  - timestamp: 305.0503
+    amplitude: 0.3600464
+  - timestamp: 305.26364
+    amplitude: 0.35491943
+  - timestamp: 305.46436
+    amplitude: 0.35882568
+  - timestamp: 305.6883
+    amplitude: 0.35342407
+  - timestamp: 305.898
+    amplitude: 0.3626709
+  - timestamp: 306.0981
+    amplitude: 0.35879517
+  - timestamp: 306.30054
+    amplitude: 0.356781
+  - timestamp: 306.50287
+    amplitude: 0.39379883
+  - timestamp: 306.7046
+    amplitude: 0.3600769
+  - timestamp: 306.90833
+    amplitude: 0.35586548
+  - timestamp: 307.12305
+    amplitude: 0.3522644
+  - timestamp: 307.3569
+    amplitude: 0.35159302
+  - timestamp: 307.55692
+    amplitude: 0.45211792
+  - timestamp: 307.75992
+    amplitude: 0.35009766
+  - timestamp: 307.96265
+    amplitude: 0.35372925
+  - timestamp: 308.16266
+    amplitude: 0.80114746
+  - timestamp: 308.36752
+    amplitude: 0.35723877
+  - timestamp: 308.57098
+    amplitude: 0.3548584
+  - timestamp: 308.77124
+    amplitude: 0.4611206
+  - timestamp: 308.97684
+    amplitude: 0.35949707
+  - timestamp: 309.17688
+    amplitude: 0.512146
+  - timestamp: 309.4142
+    amplitude: 0.35205078
+  - timestamp: 309.62967
+    amplitude: 0.36038208
+  - timestamp: 310.07687
+    amplitude: 0.36523438
+  - timestamp: 310.27884
+    amplitude: 0.41409302
+  - timestamp: 310.47885
+    amplitude: 0.36749268
+  - timestamp: 310.701
+    amplitude: 0.35198975
+  - timestamp: 310.901
+    amplitude: 0.62820435
+  - timestamp: 311.1013
+    amplitude: 0.39144897
+  - timestamp: 311.30405
+    amplitude: 0.36709595
+  - timestamp: 311.50406
+    amplitude: 0.5161133
+  - timestamp: 312.05844
+    amplitude: 0.37701416
+  - timestamp: 312.25943
+    amplitude: 0.39382935
+  - timestamp: 312.45944
+    amplitude: 0.3890686
+  - timestamp: 312.6796
+    amplitude: 0.3579712
+  - timestamp: 312.8796
+    amplitude: 0.5137634
+  - timestamp: 313.08267
+    amplitude: 0.35437012
+  - timestamp: 313.40067
+    amplitude: 0.38446045
+  - timestamp: 313.60217
+    amplitude: 0.35995483
+  - timestamp: 314.0409
+    amplitude: 0.3874817
+  - timestamp: 314.24185
+    amplitude: 0.39389038
+  - timestamp: 314.7063
+    amplitude: 0.3789978
+  - timestamp: 314.9063
+    amplitude: 0.73046875
+  - timestamp: 315.1084
+    amplitude: 0.37127686
+  - timestamp: 315.3084
+    amplitude: 0.44335938
+  - timestamp: 315.5108
+    amplitude: 0.35876465
+  - timestamp: 315.7157
+    amplitude: 0.3517456
+  - timestamp: 315.9157
+    amplitude: 0.35247803
+  - timestamp: 316.11646
+    amplitude: 0.3609619
+  - timestamp: 316.31827
+    amplitude: 0.35043335
+  - timestamp: 316.70734
+    amplitude: 0.36587524
+  - timestamp: 316.90747
+    amplitude: 0.35580444
+  - timestamp: 317.43015
+    amplitude: 0.40112305
+  - timestamp: 317.63016
+    amplitude: 0.4489441
+  - timestamp: 317.83658
+    amplitude: 0.35372925
+  - timestamp: 318.0366
+    amplitude: 0.6947937
+  - timestamp: 318.2366
+    amplitude: 0.6680298
+  - timestamp: 318.4366
+    amplitude: 0.42300415
+  - timestamp: 318.63773
+    amplitude: 0.36221313
+  - timestamp: 318.83905
+    amplitude: 0.3550415
+  - timestamp: 319.03906
+    amplitude: 0.41433716
+  - timestamp: 319.23907
+    amplitude: 0.45321655
+  - timestamp: 319.43915
+    amplitude: 0.4868164
+  - timestamp: 319.64093
+    amplitude: 0.3977356
+  - timestamp: 319.84094
+    amplitude: 0.3952942
+  - timestamp: 320.0953
+    amplitude: 0.35339355
+  - timestamp: 320.29547
+    amplitude: 0.36175537
+  - timestamp: 320.49628
+    amplitude: 0.35421753
+  - timestamp: 320.69855
+    amplitude: 0.35943604
+  - timestamp: 320.8993
+    amplitude: 0.36520386
+  - timestamp: 321.09958
+    amplitude: 0.35479736
+  - timestamp: 321.30954
+    amplitude: 0.35525513
+  - timestamp: 321.5101
+    amplitude: 0.3774109
+  - timestamp: 321.71014
+    amplitude: 0.35177612
+  - timestamp: 321.91074
+    amplitude: 0.36819458
+  - timestamp: 322.11075
+    amplitude: 0.5242615
+  - timestamp: 322.75903
+    amplitude: 0.35528564
+  - timestamp: 322.95978
+    amplitude: 0.38085938
+  - timestamp: 323.1634
+    amplitude: 0.35455322
+  - timestamp: 323.36475
+    amplitude: 0.37680054
+  - timestamp: 323.56525
+    amplitude: 0.38607788
+  - timestamp: 323.79462
+    amplitude: 0.35028076
+  - timestamp: 324.07117
+    amplitude: 0.3625183
+  - timestamp: 324.2712
+    amplitude: 0.38934326
+  - timestamp: 324.478
+    amplitude: 0.35061646
+  - timestamp: 324.71347
+    amplitude: 0.39434814
+  - timestamp: 324.9141
+    amplitude: 0.43319702
+  - timestamp: 325.11618
+    amplitude: 0.35394287
+  - timestamp: 325.38882
+    amplitude: 0.35110474
+  - timestamp: 325.592
+    amplitude: 0.35549927
+  - timestamp: 325.79303
+    amplitude: 0.35443115
+  - timestamp: 325.99652
+    amplitude: 0.35229492
+  - timestamp: 326.19653
+    amplitude: 0.47375488
+  - timestamp: 326.71912
+    amplitude: 0.3577881
+  - timestamp: 326.91913
+    amplitude: 0.3506775
+  - timestamp: 327.11926
+    amplitude: 0.37902832
+  - timestamp: 327.32098
+    amplitude: 0.37548828
+  - timestamp: 327.52118
+    amplitude: 0.36187744
+  - timestamp: 327.7212
+    amplitude: 0.763031
+  - timestamp: 327.92368
+    amplitude: 0.35635376
+  - timestamp: 328.1237
+    amplitude: 0.3633423
+  - timestamp: 328.3237
+    amplitude: 0.3798828
+  - timestamp: 328.54056
+    amplitude: 0.35491943
+  - timestamp: 328.74094
+    amplitude: 0.3543396
+  - timestamp: 328.94095
+    amplitude: 0.35372925
+  - timestamp: 329.14233
+    amplitude: 0.3508606
+  - timestamp: 329.37173
+    amplitude: 0.3562622
+  - timestamp: 329.57175
+    amplitude: 0.36547852
+  - timestamp: 329.8188
+    amplitude: 0.35147095
+  - timestamp: 330.02158
+    amplitude: 0.35513306
+  - timestamp: 330.47043
+    amplitude: 0.3503418
+  - timestamp: 330.67548
+    amplitude: 0.35125732
+  - timestamp: 330.88275
+    amplitude: 0.3638916
+  - timestamp: 331.09598
+    amplitude: 0.35559082
+  - timestamp: 331.41055
+    amplitude: 0.4220581
+  - timestamp: 331.61633
+    amplitude: 0.35028076
+  - timestamp: 332.48386
+    amplitude: 0.37854004
+  - timestamp: 332.692
+    amplitude: 0.35351562
+  - timestamp: 333.2112
+    amplitude: 0.35235596
+  - timestamp: 333.4419
+    amplitude: 0.35638428
+  - timestamp: 334.10938
+    amplitude: 0.35107422
+  - timestamp: 334.74454
+    amplitude: 0.3543396
+  - timestamp: 335.00375
+    amplitude: 0.35083008
+  - timestamp: 335.22153
+    amplitude: 0.350708
+  - timestamp: 335.43903
+    amplitude: 0.3765564
+  - timestamp: 335.87756
+    amplitude: 0.35507202
+  - timestamp: 336.1152
+    amplitude: 0.36209106
+  - timestamp: 336.32336
+    amplitude: 0.35336304
+  - timestamp: 336.5598
+    amplitude: 0.35614014
+  - timestamp: 337.43723
+    amplitude: 0.375
+  - timestamp: 337.911
+    amplitude: 0.35934448
+  - timestamp: 338.11298
+    amplitude: 0.3531189
+  - timestamp: 338.78088
+    amplitude: 0.36605835
+  - timestamp: 338.981
+    amplitude: 0.36166382
+  - timestamp: 339.41614
+    amplitude: 0.3514099
+  - timestamp: 339.6183
+    amplitude: 0.35739136
+  - timestamp: 339.82263
+    amplitude: 0.36505127
+  - timestamp: 340.08942
+    amplitude: 0.37860107
+  - timestamp: 340.28943
+    amplitude: 0.45257568
+  - timestamp: 340.49078
+    amplitude: 0.36416626
+  - timestamp: 340.7444
+    amplitude: 0.3852234
+  - timestamp: 340.94833
+    amplitude: 0.35354614
+  - timestamp: 341.16797
+    amplitude: 0.3624878
+  - timestamp: 341.3687
+    amplitude: 0.3673401
+  - timestamp: 341.5716
+    amplitude: 0.35177612
+  - timestamp: 341.77463
+    amplitude: 0.3515625
+  - timestamp: 342.05942
+    amplitude: 0.36965942
+  - timestamp: 342.25946
+    amplitude: 0.59317017
+  - timestamp: 342.4598
+    amplitude: 0.353302
+  - timestamp: 342.65982
+    amplitude: 0.37509155
+  - timestamp: 342.85983
+    amplitude: 0.4699402
+  - timestamp: 343.06116
+    amplitude: 0.38375854
+  - timestamp: 343.26123
+    amplitude: 0.3534851
+  - timestamp: 343.46167
+    amplitude: 0.4538269
+  - timestamp: 343.68756
+    amplitude: 0.40368652
+  - timestamp: 343.915
+    amplitude: 0.352417
+  - timestamp: 344.11517
+    amplitude: 0.3944397
+  - timestamp: 344.31552
+    amplitude: 0.40570068
+  - timestamp: 344.5158
+    amplitude: 0.35528564
+  - timestamp: 344.71616
+    amplitude: 0.37747192
+  - timestamp: 344.91708
+    amplitude: 0.3616333
+  - timestamp: 345.127
+    amplitude: 0.3574524
+  - timestamp: 345.37433
+    amplitude: 0.35253906
+  - timestamp: 345.5751
+    amplitude: 0.36102295
+  - timestamp: 345.7759
+    amplitude: 0.3562317
+  - timestamp: 345.9885
+    amplitude: 0.35861206
+  - timestamp: 346.1893
+    amplitude: 0.42297363
+  - timestamp: 346.43488
+    amplitude: 0.3668518
+  - timestamp: 346.72598
+    amplitude: 0.37161255
+  - timestamp: 346.92642
+    amplitude: 0.37329102
+  - timestamp: 347.12643
+    amplitude: 0.5982666
+  - timestamp: 347.32645
+    amplitude: 0.3678589
+  - timestamp: 347.52783
+    amplitude: 0.36486816
+  - timestamp: 347.72986
+    amplitude: 0.36865234
+  - timestamp: 347.93158
+    amplitude: 0.3607788
+  - timestamp: 348.1319
+    amplitude: 0.37728882
+  - timestamp: 348.3319
+    amplitude: 0.4187622
+  - timestamp: 348.53192
+    amplitude: 0.7261963
+  - timestamp: 348.73624
+    amplitude: 0.36038208
+  - timestamp: 348.93793
+    amplitude: 0.35879517
+  - timestamp: 349.14
+    amplitude: 0.35162354
+  - timestamp: 349.38086
+    amplitude: 0.35427856
+  - timestamp: 349.5823
+    amplitude: 0.38076782
+  - timestamp: 349.78253
+    amplitude: 0.3623352
+  - timestamp: 349.9831
+    amplitude: 0.36135864
+  - timestamp: 350.1831
+    amplitude: 0.72262573
+  - timestamp: 350.39114
+    amplitude: 0.36080933
+  - timestamp: 350.59238
+    amplitude: 0.38256836
+  - timestamp: 350.7924
+    amplitude: 0.3562317
+  - timestamp: 350.9924
+    amplitude: 0.3760376
+  - timestamp: 351.1924
+    amplitude: 0.41375732
+  - timestamp: 351.39362
+    amplitude: 0.38085938
+  - timestamp: 351.59393
+    amplitude: 0.37173462
+  - timestamp: 351.7962
+    amplitude: 0.35342407
+  - timestamp: 352.00098
+    amplitude: 0.3609314
+  - timestamp: 352.20105
+    amplitude: 0.35437012
+  - timestamp: 352.40106
+    amplitude: 0.44229126
+  - timestamp: 352.60107
+    amplitude: 0.38412476
+  - timestamp: 352.8011
+    amplitude: 0.7998657
+  - timestamp: 353.0011
+    amplitude: 0.5438843
+  - timestamp: 353.2011
+    amplitude: 0.36279297
+  - timestamp: 353.40112
+    amplitude: 0.5491638
+  - timestamp: 353.60114
+    amplitude: 0.53790283
+  - timestamp: 353.80115
+    amplitude: 0.37493896
+  - timestamp: 354.00125
+    amplitude: 0.35299683
+  - timestamp: 354.20178
+    amplitude: 0.3551941
+  - timestamp: 354.41745
+    amplitude: 0.35134888
+  - timestamp: 354.7211
+    amplitude: 0.3720398
+  - timestamp: 354.922
+    amplitude: 0.38961792
+  - timestamp: 355.1221
+    amplitude: 0.3828125
+  - timestamp: 355.32324
+    amplitude: 0.36669922
+  - timestamp: 355.52405
+    amplitude: 0.37197876
+  - timestamp: 355.73734
+    amplitude: 0.3756714
+  - timestamp: 355.943
+    amplitude: 0.3821106
+  - timestamp: 356.1436
+    amplitude: 0.37817383
+  - timestamp: 356.3436
+    amplitude: 0.58062744
+  - timestamp: 356.55197
+    amplitude: 0.3595581
+  - timestamp: 356.75198
+    amplitude: 0.38601685
+  - timestamp: 356.95377
+    amplitude: 0.38815308
+  - timestamp: 357.17102
+    amplitude: 0.35351562
+  - timestamp: 357.40714
+    amplitude: 0.35012817
+  - timestamp: 357.60715
+    amplitude: 0.4119873
+  - timestamp: 357.8073
+    amplitude: 0.37780762
+  - timestamp: 358.00732
+    amplitude: 0.35714722
+  - timestamp: 358.2081
+    amplitude: 0.36437988
+  - timestamp: 358.40915
+    amplitude: 0.35079956
+  - timestamp: 358.6156
+    amplitude: 0.37280273
+  - timestamp: 358.8158
+    amplitude: 0.38012695
+  - timestamp: 359.01593
+    amplitude: 0.38479614
+  - timestamp: 359.21594
+    amplitude: 0.6778259
+  - timestamp: 359.41895
+    amplitude: 0.36343384
+  - timestamp: 359.61908
+    amplitude: 0.38250732
+  - timestamp: 359.8191
+    amplitude: 0.4361267
+  - timestamp: 360.0191
+    amplitude: 0.378479
+  - timestamp: 360.2198
+    amplitude: 0.36923218
+  - timestamp: 360.4209
+    amplitude: 0.35894775
+  - timestamp: 360.63327
+    amplitude: 0.35214233
+  - timestamp: 360.83328
+    amplitude: 0.6926575
+  - timestamp: 361.0333
+    amplitude: 0.42053223
+  - timestamp: 361.24136
+    amplitude: 0.3682251
+  - timestamp: 361.44138
+    amplitude: 0.6748657
+  - timestamp: 361.64178
+    amplitude: 0.35107422
+  - timestamp: 361.84537
+    amplitude: 0.380188
+  - timestamp: 362.0486
+    amplitude: 0.36990356
+  - timestamp: 362.2491
+    amplitude: 0.38742065
+  - timestamp: 362.44928
+    amplitude: 0.3694458
+  - timestamp: 362.6493
+    amplitude: 0.3993225
+  - timestamp: 362.8494
+    amplitude: 0.3730774
+  - timestamp: 363.04947
+    amplitude: 0.37719727
+  - timestamp: 363.25098
+    amplitude: 0.36547852
+  - timestamp: 363.451
+    amplitude: 0.44833374
+  - timestamp: 363.651
+    amplitude: 0.5632324
+  - timestamp: 363.8513
+    amplitude: 0.35092163
+  - timestamp: 364.0545
+    amplitude: 0.35235596
+  - timestamp: 364.25455
+    amplitude: 0.6061096
+  - timestamp: 364.4546
+    amplitude: 0.48895264
+  - timestamp: 364.6556
+    amplitude: 0.4045105
+  - timestamp: 364.8568
+    amplitude: 0.3557434
+  - timestamp: 365.06024
+    amplitude: 0.35809326
+  - timestamp: 365.26025
+    amplitude: 0.539917
+  - timestamp: 365.46027
+    amplitude: 0.72454834
+  - timestamp: 365.66052
+    amplitude: 0.36517334
+  - timestamp: 365.86053
+    amplitude: 0.41662598
+  - timestamp: 366.06064
+    amplitude: 0.43493652
+  - timestamp: 366.26065
+    amplitude: 0.57147217
+  - timestamp: 366.46725
+    amplitude: 0.35266113
+  - timestamp: 366.6687
+    amplitude: 0.3587036
+  - timestamp: 366.8687
+    amplitude: 0.6479187
+  - timestamp: 367.07126
+    amplitude: 0.35647583
+  - timestamp: 367.27576
+    amplitude: 0.3602295
+  - timestamp: 367.47577
+    amplitude: 0.3840027
+  - timestamp: 367.6778
+    amplitude: 0.35317993
+  - timestamp: 367.88135
+    amplitude: 0.37921143
+  - timestamp: 368.08246
+    amplitude: 0.38912964
+  - timestamp: 368.2858
+    amplitude: 0.36309814
+  - timestamp: 368.48654
+    amplitude: 0.36883545
+  - timestamp: 368.70822
+    amplitude: 0.37530518
+  - timestamp: 368.90933
+    amplitude: 0.35287476
+  - timestamp: 369.11203
+    amplitude: 0.35464478
+  - timestamp: 369.32166
+    amplitude: 0.35668945
+  - timestamp: 369.52167
+    amplitude: 0.583374
+  - timestamp: 369.72556
+    amplitude: 0.35806274
+  - timestamp: 369.92627
+    amplitude: 0.3602295
+  - timestamp: 370.12628
+    amplitude: 0.3725586
+  - timestamp: 370.3266
+    amplitude: 0.370636
+  - timestamp: 370.5266
+    amplitude: 0.60321045
+  - timestamp: 370.72662
+    amplitude: 0.3756714
+  - timestamp: 370.92664
+    amplitude: 0.62823486
+  - timestamp: 371.12848
+    amplitude: 0.3670349
+  - timestamp: 371.3285
+    amplitude: 0.3996277
+  - timestamp: 371.5285
+    amplitude: 0.50006104
+  - timestamp: 371.73138
+    amplitude: 0.3696289
+  - timestamp: 371.93192
+    amplitude: 0.3605652
+  - timestamp: 372.38126
+    amplitude: 0.3703308
+  - timestamp: 372.5904
+    amplitude: 0.35195923
+  - timestamp: 372.79715
+    amplitude: 0.36828613
+  - timestamp: 373.02856
+    amplitude: 0.35754395
+  - timestamp: 373.24176
+    amplitude: 0.3595276
+  - timestamp: 373.4434
+    amplitude: 0.35073853
+  - timestamp: 373.66052
+    amplitude: 0.36001587
+  - timestamp: 373.86346
+    amplitude: 0.35153198
+  - timestamp: 374.07687
+    amplitude: 0.36672974
+  - timestamp: 375.18802
+    amplitude: 0.4465332
+  - timestamp: 375.38803
+    amplitude: 0.35821533
+  - timestamp: 375.5881
+    amplitude: 0.37393188
+  - timestamp: 375.98883
+    amplitude: 0.3511963
+  - timestamp: 376.8524
+    amplitude: 0.35443115
+  - timestamp: 377.42276
+    amplitude: 0.3531494
+  - timestamp: 377.67505
+    amplitude: 0.35043335
+  - timestamp: 378.0771
+    amplitude: 0.3788452
+  - timestamp: 378.58694
+    amplitude: 0.35150146
+  - timestamp: 378.80185
+    amplitude: 0.36941528
+  - timestamp: 379.0107
+    amplitude: 0.36264038
+  - timestamp: 379.2467
+    amplitude: 0.35354614
+  - timestamp: 380.10474
+    amplitude: 0.3505249
+  - timestamp: 380.5192
+    amplitude: 0.37265015
+  - timestamp: 380.74377
+    amplitude: 0.35913086
+  - timestamp: 381.1923
+    amplitude: 0.36517334
+  - timestamp: 382.09366
+    amplitude: 0.36843872
+  - timestamp: 382.376
+    amplitude: 0.3526001
+  - timestamp: 382.75687
+    amplitude: 0.37054443
+  - timestamp: 382.96213
+    amplitude: 0.35061646
+  - timestamp: 383.36005
+    amplitude: 0.35012817
+  - timestamp: 383.56165
+    amplitude: 0.35855103
+  - timestamp: 383.76816
+    amplitude: 0.35006714
+  - timestamp: 384.07974
+    amplitude: 0.36956787
+  - timestamp: 384.29886
+    amplitude: 0.35153198
+  - timestamp: 384.74448
+    amplitude: 0.36999512
+  - timestamp: 384.9527
+    amplitude: 0.35321045
+  - timestamp: 385.85117
+    amplitude: 0.36395264
+  - timestamp: 386.07773
+    amplitude: 0.3892212
+  - timestamp: 386.5753
+    amplitude: 0.3501587
+  - timestamp: 386.80902
+    amplitude: 0.35549927
+  - timestamp: 387.55203
+    amplitude: 0.35214233
+  - timestamp: 388.08945
+    amplitude: 0.3614502
+  - timestamp: 388.3388
+    amplitude: 0.35046387
+  - timestamp: 388.5417
+    amplitude: 0.35824585
+  - timestamp: 388.7437
+    amplitude: 0.3857727
+  - timestamp: 389.23074
+    amplitude: 0.36120605
+  - timestamp: 389.44815
+    amplitude: 0.37356567
+  - timestamp: 389.65298
+    amplitude: 0.3510437
+  - timestamp: 389.86713
+    amplitude: 0.35144043
+  - timestamp: 390.77216
+    amplitude: 0.36132812
+  - timestamp: 391.2045
+    amplitude: 0.3725586
+  - timestamp: 391.41043
+    amplitude: 0.3850708
+  - timestamp: 391.94077
+    amplitude: 0.35281372
+  - timestamp: 392.15002
+    amplitude: 0.35266113
+  - timestamp: 392.36
+    amplitude: 0.36016846
+  - timestamp: 392.76544
+    amplitude: 0.35403442
+  - timestamp: 393.42273
+    amplitude: 0.35513306
+  - timestamp: 393.62277
+    amplitude: 0.42681885
+  - timestamp: 394.07773
+    amplitude: 0.40005493
+  - timestamp: 394.27917
+    amplitude: 0.35598755
+  - timestamp: 394.5126
+    amplitude: 0.3508606
+  - timestamp: 394.79184
+    amplitude: 0.3692932
+  - timestamp: 395.00366
+    amplitude: 0.36206055
+  - timestamp: 395.21832
+    amplitude: 0.35284424
+  - timestamp: 395.42267
+    amplitude: 0.35437012
+  - timestamp: 395.62988
+    amplitude: 0.3597412
+  - timestamp: 395.84464
+    amplitude: 0.3501587
+  - timestamp: 396.04816
+    amplitude: 0.35101318
+  - timestamp: 396.44196
+    amplitude: 0.3564148
+  - timestamp: 396.64627
+    amplitude: 0.35858154
+  - timestamp: 396.8467
+    amplitude: 0.3539734
+  - timestamp: 397.41602
+    amplitude: 0.3518982
+  - timestamp: 398.19165
+    amplitude: 0.35165405
+  - timestamp: 398.7561
+    amplitude: 0.35610962
+  - timestamp: 398.9704
+    amplitude: 0.35168457
+  - timestamp: 399.41043
+    amplitude: 0.37857056
+  - timestamp: 399.89215
+    amplitude: 0.3595581
+  - timestamp: 400.13586
+    amplitude: 0.37091064
+  - timestamp: 400.3581
+    amplitude: 0.35098267
+  - timestamp: 401.43756
+    amplitude: 0.35229492
+  - timestamp: 401.8692
+    amplitude: 0.4274292
+  - timestamp: 402.07706
+    amplitude: 0.40325928
+  - timestamp: 402.56662
+    amplitude: 0.37017822
+  - timestamp: 402.82153
+    amplitude: 0.35128784
+  - timestamp: 403.42966
+    amplitude: 0.35864258
+  - timestamp: 404.08945
+    amplitude: 0.3508911
+  - timestamp: 404.2939
+    amplitude: 0.35342407
+  - timestamp: 404.7438
+    amplitude: 0.3562622
+  - timestamp: 405.4356
+    amplitude: 0.40115356
+  - timestamp: 405.63675
+    amplitude: 0.36572266
+  - timestamp: 406.07782
+    amplitude: 0.35986328
+  - timestamp: 407.15808
+    amplitude: 0.37072754
+  - timestamp: 407.41107
+    amplitude: 0.44039917
+  - timestamp: 407.89578
+    amplitude: 0.35003662
+  - timestamp: 408.1116
+    amplitude: 0.3597412
+  - timestamp: 408.7745
+    amplitude: 0.3578186
+  - timestamp: 409.4375
+    amplitude: 0.37286377
+  - timestamp: 409.64114
+    amplitude: 0.35095215
+  - timestamp: 409.92395
+    amplitude: 0.35324097
+  - timestamp: 410.12958
+    amplitude: 0.385437
+  - timestamp: 410.47675
+    amplitude: 0.36813354
+  - timestamp: 410.75092
+    amplitude: 0.35775757
+  - timestamp: 410.9513
+    amplitude: 0.3518982
+  - timestamp: 411.17352
+    amplitude: 0.350708
+  - timestamp: 412.0867
+    amplitude: 0.3633423
+  - timestamp: 412.29016
+    amplitude: 0.35247803
+  - timestamp: 412.78455
+    amplitude: 0.38601685
+  - timestamp: 412.98917
+    amplitude: 0.3517151

@@ -58,6 +58,7 @@ public class AudioAnalyzerEditor : EditorWindow
 
     private void AnalyzeAudio()
     {
+        analysisDataSO.audioClip = audioClip;
         analysisDataSO.clipLength = audioClip.length;
         analysisDataSO.events.Clear();
 
