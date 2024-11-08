@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
+using System.Collections;
 
 [System.Serializable]
 public class DetectedAudioEvent : UnityEvent<float> { }
@@ -80,7 +81,7 @@ public class AudioEventManager : MonoBehaviour
         // If this is the first event being triggered, invoke the first-event UnityEvent
         if (!firstEventTriggered)
         {
-            audioSource.Play();
+            StartCoroutine(PlaySFXWithDelay());
             onFirstAudioEventTriggered.Invoke();
             firstEventTriggered = true; // Set the flag to prevent future triggers
         }
@@ -105,6 +106,14 @@ public class AudioEventManager : MonoBehaviour
         preEventIndex = 0;
         isPlaying = true;
         firstEventTriggered = false; // Reset the flag in case of replay
+    }
+
+    public float delay = 0;
+
+    private IEnumerator PlaySFXWithDelay()
+    {
+        yield return new WaitForSeconds(delay);
+        audioSource.Play();
     }
 
     public void Stop()
