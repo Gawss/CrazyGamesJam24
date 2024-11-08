@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -41,6 +42,9 @@ namespace CrazyGames24
             beatStatus = BeatStatus.Before;
             isCleared = false;
             isReady = true;
+
+            beatImg.transform.localPosition -= Vector3.up * 1.5f;
+            beatImg.transform.DOLocalMove(Vector3.zero, duration / 2f);
         }
 
         // Update is called once per frame
@@ -77,6 +81,7 @@ namespace CrazyGames24
                 isReady = false;
                 redVFX.Play();
                 beatImg.enabled = false;
+                Destroy(this.gameObject, 1f);
             }
         }
 
