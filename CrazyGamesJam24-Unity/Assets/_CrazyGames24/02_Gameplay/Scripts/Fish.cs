@@ -90,6 +90,7 @@ namespace CrazyGames24
 
         public void OnPointerDown(PointerEventData eventData)
         {
+            if (!GameManager.Instance.GameRunning) return;
             if (isAttached) Detach();
             else Attach();
         }

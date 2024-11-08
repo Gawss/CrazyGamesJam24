@@ -46,9 +46,8 @@ namespace CrazyGames24
 
         private void FixedUpdate()
         {
+            if (!GameManager.Instance.GameRunning) return;
             if (player.isFishing) return;
-
-
 
             player.rb.rotation = Quaternion.Slerp(player.rb.rotation, currentRotation, Time.deltaTime * 25f);
 

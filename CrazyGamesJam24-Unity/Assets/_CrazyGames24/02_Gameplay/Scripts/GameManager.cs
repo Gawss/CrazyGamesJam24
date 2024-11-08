@@ -17,6 +17,8 @@ namespace CrazyGames24
                 Instance = this;
                 DontDestroyOnLoad(gameObject);
             }
+
+            GameRunning = false;
         }
 
         public Player player;
@@ -24,5 +26,7 @@ namespace CrazyGames24
         public BeatDetector beatDetector;
         public BeatInterface beatInterface;
         public AudioEventManager audioEventManager;
+
+        public bool GameRunning = false;
     }
 }
