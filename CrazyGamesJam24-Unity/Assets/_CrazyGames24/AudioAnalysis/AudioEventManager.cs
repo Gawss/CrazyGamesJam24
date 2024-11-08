@@ -81,7 +81,7 @@ public class AudioEventManager : MonoBehaviour
         // If this is the first event being triggered, invoke the first-event UnityEvent
         if (!firstEventTriggered)
         {
-            StartCoroutine(PlaySFXWithDelay());
+            audioSource.Play();
             onFirstAudioEventTriggered.Invoke();
             firstEventTriggered = true; // Set the flag to prevent future triggers
         }
@@ -123,7 +123,7 @@ public class AudioEventManager : MonoBehaviour
         eventIndex = 0;
         preEventIndex = 0;
 
-        audioSource.Stop();
+        audioSource.Pause();
 
         onStop?.Invoke();
     }
