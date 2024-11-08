@@ -15,6 +15,9 @@ namespace CrazyGames24
         public float speed = 5f;
         float defaultSpeed;
 
+        Vector3 defaultPosition;
+        Vector3 defaultRotation;
+
         [SerializeField] private int spotIndex = 0;
 
         [SerializeField] private AudioAnalysisDataSO audioDataSO;
@@ -24,12 +27,15 @@ namespace CrazyGames24
         [SerializeField] private Renderer triggerVFX;
         [SerializeField] private Color[] colorsVFX;
 
-        private void OnEnable()
+        private void Start()
         {
             defaultSpeed = speed;
 
             triggerVFX.enabled = false;
             idleVFX.Play();
+
+            defaultPosition = transform.localPosition;
+            defaultRotation = transform.localEulerAngles;
         }
 
         Tween colorTween;
@@ -83,14 +89,39 @@ namespace CrazyGames24
             isAttached = false;
             GameManager.Instance.player.DetachFish(this);
 
-            transform.gameObject.SetActive(false);
+            // transform.gameObject.SetActive(false);
 
             // transform.position = GameManager.Instance.player.fishingSpotTransforms[spotIndex].position;
+
+            StartCoroutine(ResetFish());
+        }
+
+        private IEnumerator ResetFish()
+        {
+            yield return new WaitForSeconds(5f);
+
+            transform.localEulerAngles = defaultRotation;
+            transform.localPosition = new Vector3(defaultPosition.x, -2, defaultPosition.z);
+            transform.DOLocalMoveY(defaultPosition.y, 0.25f);
+
+            speed = defaultSpeed;
+            triggerVFX.enabled = false;
+            idleVFX.Play();
+        }
+
+        public void CollectFish()
+        {
+            triggerVFX.enabled = false;
+
+            speed = 0;
+            isAttached = false;
+            GameManager.Instance.player.DetachFish(this, true);
+
+            transform.gameObject.SetActive(false);
         }
 
         public void OnPointerDown(PointerEventData eventData)
         {
-            if (!GameManager.Instance.GameRunning) return;
             if (isAttached) Detach();
             else Attach();
         }
@@ -109,7 +140,7 @@ namespace CrazyGames24
 
             transform.position = Vector3.Lerp(transform.position, transform.position + transform.forward * (1f - GameManager.Instance.player.pullingSpeed), Time.deltaTime * speed);
 
-            if (Vector3.Distance(transform.position, GameManager.Instance.player.transform.position) < 5f) Detach();
+            if (Vector3.Distance(transform.position, GameManager.Instance.player.transform.position) < 5f) CollectFish();
             if (Vector3.Distance(transform.position, GameManager.Instance.player.transform.position) > 35f) Detach();
         }
     }

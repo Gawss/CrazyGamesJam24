@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eb86296af1d2e4468539e0898dbe5c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  songsCollectedScore: {fileID: 6400853238494865294}
 --- !u!1 &1448555730075775827
 GameObject:
   m_ObjectHideFlags: 0

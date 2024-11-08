@@ -31,7 +31,6 @@ namespace CrazyGames24
 
         private void OnMainButtonClick()
         {
-            GameManager.Instance.GameRunning = true;
             introElements.SetActive(true);
             canvasGroup.DOFade(0, 0.75f).OnComplete(() =>
             {

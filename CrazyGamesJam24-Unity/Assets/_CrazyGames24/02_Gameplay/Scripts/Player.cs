@@ -17,9 +17,11 @@ namespace CrazyGames24
         [SerializeField] private GameObject paddle;
         [SerializeField] private Animator fishermanAnimator;
         [SerializeField] private CinemachineCamera cinemachineCamera;
-        [SerializeField] private CameraTarget cameraTarget;
+        public CameraTarget cameraTarget;
 
         public Transform[] fishingSpotTransforms;
+
+        public int songsCollected;
 
         public Fish currentFish;
         public bool isFishing = false;
@@ -28,6 +30,8 @@ namespace CrazyGames24
 
         public UnityEvent OnAttachFish;
         public UnityEvent<Fish> OnDetachFish;
+
+        public Action OnSongCollected;
 
         public void Start()
         {
@@ -71,21 +75,28 @@ namespace CrazyGames24
             {
                 isFishing = true;
                 SetCharacter(false);
+                fishingLine.gameObject.SetActive(true);
                 OnAnimationCompleted?.Invoke();
                 OnAttachFish?.Invoke();
             }));
         }
 
-        public void DetachFish(Fish fish)
+        public void DetachFish(Fish fish, bool isCollected = false)
         {
+            if (isCollected)
+            {
+                songsCollected++;
+                OnSongCollected?.Invoke();
+            }
+            else
+            {
+                cameraTarget.SetTarget(this.transform);
+            }
+
             isFishing = false;
             currentFish = null;
 
-            cameraTarget.SetTarget(this.transform);
-
-            fishingLine.SetPosition(0, lineStartTransform.position);
-            fishingLine.SetPosition(1, lineMiddleTransform.position);
-            fishingLine.SetPosition(2, lineMiddleTransform.position);
+            fishingLine.gameObject.SetActive(false);
 
             GameManager.Instance.audioEventManager.Stop();
         }

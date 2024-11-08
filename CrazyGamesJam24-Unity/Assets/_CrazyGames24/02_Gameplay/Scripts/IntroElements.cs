@@ -28,6 +28,8 @@ namespace CrazyGames24
         {
             GameManager.Instance.inputManager.OnTriggerBeatPerformed -= HideElements;
             alignToWaves.enabled = false;
+
+            GameManager.Instance.GameRunning = true;
             firstLake.gameObject.SetActive(true);
             ingameCanvas.gameObject.SetActive(true);
             transform.DOMoveY(-6f, 2.5f);
