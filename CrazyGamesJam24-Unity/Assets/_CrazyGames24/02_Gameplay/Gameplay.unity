@@ -1271,7 +1271,7 @@ Transform:
   m_GameObject: {fileID: 523079842}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2254909, y: 0.25166792, z: -0.060420115, w: 0.93923724}
-  m_LocalPosition: {x: -33.551033, y: 33.707993, z: -45.694836}
+  m_LocalPosition: {x: -33.55161, y: 33.707993, z: -45.6945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1321,6 +1321,7 @@ GameObject:
   - component: {fileID: 526241586}
   - component: {fileID: 526241587}
   - component: {fileID: 526241588}
+  - component: {fileID: 526241589}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1353,7 +1354,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!4 &526241585
 Transform:
@@ -1432,7 +1433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   synchValue: 0
   synchSlider: {fileID: 1543920923}
-  initialSynch: 0.5
+  initialSynch: -0.5
   beforeValue: -0.1
   onTimeValue: 0.1
   onMissedValue: -0.1
@@ -1450,6 +1451,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   cameraOffset: {x: 0, y: 45, z: 0}
+--- !u!65 &526241589
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526241583}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9730673, y: 12.937251, z: 6.321582}
+  m_Center: {x: 0, y: -2.4990544, z: 0.00000047683716}
 --- !u!1 &619551866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,7 +2308,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  preEventOffset: 10
+  preEventOffset: 1.5
   verbose: 0
   loop: 1
 --- !u!4 &1313221543
@@ -2393,7 +2415,7 @@ Transform:
   m_GameObject: {fileID: 1321546064}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2254909, y: 0.25166792, z: -0.060420115, w: 0.93923724}
-  m_LocalPosition: {x: -33.551033, y: 33.707993, z: -45.694836}
+  m_LocalPosition: {x: -33.55161, y: 33.707993, z: -45.6945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2907,6 +2929,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2008549820}
     m_Modifications:
+    - target: {fileID: 889640557824157779, guid: 17f719307b10b8b4d8831fcee4bba1c9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6225948131574243096, guid: 17f719307b10b8b4d8831fcee4bba1c9,
         type: 3}
       propertyPath: m_Name
@@ -3212,6 +3239,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish
       objectReference: {fileID: 0}
+    - target: {fileID: 3481509248488024224, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4858229335982195882, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3266,6 +3298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492125061992346619, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7965315036869058109, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
         type: 3}

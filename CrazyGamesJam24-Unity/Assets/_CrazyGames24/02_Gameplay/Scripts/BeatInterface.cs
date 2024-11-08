@@ -41,6 +41,8 @@ public class BeatInterface : MonoBehaviour
         foreach (var b in beatFeedback) b.gameObject.SetActive(false);
 
         beatFeedback[(int)prebeat.beatStatus].gameObject.SetActive(true);
+
+        GameManager.Instance.player.currentFish.SetTriggerColor((int)prebeat.beatStatus);
     }
 
     private void Update()

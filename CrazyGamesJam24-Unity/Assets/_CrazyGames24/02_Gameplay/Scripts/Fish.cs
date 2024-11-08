@@ -15,9 +15,22 @@ namespace CrazyGames24
 
         [SerializeField] private int spotIndex = 0;
 
+        [Header("VFX")]
+        [SerializeField] private ParticleSystem idleVFX;
+        [SerializeField] private ParticleSystem[] beatTriggersVFX;
+
         private void OnEnable()
         {
             defaultSpeed = speed;
+
+            idleVFX.Play();
+            foreach (var vfx in beatTriggersVFX) vfx.Stop();
+        }
+
+        public void SetTriggerColor(int _colorIndex)
+        {
+            foreach (var vfx in beatTriggersVFX) vfx.gameObject.SetActive(false);
+            beatTriggersVFX[_colorIndex].gameObject.SetActive(true);
         }
 
         public void Attach()
@@ -28,6 +41,9 @@ namespace CrazyGames24
             Vector3 lookAwayPosition = transform.position + oppositeDirection;
 
             lookAwayPosition.y = transform.position.y;
+
+            beatTriggersVFX[0].gameObject.SetActive(true);
+            idleVFX.Stop();
 
             transform.LookAt(lookAwayPosition, transform.up);
 
@@ -41,6 +57,7 @@ namespace CrazyGames24
 
         public void Detach()
         {
+            foreach (var vfx in beatTriggersVFX) vfx.Stop();
             speed = 0;
             isAttached = false;
             GameManager.Instance.player.DetachFish(this);
