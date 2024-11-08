@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 
 namespace CrazyGames24
@@ -9,13 +10,10 @@ namespace CrazyGames24
         Fish[] fishingSpots;
         private void OnEnable()
         {
-
             fishingSpots = fishingSpotsParent.GetComponentsInChildren<Fish>(true);
 
-            foreach (Fish fpot in fishingSpots)
-            {
-
-            }
+            fishingSpotsParent.localPosition += Vector3.up * -6f;
+            fishingSpotsParent.DOMoveY(0f, 0.75f);
         }
     }
 }

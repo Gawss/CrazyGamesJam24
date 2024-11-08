@@ -43,7 +43,7 @@ namespace CrazyGames24
             isCleared = false;
             isReady = true;
 
-            beatImg.transform.localPosition -= Vector3.up * 1.5f;
+            beatImg.transform.localPosition -= Vector3.up * 2.5f;
             beatImg.transform.DOLocalMove(Vector3.zero, duration / 2f);
         }
 
@@ -92,6 +92,7 @@ namespace CrazyGames24
             // beatImg.material.color = statusColors[(int)beatStatus];
             beatImg.enabled = false;
             redVFX.Play();
+            Destroy(this.gameObject, 1f);
         }
     }
 }
