@@ -190,7 +190,7 @@ MonoBehaviour:
   beatInitialTransform: {fileID: 1930344531254339556}
   beatFinalTransform: {fileID: 1830895793891483875}
   beatDetector: {fileID: 154254894206386309}
-  speed: 1.25
+  speed: 0.6
   spotIndex: 0
   audioDataSO: {fileID: 11400000, guid: 3d122002085ae2541bf1e68cbed83731, type: 2}
   idleVFX: {fileID: 5047428704787171497}

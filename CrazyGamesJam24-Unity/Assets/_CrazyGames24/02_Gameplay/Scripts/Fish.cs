@@ -26,7 +26,8 @@ namespace CrazyGames24
             defaultSpeed = speed;
 
             foreach (var vfx in beatTriggersVFX) vfx.gameObject.SetActive(false);
-            beatTriggersVFX[0].gameObject.SetActive(true);
+
+            idleVFX.Play();
         }
 
         public void SetTriggerColor(int _colorIndex)
@@ -48,6 +49,7 @@ namespace CrazyGames24
             lookAwayPosition.y = transform.position.y;
 
             beatTriggersVFX[0].gameObject.SetActive(true);
+            idleVFX.Stop();
 
             transform.LookAt(lookAwayPosition, transform.up);
 
