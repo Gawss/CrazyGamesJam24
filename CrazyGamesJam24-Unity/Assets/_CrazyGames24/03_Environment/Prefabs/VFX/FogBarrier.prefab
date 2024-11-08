@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3301481551655726061}
   - component: {fileID: 8612464506305583110}
   m_Layer: 5
-  m_Name: BiomeLockedCanvas
+  m_Name: AreaLockedCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &3301481551655726061
 MonoBehaviour:
@@ -4970,7 +4970,7 @@ GameObject:
   - component: {fileID: 6768200750234184224}
   - component: {fileID: 4955386965081917848}
   m_Layer: 5
-  m_Name: BiomeLockedUI
+  m_Name: AreaLockedUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
