@@ -6593,8 +6593,8 @@ MonoBehaviour:
   fishingSpotTransforms:
   - {fileID: 4883545298541950239}
   - {fileID: 6775304785007793884}
-  songsCollected: 10
-  maxSongs: 0
+  songsCollected: 0
+  maxSongs: 10
   lifePoints: 3
   currentFish: {fileID: 0}
   isFishing: 0
