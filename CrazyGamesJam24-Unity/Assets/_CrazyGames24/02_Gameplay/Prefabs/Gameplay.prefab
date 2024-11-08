@@ -557,6 +557,7 @@ Transform:
   - {fileID: 5487012174674191132}
   - {fileID: 9155342176950270447}
   - {fileID: 3760549614697509881}
+  - {fileID: 465840586306620630}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1499204502839693827
@@ -808,6 +809,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0
+--- !u!1 &2459045740920452556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 465840586306620630}
+  m_Layer: 0
+  m_Name: Lake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &465840586306620630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459045740920452556}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1240045136066091064}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2542129855009862124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,6 +1753,7 @@ MonoBehaviour:
   beatDetector: {fileID: 4942064281021040225}
   beatInterface: {fileID: 8973695463594466628}
   audioEventManager: {fileID: 6930520322680102103}
+  GameRunning: 0
 --- !u!1 &7820121135987051587
 GameObject:
   m_ObjectHideFlags: 0

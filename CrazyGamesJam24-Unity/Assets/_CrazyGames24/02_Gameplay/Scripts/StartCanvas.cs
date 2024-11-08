@@ -11,9 +11,12 @@ namespace CrazyGames24
 
         CanvasGroup canvasGroup;
 
+        [SerializeField] private GameObject introElements;
+
         private void OnEnable()
         {
             canvasGroup = GetComponent<CanvasGroup>();
+            introElements.SetActive(false);
             canvasGroup.alpha = 0;
             canvasGroup.DOFade(1, 0.75f).OnComplete(() =>
             {
@@ -29,6 +32,7 @@ namespace CrazyGames24
         private void OnMainButtonClick()
         {
             GameManager.Instance.GameRunning = true;
+            introElements.SetActive(true);
             canvasGroup.DOFade(0, 0.75f).OnComplete(() =>
             {
                 this.gameObject.SetActive(false);
