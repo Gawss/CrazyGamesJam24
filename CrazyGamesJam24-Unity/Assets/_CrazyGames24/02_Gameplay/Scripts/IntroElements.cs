@@ -9,6 +9,7 @@ namespace CrazyGames24
         [SerializeField] private AlignToWaves alignToWaves;
         [SerializeField] private Lake firstLake;
         [SerializeField] private IngameCanvas ingameCanvas;
+        [SerializeField] private GameObject bordersParent;
         private void OnEnable()
         {
             if (GameManager.Instance == null) return;
@@ -32,6 +33,7 @@ namespace CrazyGames24
             GameManager.Instance.GameRunning = true;
             firstLake.gameObject.SetActive(true);
             ingameCanvas.gameObject.SetActive(true);
+            bordersParent.SetActive(true);
 
             float height = 1.4f;
 

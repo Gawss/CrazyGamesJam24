@@ -8,10 +8,11 @@ public class AudioAnalyzerEditor : EditorWindow
     private AudioAnalysisDataSO analysisDataSO;
 
     private bool useAutomaticThreshold = false;
-    private bool useAutomaticMinInterval = false;
-    private float thresholdDB = -20f;  // Threshold in dB, default set to -20 dB
+    private bool useAutomaticMinInterval = false; // Checkbox for automatic minDrumInterval
+    private float threshold = 0.5f;
     private float minDrumInterval = 0.75f;
 
+    // New fields for note size and speed
     private float noteSize = 1f;
     private float noteSpeed = 5f;
 
@@ -28,10 +29,10 @@ public class AudioAnalyzerEditor : EditorWindow
         audioClip = (AudioClip)EditorGUILayout.ObjectField("Audio Clip", audioClip, typeof(AudioClip), false);
         analysisDataSO = (AudioAnalysisDataSO)EditorGUILayout.ObjectField("Analysis Data SO", analysisDataSO, typeof(AudioAnalysisDataSO), false);
 
-        useAutomaticThreshold = EditorGUILayout.Toggle("Use Automatic Threshold (dB)", useAutomaticThreshold);
+        useAutomaticThreshold = EditorGUILayout.Toggle("Use Automatic Threshold", useAutomaticThreshold);
         if (!useAutomaticThreshold)
         {
-            thresholdDB = EditorGUILayout.Slider("Threshold (dB)", thresholdDB, -80f, 0f);
+            threshold = EditorGUILayout.Slider("Threshold", threshold, 0f, 1f);
         }
 
         useAutomaticMinInterval = EditorGUILayout.Toggle("Use Automatic Min Drum Interval", useAutomaticMinInterval);
@@ -40,6 +41,7 @@ public class AudioAnalyzerEditor : EditorWindow
             minDrumInterval = EditorGUILayout.FloatField("Min Drum Interval (s)", minDrumInterval);
         }
 
+        // Inputs for note size and speed
         noteSize = EditorGUILayout.FloatField("Note Size", noteSize);
         noteSpeed = EditorGUILayout.FloatField("Note Speed", noteSpeed);
 
@@ -90,8 +92,8 @@ public class AudioAnalyzerEditor : EditorWindow
                 averageAmplitude += Mathf.Abs(samples[i]);
             }
             averageAmplitude /= samples.Length;
-            thresholdDB = 20f * Mathf.Log10(averageAmplitude) + 6f;  // Automatic threshold in dB
-            Debug.Log($"Automatic threshold set to {thresholdDB} dB");
+            threshold = averageAmplitude * 1.5f;
+            Debug.Log($"Automatic threshold set to {threshold}");
         }
 
         if (useAutomaticMinInterval)
@@ -107,10 +109,7 @@ public class AudioAnalyzerEditor : EditorWindow
             float amplitude = Mathf.Abs(samples[i]);
             float currentTime = (float)i / audioClip.frequency;
 
-            // Convert amplitude to dB
-            float amplitudeDB = 20f * Mathf.Log10(amplitude + 0.0001f);  // Adding a small constant to avoid log(0)
-
-            if (amplitudeDB > thresholdDB && currentTime - lastDrumTime >= minDrumInterval)
+            if (amplitude > threshold && currentTime - lastDrumTime >= minDrumInterval)
             {
                 AudioEvent audioEvent = new AudioEvent
                 {
@@ -135,10 +134,9 @@ public class AudioAnalyzerEditor : EditorWindow
         for (int i = 0; i < samples.Length; i++)
         {
             float amplitude = Mathf.Abs(samples[i]);
-            float amplitudeDB = 20f * Mathf.Log10(amplitude + 0.0001f);  // Convert to dB
             float currentTime = (float)i / sampleRate;
 
-            if (amplitudeDB > thresholdDB)
+            if (amplitude > threshold)
             {
                 if (lastPeakTime >= 0)
                 {
