@@ -170,9 +170,9 @@ Material:
     - _EnvironmentReflectionsOn: 1
     - _FlatShadingOn: 0
     - _FlowSpeed: 1
-    - _FoamBaseAmount: 0.22
+    - _FoamBaseAmount: 0.349
     - _FoamClipping: 0
-    - _FoamDistortion: 0.59
+    - _FoamDistortion: 0.8
     - _FoamOn: 1
     - _FoamOpacity: 0.104
     - _FoamSize: 0.01
@@ -193,8 +193,8 @@ Material:
     - _HorizonDistance: 8
     - _IntersectionClipping: 0.756
     - _IntersectionDistortion: 0.322
-    - _IntersectionFalloff: 0.92
-    - _IntersectionLength: 3.96
+    - _IntersectionFalloff: 0.964
+    - _IntersectionLength: 4.02
     - _IntersectionRippleDist: 32
     - _IntersectionRippleStrength: 0.049
     - _IntersectionSize: 0.944
