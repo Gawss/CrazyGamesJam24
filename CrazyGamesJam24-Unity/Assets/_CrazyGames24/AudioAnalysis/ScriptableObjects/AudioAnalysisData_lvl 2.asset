@@ -12,62 +12,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b552222c5f623947821c6fed929dcdb, type: 3}
   m_Name: AudioAnalysisData_lvl 2
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 4a795c4aec133f543a63179acb1ae9fe, type: 3}
-  clipLength: 12.773877
+  audioClip: {fileID: 8300000, guid: b06a3c0ff45de7b478044bc80cec3175, type: 3}
+  clipLength: 10
   events:
-  - timestamp: 0.11034013
-    amplitude: 0.5961914
-  - timestamp: 0.8737415
-    amplitude: 0.5522766
-  - timestamp: 1.6349206
-    amplitude: 0.547699
-  - timestamp: 2.6679819
-    amplitude: 0.506073
-  - timestamp: 3.419501
-    amplitude: 0.5765686
-  - timestamp: 4.1771426
-    amplitude: 0.5220032
-  - timestamp: 4.930771
-    amplitude: 0.5006714
-  - timestamp: 5.708526
-    amplitude: 0.5817261
-  - timestamp: 6.735782
-    amplitude: 0.50775146
-  - timestamp: 8.244944
-    amplitude: 0.84210205
-  - timestamp: 9.262041
-    amplitude: 0.52545166
-  - timestamp: 10.029025
-    amplitude: 0.5062866
-  - timestamp: 10.803583
-    amplitude: 0.51724243
-  - timestamp: 11.555102
-    amplitude: 0.5765381
-  - timestamp: 12.312744
-    amplitude: 0.50701904
-  - timestamp: 13.066372
-    amplitude: 0.52786255
-  - timestamp: 13.844127
-    amplitude: 0.56710815
-  - timestamp: 14.871384
-    amplitude: 0.54888916
-  - timestamp: 16.380545
-    amplitude: 0.809845
-  - timestamp: 17.397642
-    amplitude: 0.51672363
-  - timestamp: 18.165464
-    amplitude: 0.5088806
-  - timestamp: 18.939184
-    amplitude: 0.5181885
-  - timestamp: 19.690702
-    amplitude: 0.58078
-  - timestamp: 20.448345
-    amplitude: 0.5365906
-  - timestamp: 21.201973
-    amplitude: 0.50634766
-  - timestamp: 21.985487
-    amplitude: 0.5090332
-  - timestamp: 23.006985
-    amplitude: 0.5344238
-  - timestamp: 24.516146
-    amplitude: 0.83447266
+  - timestamp: 0.004376417
+    amplitude: 0.40911865
+  - timestamp: 0.7549433
+    amplitude: 0.46762085
+  - timestamp: 1.5078005
+    amplitude: 0.4812622
+  - timestamp: 2.2595465
+    amplitude: 0.393219
+  - timestamp: 3.0105896
+    amplitude: 0.4331665
+  - timestamp: 3.7620635
+    amplitude: 0.40731812
+  - timestamp: 4.51551
+    amplitude: 0.39916992
+  - timestamp: 5.26551
+    amplitude: 0.5151367
+  - timestamp: 6.015873
+    amplitude: 0.4005432
+  - timestamp: 6.766984
+    amplitude: 0.3892212
+  - timestamp: 7.5170293
+    amplitude: 0.60095215
+  - timestamp: 8.26703
+    amplitude: 0.694397
+  - timestamp: 9.017052
+    amplitude: 0.6409607
+  - timestamp: 9.767052
+    amplitude: 0.55548096
+  - timestamp: 10.520862
+    amplitude: 0.44171143
+  - timestamp: 11.270929
+    amplitude: 0.42684937
+  - timestamp: 12.020929
+    amplitude: 0.42565918
+  - timestamp: 12.770929
+    amplitude: 0.5449219
+  - timestamp: 13.521542
+    amplitude: 0.39260864
+  - timestamp: 14.283107
+    amplitude: 0.39059448
+  - timestamp: 15.033107
+    amplitude: 0.63797
+  - timestamp: 15.78365
+    amplitude: 0.4595337
+  - timestamp: 16.538368
+    amplitude: 0.43981934
+  - timestamp: 17.290976
+    amplitude: 0.41333008
+  - timestamp: 18.041746
+    amplitude: 0.3922119
+  - timestamp: 18.791746
+    amplitude: 0.66082764
+  - timestamp: 19.541973
+    amplitude: 0.41360474

@@ -15,7 +15,6 @@ namespace CrazyGames24
             else
             {
                 Instance = this;
-                DontDestroyOnLoad(gameObject);
             }
 
             GameRunning = false;
