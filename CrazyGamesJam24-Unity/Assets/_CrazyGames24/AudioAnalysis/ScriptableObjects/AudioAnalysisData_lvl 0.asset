@@ -15,57 +15,65 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: 7a9031b0c106b494d8a5d45f18c95730, type: 3}
   clipLength: 11.2941265
   events:
-  - timestamp: 0.0063945577
-    amplitude: 0.3128357
-  - timestamp: 0.8397279
-    amplitude: 0.42282104
-  - timestamp: 1.7839003
-    amplitude: 0.3343811
-  - timestamp: 2.808526
-    amplitude: 0.3493042
-  - timestamp: 3.642585
-    amplitude: 0.328125
-  - timestamp: 4.476372
-    amplitude: 0.30963135
-  - timestamp: 5.312381
-    amplitude: 0.30874634
-  - timestamp: 6.1487074
-    amplitude: 0.30944824
-  - timestamp: 6.9825397
-    amplitude: 0.31137085
-  - timestamp: 7.816009
-    amplitude: 0.3143921
-  - timestamp: 8.649343
-    amplitude: 0.4982605
-  - timestamp: 9.482721
-    amplitude: 0.32315063
-  - timestamp: 10.34898
-    amplitude: 0.3211975
-  - timestamp: 11.183084
-    amplitude: 0.3279419
-  - timestamp: 12.019025
-    amplitude: 0.32507324
-  - timestamp: 12.852789
-    amplitude: 0.3279724
-  - timestamp: 13.686123
-    amplitude: 0.5581665
-  - timestamp: 14.519479
-    amplitude: 0.42718506
-  - timestamp: 15.352835
-    amplitude: 0.3536682
-  - timestamp: 16.250885
-    amplitude: 0.3161316
-  - timestamp: 17.08424
-    amplitude: 0.5625
-  - timestamp: 17.918526
-    amplitude: 0.34091187
-  - timestamp: 18.75399
-    amplitude: 0.3085327
-  - timestamp: 19.735056
-    amplitude: 0.30859375
-  - timestamp: 20.572176
-    amplitude: 0.32299805
-  - timestamp: 21.40551
-    amplitude: 0.7073059
-  - timestamp: 22.24093
-    amplitude: 0.31088257
+  - timestamp: 0.015759638
+    amplitude: 0.9324951
+  - timestamp: 0.7247619
+    amplitude: 0.9133606
+  - timestamp: 1.4317914
+    amplitude: 0.9671936
+  - timestamp: 2.1380498
+    amplitude: 0.9107971
+  - timestamp: 2.8429933
+    amplitude: 0.94177246
+  - timestamp: 3.902018
+    amplitude: 0.9173889
+  - timestamp: 5.3144217
+    amplitude: 0.95996094
+  - timestamp: 5.7398186
+    amplitude: 0.9022217
+  - timestamp: 6.3716555
+    amplitude: 0.9299011
+  - timestamp: 7.083583
+    amplitude: 0.9725342
+  - timestamp: 7.784399
+    amplitude: 0.910553
+  - timestamp: 8.487007
+    amplitude: 0.9199219
+  - timestamp: 9.1922
+    amplitude: 0.9171753
+  - timestamp: 9.901927
+    amplitude: 0.9041748
+  - timestamp: 10.609116
+    amplitude: 0.9004822
+  - timestamp: 11.309818
+    amplitude: 0.9412842
+  - timestamp: 12.020748
+    amplitude: 0.9466858
+  - timestamp: 12.730658
+    amplitude: 0.9546509
+  - timestamp: 13.432404
+    amplitude: 0.9128418
+  - timestamp: 14.135873
+    amplitude: 0.9223938
+  - timestamp: 14.842359
+    amplitude: 0.93655396
+  - timestamp: 15.550657
+    amplitude: 0.9139099
+  - timestamp: 16.606281
+    amplitude: 0.9223633
+  - timestamp: 17.026735
+    amplitude: 0.9284363
+  - timestamp: 17.66703
+    amplitude: 0.93289185
+  - timestamp: 18.372948
+    amplitude: 0.9019165
+  - timestamp: 19.074558
+    amplitude: 0.94595337
+  - timestamp: 19.780409
+    amplitude: 0.94851685
+  - timestamp: 20.493946
+    amplitude: 0.9700012
+  - timestamp: 21.1978
+    amplitude: 0.95010376
+  - timestamp: 22.258957
+    amplitude: 0.936676
