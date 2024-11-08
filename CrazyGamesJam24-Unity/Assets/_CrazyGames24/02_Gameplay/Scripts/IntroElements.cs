@@ -13,13 +13,14 @@ namespace CrazyGames24
         {
             if (GameManager.Instance == null) return;
 
-            alignToWaves.enabled = false;
-
+            alignToWaves.enabled = true;
             firstLake.gameObject.SetActive(false);
             transform.localPosition += Vector3.up * -6f;
-            transform.DOMoveY(0.25f, 3.5f).OnComplete(() =>
+
+            float height = 0;
+
+            DOTween.To(() => height, x => height = x, 1.4f, 3.5f).OnUpdate(() => { alignToWaves.heightOffset = height; }).OnComplete(() =>
             {
-                alignToWaves.enabled = true;
                 GameManager.Instance.inputManager.OnTriggerBeatPerformed += HideElements;
             });
         }
@@ -27,12 +28,14 @@ namespace CrazyGames24
         private void HideElements()
         {
             GameManager.Instance.inputManager.OnTriggerBeatPerformed -= HideElements;
-            alignToWaves.enabled = false;
 
             GameManager.Instance.GameRunning = true;
             firstLake.gameObject.SetActive(true);
             ingameCanvas.gameObject.SetActive(true);
-            transform.DOMoveY(-6f, 2.5f);
+
+            float height = 1.4f;
+
+            DOTween.To(() => height, x => height = x, -2f, 3.5f).OnUpdate(() => { alignToWaves.heightOffset = height; });
         }
     }
 }

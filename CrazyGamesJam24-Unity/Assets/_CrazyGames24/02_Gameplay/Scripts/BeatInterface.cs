@@ -36,6 +36,8 @@ public class BeatInterface : MonoBehaviour
 
     private void OnBeat(Prebeat prebeat)
     {
+        if (GameManager.Instance.player.currentFish == null) return;
+
         foreach (var b in beatFeedback) b.gameObject.SetActive(false);
 
         beatFeedback[(int)prebeat.beatStatus].gameObject.SetActive(true);

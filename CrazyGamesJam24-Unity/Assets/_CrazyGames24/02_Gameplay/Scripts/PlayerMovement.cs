@@ -29,6 +29,7 @@ namespace CrazyGames24
 
         private void Move(Vector2 vector)
         {
+            if (!GameManager.Instance.GameRunning) return;
             if (player.isFishing) return;
 
             player.SetCharacter(true);

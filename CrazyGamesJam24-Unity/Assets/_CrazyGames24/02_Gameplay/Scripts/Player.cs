@@ -58,6 +58,7 @@ namespace CrazyGames24
 
             fishingBar.SetActive(!isMoving);
             paddle.SetActive(isMoving);
+
         }
 
         public void AttachFish(Fish targetFish, Action OnAnimationCompleted)
@@ -68,6 +69,8 @@ namespace CrazyGames24
                 currentFish.Detach();
             }
             currentFish = targetFish;
+
+            fishermanAnimator.transform.LookAt(targetFish.transform, fishermanAnimator.transform.up);
 
             fishermanAnimator.SetTrigger("Cast");
 
@@ -93,12 +96,15 @@ namespace CrazyGames24
                 cameraTarget.SetTarget(this.transform);
             }
 
+            fishermanAnimator.transform.localEulerAngles = Vector3.zero;
+
             isFishing = false;
+            fishingLine.gameObject.SetActive(false);
+            GameManager.Instance.audioEventManager.Stop();
+            OnDetachFish?.Invoke(currentFish);
+
             currentFish = null;
 
-            fishingLine.gameObject.SetActive(false);
-
-            GameManager.Instance.audioEventManager.Stop();
         }
 
         private IEnumerator WaitAnimation(Action callback)

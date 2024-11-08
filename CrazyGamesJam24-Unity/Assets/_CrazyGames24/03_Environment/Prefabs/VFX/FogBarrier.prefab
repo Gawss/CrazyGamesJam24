@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7006569090638004951}
   - component: {fileID: 6431155286022903992}
   - component: {fileID: 3301481551655726061}
-  - component: {fileID: 8612464506305583110}
+  - component: {fileID: 6618904871431176858}
   m_Layer: 6
   m_Name: AreaLockedCanvas
   m_TagString: Untagged
@@ -85,23 +85,18 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 1
---- !u!114 &8612464506305583110
-MonoBehaviour:
+--- !u!225 &6618904871431176858
+CanvasGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2188005609537965076}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &5796629073951380027
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,6 +109,7 @@ GameObject:
   - component: {fileID: 5002419837586516938}
   - component: {fileID: 5937548442340773253}
   - component: {fileID: 3062439524026711675}
+  - component: {fileID: 6252555096900428277}
   m_Layer: 6
   m_Name: FogBarrier
   m_TagString: Untagged
@@ -4958,6 +4954,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 29.134407, y: 25.434532, z: 1.0000002}
   m_Center: {x: -1.8349448, y: 8.64864, z: 0.03}
+--- !u!114 &6252555096900428277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5796629073951380027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a472098192e1a44b445be94b04bc5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barrierCollider: {fileID: 3062439524026711675}
+  barrierVFX: {fileID: 5002419837586516938}
+  requiredSongs: 1
+  canvasGroup: {fileID: 6618904871431176858}
 --- !u!1 &6326325456333482220
 GameObject:
   m_ObjectHideFlags: 0
