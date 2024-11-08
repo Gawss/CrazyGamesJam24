@@ -32,7 +32,6 @@ namespace CrazyGames24
 
         public UnityEvent OnAttachFish;
         public UnityEvent<Fish> OnDetachFish;
-
         public Action OnSongCollected;
         public Action OnLifePointsChanged;
         public Action OnLost;

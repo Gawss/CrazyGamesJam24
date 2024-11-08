@@ -14,12 +14,14 @@ namespace CrazyGames24
 
         [SerializeField] private Image[] lifePoints;
 
+        Tween canvasTween;
+
         private void OnEnable()
         {
             canvasGroup = GetComponent<CanvasGroup>();
 
             canvasGroup.alpha = 0;
-            canvasGroup.DOFade(1, 0.75f);
+            canvasTween = canvasGroup.DOFade(1, 0.75f);
 
             foreach (var lp in lifePoints) lp.enabled = true;
 
@@ -39,6 +41,7 @@ namespace CrazyGames24
 
         private void OnDestroy()
         {
+            canvasTween?.Kill();
             GameManager.Instance.player.OnSongCollected -= OnSongCollected;
             GameManager.Instance.player.OnLifePointsChanged -= OnLifePoints;
         }
