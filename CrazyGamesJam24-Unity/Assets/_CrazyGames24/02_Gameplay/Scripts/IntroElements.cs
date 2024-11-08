@@ -7,8 +7,8 @@ namespace CrazyGames24
     public class IntroElements : MonoBehaviour
     {
         [SerializeField] private AlignToWaves alignToWaves;
-
         [SerializeField] private Lake firstLake;
+        [SerializeField] private IngameCanvas ingameCanvas;
         private void OnEnable()
         {
             if (GameManager.Instance == null) return;
@@ -29,9 +29,8 @@ namespace CrazyGames24
             GameManager.Instance.inputManager.OnTriggerBeatPerformed -= HideElements;
             alignToWaves.enabled = false;
             firstLake.gameObject.SetActive(true);
-            transform.DOMoveY(-6f, 2.5f).OnComplete(() =>
-            {
-            });
+            ingameCanvas.gameObject.SetActive(true);
+            transform.DOMoveY(-6f, 2.5f);
         }
     }
 }
