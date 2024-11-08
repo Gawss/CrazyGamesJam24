@@ -12,6 +12,8 @@ namespace CrazyGames24
         Player player;
 
         [SerializeField] private Vector3 cameraOffset;
+        [SerializeField] private GameObject paddle_left;
+        [SerializeField] private GameObject paddle_right;
 
         private void Start()
         {
@@ -32,15 +34,29 @@ namespace CrazyGames24
             if (!GameManager.Instance.GameRunning) return;
             if (player.isFishing) return;
 
-            player.SetCharacter(true);
 
             direction.x = vector.x;
             direction.z = vector.y;
+
+            player.SetCharacter(true, direction.x < 0 ? true : false);
 
             if (direction.magnitude > 0.1f)
             {
                 currentRotation = Quaternion.LookRotation(direction);
                 currentRotation = currentRotation * Quaternion.Euler(cameraOffset);
+            }
+
+            if (direction.x < 0)
+            {
+                if (player.paddle != paddle_left) player.paddle.SetActive(false);
+                player.paddle = paddle_left;
+                player.paddle.SetActive(true);
+            }
+            else
+            {
+                if (player.paddle != paddle_right) player.paddle.SetActive(false);
+                player.paddle = paddle_right;
+                player.paddle.SetActive(true);
             }
 
         }

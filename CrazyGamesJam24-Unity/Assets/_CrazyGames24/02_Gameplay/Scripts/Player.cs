@@ -14,7 +14,7 @@ namespace CrazyGames24
         [SerializeField] private Transform lineMiddleTransform;
 
         [SerializeField] private GameObject fishingBar;
-        [SerializeField] private GameObject paddle;
+        public GameObject paddle;
         [SerializeField] private Animator fishermanAnimator;
         [SerializeField] private CinemachineCamera cinemachineCamera;
         public CameraTarget cameraTarget;
@@ -57,9 +57,10 @@ namespace CrazyGames24
             currentFish.beatDetector.CheckBeatStatus();
         }
 
-        public void SetCharacter(bool isMoving)
+        public void SetCharacter(bool isMoving, bool mirror = false)
         {
             fishermanAnimator.SetBool("isMoving", isMoving);
+            fishermanAnimator.SetBool("isMirror", mirror);
 
             fishingBar.SetActive(!isMoving);
             paddle.SetActive(isMoving);

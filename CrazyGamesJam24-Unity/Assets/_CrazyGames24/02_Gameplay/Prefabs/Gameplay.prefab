@@ -6650,6 +6650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   cameraOffset: {x: 0, y: 45, z: 0}
+  paddle_left: {fileID: 8856780540493100502}
+  paddle_right: {fileID: 6552953327958241745}
 --- !u!65 &6138956085953174300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10474,6 +10476,12 @@ Animator:
 --- !u!1 &6552953327958241745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3544414840670666938, guid: 17f719307b10b8b4d8831fcee4bba1c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 7764362788375785835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8856780540493100502 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1236541736428799165, guid: 17f719307b10b8b4d8831fcee4bba1c9,
     type: 3}
   m_PrefabInstance: {fileID: 7764362788375785835}
   m_PrefabAsset: {fileID: 0}
