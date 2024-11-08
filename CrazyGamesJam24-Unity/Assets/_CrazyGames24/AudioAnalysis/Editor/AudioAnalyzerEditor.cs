@@ -7,8 +7,8 @@ public class AudioAnalyzerEditor : EditorWindow
     private AudioClip audioClip;
     private AudioAnalysisDataSO analysisDataSO;
 
-    private float threshold = 0.1f;
-    private float minDrumInterval = 0.1f;
+    private float threshold = 0.5f;
+    private float minDrumInterval = 0.75f;
 
     [MenuItem("Tools/Audio Analyzer")]
     public static void ShowWindow()

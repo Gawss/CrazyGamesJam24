@@ -1231,6 +1231,7 @@ MonoBehaviour:
   lineMiddleTransform: {fileID: 1973739863}
   fishermanAnimator: {fileID: 1973739865}
   cinemachineCamera: {fileID: 523079843}
+  cameraTarget: {fileID: 1372650866}
   fishingSpotTransforms:
   - {fileID: 1742248324}
   - {fileID: 6904915}
@@ -1271,9 +1272,9 @@ MonoBehaviour:
   synchValue: 0
   synchSlider: {fileID: 1543920923}
   initialSynch: 0
-  beforeValue: -0.33
+  beforeValue: -0.2
   onTimeValue: 0.1
-  onMissedValue: -0.33
+  onMissedValue: -0.2
 --- !u!114 &526241588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3083,6 +3084,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6222084629603748198, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6615674138823720210, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: colorsVFX.Array.data[0].b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6615674138823720210, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: colorsVFX.Array.data[0].g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6615674138823720210, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: colorsVFX.Array.data[0].r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7492125061992346619, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3092,6 +3113,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631457234868751940, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631835450578124770, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631989618899406124, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632141779015785436, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632168768599042118, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632401781532203402, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001530531297356279, guid: a8f6da31f3dfa3c4ea0dacbaa00b90f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
